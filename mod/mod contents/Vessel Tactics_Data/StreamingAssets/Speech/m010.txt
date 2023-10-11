@@ -11,8 +11,8 @@
 [BattleStart]|{TypeAttack}Haah!|
 
 [Targeted]|{HasSkill=99}
-[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEStar><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>I always wondered what it felt like on the other side~|
-[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Sad>I'd prefer for it to go the other way around, but at least she's pretty...|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEStar><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>I always wondered what it felt like on the other side!|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Sad>I'd prefer for this situation to go the other way around...|
 [Targeted]|{Skill=0}Oh? What a weird dance! Are you playing some kind of game?|
 
 [AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|

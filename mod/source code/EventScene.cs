@@ -1678,45 +1678,29 @@ case 1142:
 			break;
 			
 			case 1143:
-			StartCoroutine(NonstandardBattle(() => StaticRef.CalcHit(), delegate
-			{
-				eventQ.Enqueue(delegate
-				{
-				target.dSkl -= (int)(target.skl * 0.2f);
-				target.dSpd -= (int)(target.spd * 0.2f);
-				target.dVres -= (int)(target.vres * 0.2f);
-				target.dDef -= (int)(target.def * 0.2f);
-				target.dMove -= target.movement / 2;
-				target.AddStatus(StatusList.AddStatus(148, 2));
-				target.CalculateDamage(StaticRef.CalcDamage());
-				StaticRef.enemy.UpdateHealth();
-				
+			StartCoroutine(GenericBattle(() => StaticRef.CalcHit(), ()=>{if(hit) {
 					
-					ChangeExpression(target, "Damage");
-					enemyMask.Find("Container").GetComponent<Animation>().Play("Special");
-					wait = false;
-				});
-			}, delegate
-			{
-				eventQ.Enqueue(delegate
-				{
-					ChangeExpression(current, "VFail");
-					enemyMask.Find("Container").GetComponent<Animation>().Play("Recoil");
-					wait = false;
-				});
-			}, delegate
-			{
-				StartCoroutine(HideBattle(delegate
-				{
-									if (target.hp <= 0f)
-				{
-				target.skills.Add(99);
-				}
-
-						StaticRef.Turn();
-
-				}));
-			}));		
+					target.dSkl -= (int)(target.skl * 0.2f);
+					target.dSpd -= (int)(target.spd * 0.2f);
+					target.dVres -= (int)(target.vres * 0.2f);
+					target.dDef -= (int)(target.def * 0.2f);
+					target.dMove -= target.movement / 2;
+					target.AddStatus(StatusList.AddStatus(148, 2));
+					StandardBattleEnding();}
+					else
+					{
+					eventQ.Enqueue(delegate
+						{
+							StartCoroutine(HideBattle(delegate
+							{
+								StandardBattleEnding();
+							}));
+						});
+					}
+					
+					
+					
+					}));		
 					
 			break;
 			

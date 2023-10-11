@@ -1,3 +1,10 @@
+changelog (v1.1):
+fixed wild lamia's bite not properly applying ko'd effect upon lethal damage, bite damage multiplier 1.5x > 1.35x, base accuracy 70% > 65%
+fixed wild lamia's bite dialogue overriding the basic attack description
+fixed wild lamia not having a face for her safe vore dialogue, modified dialogue slightly to compensate
+modified lamia's safe vore / friendly fatal vore dialogue slightly
+
+
 changelog (v1):
 
 covenant:

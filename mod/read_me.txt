@@ -15,7 +15,7 @@ easiest way to check if the mod is installed is to go to vessel details and chec
 I've also included the source code of the mod (the contents of the Assembly-CSharp.dll file) under "source code", this lets you see the current edited contents of the original file (along with some already-existing code) if you're curious as to what I changed specifically or want to figure out how the code works yourself
 
 
-current version is v1, but I'm mainly looking for feedback, bug reports, or suggestions on what to change
+mainly looking for feedback, bug reports, or suggestions on what to change for this mod
 
 credits:
 crimson9715 - mod coder / custom dialogue 

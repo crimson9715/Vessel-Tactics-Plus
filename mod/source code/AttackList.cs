@@ -1056,7 +1056,7 @@ public static class AttackList
 			return !u.skills.Contains(120);
 			return !u.skills.Contains(140);
 		}));
-		AttackList.attacks.Add(new Attack(1143, "Bite", "Bite", "Deals high damage to a single target with a low success rate. Inflicts Injured, reducing target's SPD, VRES, DEF, and SKL by 20% and halving movement range for 1 turn.", 1.5f, 20f, 1, 1, 70f, "Single", "Generic", Attack.Type.Attack, Attack.Visibility.Visible, delegate()
+		AttackList.attacks.Add(new Attack(1143, "Bite", "Bite", "Deals high damage to a single target with a low success rate. Inflicts Injured, reducing target's SPD, VRES, DEF, and SKL by 20% and halving movement range for 1 turn.", 1.35f, 20f, 1, 1, 65f, "Single", "Generic", Attack.Type.Attack, Attack.Visibility.Visible, delegate()
 		{
 			id = 1143;
 			AttackList.StandardSetup(id);

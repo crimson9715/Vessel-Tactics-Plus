@@ -11,7 +11,7 @@
 
 [Targeted]|{HasSkill=99}
 [Targeted]|{Skill=0}Oh? You're coming at me? Bring it on, I'll swallow you whole! Ahhhhh....|
-[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}Hey, I didn't agree to any of this! I'd rather stay here on the battlefield!/<NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>O-Oh? You're doing this because you're worried about me? I suppose it's f-fine then...|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>Hey, what do you think you're doing?! I didn't agree to any of this! I'd rather stay here on the battlefield!/<NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>O-Oh? You're doing this because you're worried about me? I suppose it's f-fine then...|
 [Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>H-huh? What are you doing!?|
 
 
@@ -21,7 +21,7 @@
 [AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
 [AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
 [AttackDesc]|{TypeVAttack}<SESwing2>(Self) leaps towards (the)(Target) arms outstretched...|
-[AttackDesc]|{TypeAttack}<SESwing2>(Self) leaps at (Target) to deliver a powerful chomp with her serrated teeth!|
+[AttackDesc]|{TypeAttack}{Attack=1143}<SESwing2>(Self) leaps at (Target) to deliver a powerful chomp with her serrated teeth!|
 [AttackDesc]|{TypeAttack}<SESwing2>(Self) slashes at (the)(Target) with her razor-sharp nails!|
 
 [AttackHitAttacker]|{Attack=-1001}
