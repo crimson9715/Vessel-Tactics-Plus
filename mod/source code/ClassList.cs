@@ -58,7 +58,7 @@ public static class ClassList
 			6,
 			7
 		}));
-		ClassList.classes.Add(new Class("Covenant", "Holy Maiden?", "c012", "A sister of the church who can heal and buff allies by swallowing them. Her true nature is quite gluttonous, so be careful not to tempt her too much.", "Commander", "Father", 12, new Vector3(0.2f, 0.87f), new Vector3(0.3f, 0.975f), new Vector3(0.33f, 0.93f, 100f), 220f, 150f, 45f, 50f, 60f, 70f, 50f, 50f, 440f, 240f, 70f, 100f, 100f, 140f, 100f, 100f, 4f, UnitInfo.Move.Ground, 1f, 150f, 3, 0, 1, 5, 1, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(10, 50f), new Dice(10, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(3, 30f), new Dice(3, 30f), new int[]
+		ClassList.classes.Add(new Class("Covenant", "Holy Maiden?", "c012", "A sister of the church who can heal and buff allies by swallowing them. Her true nature is quite gluttonous, so be careful not to tempt her too much.", "Commander", "Father", 12, new Vector3(0.2f, 0.87f), new Vector3(0.3f, 0.975f), new Vector3(0.33f, 0.93f, 100f), 220f, 150f, 55f, 50f, 60f, 70f, 50f, 50f, 440f, 240f, 70f, 100f, 100f, 140f, 100f, 100f, 4f, UnitInfo.Move.Ground, 1f, 150f, 3, 0, 1, 5, 1, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(10, 50f), new Dice(10, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(3, 30f), new Dice(3, 30f), new int[]
 		{
 			-1001,
 			-1000,
@@ -81,7 +81,7 @@ public static class ClassList
 			21,
 			24
 		}));
-		ClassList.classes.Add(new Class("Sampo", "Prideful Snack", "c013", "A girl who wants nothing more than to prove herself as a predator. The more she swells with pride, the more delicious she becomes.", "Commander", "Master", 13, new Vector3(0.436f, 0.82f), new Vector3(0.505f, 0.94f), new Vector3(0.58f, 0.96f, 50f), 150f, 120f, 45f, 25f, 55f, 35f, 50f, 50f, 280f, 120f, 100f, 50f, 110f, 70f, 100f, 100f, 4f, UnitInfo.Move.Ground, 1f, 75f, 1, 0, 1, 3, 1, 90, 1, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(20, 70f), new Dice(10, 50f), new Dice(5, 70f), new Dice(5, 50f), new Dice(5, 70f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new int[]
+		ClassList.classes.Add(new Class("Sampo", "Prideful Snack", "c013", "A girl who wants nothing more than to prove herself as a predator. The more she swells with pride, the more delicious she becomes.", "Commander", "Master", 13, new Vector3(0.436f, 0.82f), new Vector3(0.505f, 0.94f), new Vector3(0.58f, 0.96f, 50f), 160f, 120f, 45f, 25f, 55f, 35f, 50f, 50f, 280f, 120f, 100f, 50f, 110f, 70f, 100f, 100f, 4f, UnitInfo.Move.Ground, 1f, 75f, 1, 0, 1, 3, 1, 90, 1, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(20, 70f), new Dice(10, 50f), new Dice(5, 70f), new Dice(5, 50f), new Dice(5, 70f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new int[]
 		{
 			-1001,
 			-1000,
@@ -101,7 +101,7 @@ public static class ClassList
 			17,
 			3
 		}));
-		ClassList.classes.Add(new Class("Theano", "Peerless Blade", "c014", "A bodyguard who protects humanity at all costs. She deals bonus damage to predatory enemies, making her excellent at rescuing allies.", "Commander", "Master", 14, new Vector3(0.345f, 0.855f), new Vector3(0.43f, 0.975f), new Vector3(0.43f, 0.96f, 50f), 240f, 120f, 55f, 35f, 60f, 60f, 60f, 60f, 480f, 250f, 110f, 60f, 120f, 120f, 120f, 120f, 4f, UnitInfo.Move.Ground, 1f, 150f, 2, 0, 1, 5, 1, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(10, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(3, 30f), new Dice(5, 30f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new int[]
+		ClassList.classes.Add(new Class("Theano", "Peerless Blade", "c014", "A bodyguard who protects humanity at all costs. She deals bonus damage to predatory enemies, making her excellent at rescuing allies.", "Commander", "Master", 14, new Vector3(0.345f, 0.855f), new Vector3(0.43f, 0.975f), new Vector3(0.43f, 0.96f, 50f), 240f, 120f, 55f, 35f, 60f, 60f, 60f, 60f, 480f, 250f, 110f, 60f, 120f, 120f, 120f, 120f, 4f, UnitInfo.Move.Ground, 1f, 150f, 2, 0, 1, 5, 1, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(10, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(3, 30f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new Dice(5, 50f), new int[]
 		{
 			-1001,
 			-1000,
@@ -119,7 +119,7 @@ public static class ClassList
 			11,
 			12
 		}));
-		ClassList.classes.Add(new Class("Chateau", "Maid Knight", "c015", "A chivalrous maid dedicated to protecting her weaker allies. In a pinch, she can also digest them for a boost of power.", "Master", "Master", 15, new Vector3(0.385f, 0.77f, 150f), new Vector3(0.456f, 0.854f, 300f), new Vector3(0.5f, 0.82f, 350f), 280f, 150f, 60f, 60f, 40f, 30f, 40f, 50f, 560f, 300f, 120f, 130f, 70f, 50f, 80f, 80f, 3f, UnitInfo.Move.Ground, 1f, 150f, 5, 0, 1, 5, 1, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(15, 50f), new Dice(10, 50f), new Dice(5, 50f), new Dice(5, 30f), new Dice(3, 30f), new Dice(3, 50f), new Dice(3, 50f), new Dice(5, 50f), new int[]
+		ClassList.classes.Add(new Class("Chateau", "Maid Knight", "c015", "A chivalrous maid dedicated to protecting her weaker allies. In a pinch, she can also digest them for a boost of power.", "Master", "Master", 15, new Vector3(0.385f, 0.77f, 150f), new Vector3(0.456f, 0.854f, 300f), new Vector3(0.5f, 0.82f, 350f), 280f, 150f, 60f, 60f, 50f, 40f, 40f, 50f, 560f, 300f, 120f, 130f, 70f, 50f, 80f, 80f, 3f, UnitInfo.Move.Ground, 1f, 150f, 5, 0, 1, 5, 1, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, new Dice(15, 50f), new Dice(10, 50f), new Dice(5, 50f), new Dice(5, 30f), new Dice(5, 50f), new Dice(5, 50f), new Dice(3, 50f), new Dice(5, 50f), new int[]
 		{
 			-1001,
 			-1000,

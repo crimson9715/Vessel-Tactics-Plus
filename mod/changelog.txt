@@ -1,6 +1,15 @@
+1.5 changelog:
+sampo base hp 150 > 160
+chateau base vatk 40 > 45
+chateau base vres 30 > 40
+chateau vatk dice range 3-30 > 5-50
+chateau vres dice range 3-50 > 5-50
+theano vatk dice range 5-30 > 5-50
+covenant base attack 45 > 55, holy light damage multiplier 1.3x > 1.1x (mainly to make regular attacks deal roughly the same damage as holy light, though it's not always going to be the same due to rng / stat calculations)
+fixed theano's vtick dialogue not showing up (leftover code from testing in earlier versions, whoops!!!)
+
 1.4 changelog:
 fixed a base game bug with theano's neutralize not giving the target the incapacitated skill upon inflicting lethal damage
-
 changed dusk lamia's sleeping beauty to instead apply when incapacitated or sleeping (mainly to "fix" it not applying in mission mode)
 
 

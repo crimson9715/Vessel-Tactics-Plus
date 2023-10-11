@@ -740,7 +740,7 @@ public static class AttackList
 			AttackList.StandardSetup(21);
 			return u.isVorable(AttackList.current) && u.team == AttackList.current.team;
 		}));
-		AttackList.attacks.Add(new Attack(22, "Holy Light", "Holy Light", "Covenant emits an intense beam of energy towards a foe. Deals moderate damage to a single opponent at range and inflicts Charred, reducing their ATK, VATK, SPD, and SKL by 20% for 1 turn.", 1.3f, 10f, 2, 3, 95f, "Single", "Generic", Attack.Type.Attack, Attack.Visibility.Visible, delegate
+		AttackList.attacks.Add(new Attack(22, "Holy Light", "Holy Light", "Covenant emits an intense beam of energy towards a foe. Deals moderate damage to a single opponent at range and inflicts Charred, reducing their ATK, VATK, SPD, and SKL by 20% for 1 turn.", 1.1f, 10f, 2, 3, 95f, "Single", "Generic", Attack.Type.Attack, Attack.Visibility.Visible, delegate
 		{
 			id = 22;
 			AttackList.StandardSetup(id);
