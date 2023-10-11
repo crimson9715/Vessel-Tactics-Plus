@@ -1,6 +1,6 @@
 ﻿[BattleStart]|{HasSkill=99}
 [BattleStart]|{Attack=-1001}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down>Ah... Would you not rather have me eat her, instead? I could protect her inside me. ...No? *Sigh*|
-[BattleStart]|{Attack=15}Preparing dinner service
+[BattleStart]|{Attack=15}Preparing dinner service!|
 [BattleStart]|{Attack=1144}{IsSafe}<NF><NEBlush><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>How cruel of you Master, to be using these girls you entrusted to me as nothing more than food~|
 [BattleStart]|{Attack=1144}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\UpDown>Are you sure you wanted me to digest the food you gave me, Master?/<NF><NEBlush><NEMouth\Lick><NEEyes\Pervy><NEBrows\Down>...Oh? You just wanted to see me kiss another girl? Don't worry, I'll be sure to please~ ♥|
 [BattleStart]|{Attack=1142}{IsSafe}{VCount>2}<NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>A massage? It's going to be hard to reach her with all this belly fat in the way, but I'll do it for you, Master ♥|

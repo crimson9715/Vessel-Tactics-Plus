@@ -13,6 +13,7 @@ there's also an optional folder called "thought edits" if you wish to experience
 easiest way to check if the mod is installed is to go to vessel details and check covenant to see if she has any new attacks
 
 I've also included the source code of the mod (the contents of the Assembly-CSharp.dll file) under "source code", this lets you see the current edited contents of the original file (along with some already-existing code) if you're curious as to what I changed specifically or want to figure out how the code works yourself
+there's also a bonus folder called "vanilla lamia addition" that's just the vanilla game, but with a patch installed to allow lamias to be used in vanilla if you don't want the new stuff
 
 
 mainly looking for feedback, bug reports, or suggestions on what to change for this mod

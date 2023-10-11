@@ -1758,7 +1758,7 @@ case 1142:
 									target.ProcessVContainment(u4);
 									UpdateSprite(target, enemyMask);
 									tw.LoadText("<SEse_chupa4><SEse_gulp1><SEeaten_by_monster2>" + u4.unitName + " slides from " + current.unitName + "'s stomach into " + target.unitName + "'s!");
-									current.containPeriod -= 2f;
+									current.containPeriod -= 1f;
 								}
 								else
 								{
@@ -1776,10 +1776,16 @@ case 1142:
 
 					ProcessSpeech("Kiss", target);
 					
+					if (current.containPeriod <= 0f)
+					{
+						current.containPeriod = 0f;
+					}
+					
 					if (current.containingUnits.Count <= 0f)
 					{
 						current.containPeriod = 0f;
 					}
+					
 					
 					if (target.skills.Contains(-1000) && target.GetPredState() != UnitInfo.PredState.V_Container)					
 					{
