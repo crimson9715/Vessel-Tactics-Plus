@@ -1,0 +1,151 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Sad>Oh... If... If you insist...|
+[BattleStart]|{Attack=1000}My~ what a big meal! Why don't you take a quick nap and sleep it off? ♥|
+[BattleStart]|{Attack=1002}Oh... Look, dear! There's a tasty little snack here, just waiting for you to gobble her up. ♥|
+[BattleStart]|{Attack=1003}Oh, my sweet dreamer... I have a muuch~ more comfy napping spot for you, right here. Wouldn't you like to come sleep there, instead? ♥|
+[BattleStart]|{Attack=1141}Feeling hungry, little baby? ♥ Don't worry, mommy will take care of all your needs ♥|
+[BattleStart]|{Skill=0}<NF><NEMouth\Angry><NEEyes\Wide><NEBrows\Normal>H-huh? O-oh no!|
+[BattleStart]|{TypeVAttack}{CriticalHungry}<NF><NEBlush><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad>Hey... I'm so hungry... Won't you let me eat you? |
+[BattleStart]|{TypeVAttack}{50%}<NF><NEMouth\Happy><NEEyes\Normal><NEBrows\Normal>Oh, you poor thing... It's okay, you did your best. You can rest easy inside me, now. Don't worry, I promise to be veeery~ gentle... ♪|
+[BattleStart]|{TypeVAttack}Isn't it hard, struggling so much? Wouldn't you rather be wrapped up, nice and warm, inside my belly? ♥|
+[BattleStart]|{TypeAttack}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Angry>Haaah!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>How nice of you dear, to be worried about my safety~|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Normal>Are you sure you want her to eat me, dear?|
+[Targeted]|{Skill=0}<NF><NEMouth\Shy><NEEyes\Wide><NEBrows\Normal>Huh? Ah- I've got you!|
+[Targeted]|{TypeVAttack}{50%}Oh? Heeheehee, I'm awfully big compared to you, don't you think? Are you sure you can swallow me?|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{Attack=1003}<SEStatus3>(Self) raises her right hand, the gemstone on her ring glowing with dazzling light...|
+[AttackDesc]|{Attack=1002}<SEStatus3>(Self) raises her right hand, the gemstone on her ring glowing with dazzling light...|
+[AttackDesc]|{Attack=1000}<SEStatus3>(Self) raises her right hand, the gemstone on her ring glowing with dazzling light...|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) encircles (the)(Target) with her serpentine body...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) swings her massive tail at (the)(Target)!|
+
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>What delicate hands you have, perhaps you'd be interesting in helping me with my milk later? ♥|
+[Nurse]|<NF><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>I truly do make the best milk after all~|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{Attack=1003}<SEStatus2>She casts a spell on (the)(Target), manipulating their dreams!|
+[AttackHitAttacker]|{Attack=1002}<SEStatus2>She casts a spell on (the)(Target), manipulating their dreams!|
+[AttackHitAttacker]|{Attack=1000}<SEStatus2>She casts a spell on (the)(Target), putting them to sleep!|
+[AttackHitAttacker]|{TypeVAttack}{cCap>0}{hCap<4}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole! Her new meal pushes (theVored)(Vored) deeper inside as it slides into her stomach!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit15>It thumps loudly into (Pro2nd) body! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{Attack=1000}...but nothing happens!|
+[AttackMissAttacker]|{TypeVAttack}<SESwing8>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing8>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}<NF><NEMouth\Sad><NEEyes\Wide><NEBrows\Sad>...Eh? S-surely this isn't really happening, is it?|
+[AttackHitAttackerS]|{Attack=1000}<NF><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal>Thaaaat's it... Good girl. ♥|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<NF><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal><SRheavyGrowl><BGGrowl>There... Much better. ♥|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<NF><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal><SRheavyGrowl><BGGrowl>Mmph, what a delectable girl... You can take it easy now, okay? ♥|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Mmmph... Heeheehee... Mistress, another one, please...|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<NF><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal><SRheavyGrowl>Phew, that was close! You could have gotten hurt. Aren't you glad I was there to catch you?|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}W-wait, stop! Th... this isn't how it's meant to go!|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}Aww... Don't be scared. I'm just going to eat you...|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}<NF><NEMouth\Happy><NEEyes\Normal><NEBrows\Sad>Aww... Don't feel bad, you tried your best.|
+
+[Kiss]|<NF><NEBlush><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>Oh my, how daring~ ♥ I've never recieved a declaration of love quite like that, before...|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mnnmnnnn... Mmmmph.... Heeheehee.....|
+[vTickDown]|{Round=4}{VLevel>5}{Team=3}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Normal>Mmmph... Urrrrrp! How many is that now... Around two dozen or so?/<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Mmmm.... I'm surprised their tribe had any members left. Poor girls... They would still be alive if they'd just listened to me.../<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Shy><NEEyes\Normal><NEBrows\Normal>Oh my... but what's this? The little one that lamia had eaten... I've never tasted anything like her, before. Could this be a member of the invaders that Mistress sent me to find?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Hungry><NEEyes\Wide><NEBrows\Normal>Ah... E-eh? Oh, I'm drooling... *Slurp!* What an intoxicating flavor... If they all taste this good, then... Hahaha, it can't be helped if I eat them all, right? ♥|
+[vTickDown]|{VLevel>5}{50%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4><SRheavyBurp><NF><NEBlush><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad>Urrrrp! Mmmph! Ahh, so full... I can't wait until they digest... This is going to feel amazing... ♥|
+[vTickDown]|{VLevel>5}<SRheavyGrowl><SRemptyGrowl>Mmmph... What a lovely feeling... Being filled with this much struggling prey... there's nothing quite like it. ♥|
+[vTickDown]|{hCap>0}{50%}<SEse_heavygrowl2><SD20se_heavygrowl1><SD25se_emptygrowl3>Ah... I'm not squishing you, am I? I'm sorry, I need to slither my tail like this to move... I'll digest you soon, so just put up with it for now, okay? ♥|
+[vTickDown]|{hCap>0}<SRheavyGrowl><SRemptyGrowl>Mmph... It's nice and snug inside my tail, isn't it? Like being all wrapped up in a blanket...|
+[vTickDown]|{50%}<SRheavyGrowl><SRemptyGrowl>Shhh.... Be a good girl and go to sleep.... When you wake up, you'll have become part of me. Wouldn't you like that? ♥|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl>Ah... Heeheehee, you have so much energy... It's okay, struggle all you like, sweetie. You won't give me a tummyache.|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmph.... I'll just... make some room.....|
+[vComplete]|{VLevel>5}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Angry><NEEyes\ClosedUp><NEBrows\Sad>Urrrrp! O-oh dear, this is... Urrrrrrp! I-if I digest this many girls at once, I.../<NF><NEBlush><NEMouth\Hungry><NEEyes\Wide><NEBrows\Sad>I-I won't be able to hold back any more... I-I'm going to go on a rampage....|
+[vComplete]|{VCount>1}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad>...Ah? Heeheehee, you girls have gotten awfully quiet. I think it's time... And squeeeeeeze~ ♥|
+[vComplete]|<SRheavyGrowl><SRheavyBurp><SRlightBurp><NF><NEMouth\Happy><NEEyes\Normal><NEBrows\Sad>Urrrrp~ Heeheehee, are you ready to become part of me, dear? Here we go~ ♥|
+
+[vAftermath]|{HasSkill=99}<NF><NEMouth\Hungry><NEEyes\Normal><NEBrows\Normal>*Yaaawn* Mmm, what a nice nap.... I love waking up after a good meal...|
+[vAftermath]|<NF><NEBlush><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal>MmmMmmm... You were so tasty... I can't wait to gobble up all your friends, too!|
+
+[vLevelUp]|Heeheehee... I can feel my connection to the night growing even deeper.|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>Wh- Huh?|
+[SkillActivation]|{Skill=128}{Round=4}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Normal>Mmmph! I'll need to finish digesting these girls, first, though... Their kind always struggles so fiercely. I'll just take a quick nap, and then I'll continue my mission...|
+[SkillActivation]|{Skill=128}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Angry><NEEyes\ClosedUp><NEBrows\Sad>Ah- Urrrrp! S-so full... I- Urrrrp! I-I'm just going to take a quick nap and sleep this off...|
+[SkillActivation]|{Skill=-501}<NF><NEMouth\Angry><NEEyes\Wide><NEBrows\Sad>Mmmph... Urrruuup!`N-no... N-not... like this...|
+
+[OverBurdened]|<SRheavyGrowl><DR10heavyGrowl><DR20heavyGrowl><DR30heavyGrowl>|
+
+[Hunger]|<SRemptyGrowl>Mmph.... I used too much magic... I-I need to replenish my mana...|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Do I have any real children? Hmm... feeling jealous? Don't worry. Right now, I'm all yours~ ♥|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal>Hmm hmm hmmm~ ♪ ...Oh sorry, I'm just so happy! My darling (boy) wants to spend time inside me... what more could a 'mother' ask for? Why, if I had my way... I'd keep you in there forever! ♥|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>I want you to forget about everything else while you're inside me, Sweetheart. What can I do to help you relax? Read you a story? Sing a lullaby? ...Maybe I could cast a little spell to help you sleep?|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>I seem to have more stomach space than other lamias? Oh... I suppose my stomach has stretched out a bit, over the years. Eating a few hundred people will do that to you.|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>O-oh my. These girls are struggling quite fiercely... Are you sure it was okay for me to eat them, Darling? ...They're just excited to be my food? Is that so... I wonder?|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Normal>Is the sound of my digestion bothering you, Honey? I can do it somewhere else, if you like.../<NF><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>...No? You love the sound of me being fed? Heeheehee, you're so considerate. ♥|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>...What am I up to? Sorry... I'm just admiring the one I love. You're so cute... any woman would be captivated!|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>You look tired, Sweetheart... That doctor has been working you too hard, again. Shall I brew you some tea? It's my people's special blend, guaranteed to make you feel muuch~ better.|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Normal>...Something heavy coiled around you while you slept last night? My... surely it was just a strange dream, don't you think? I wouldn't pay it much mind.|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Normal>Oops! ...Heeheehee, you like being inside me that much? Don't worry... taking care of 'those' needs is also one of my duties... ♥|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Oh? Are you trying to get more comfortable? You can move around as much as you like, Honey, you won't upset my stomach.|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\ClosedUp><NEBrows\Sad>Ahhaannn~ ♥ N-no, that's alright, I told you- Nnnnnn~ ♥ t-told you that you could do whatever you wanted, d-didn't I!?|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Ah- Are they leaking? ...No? Oh, phew... I always need to be careful when I digest people...|
+[Special]<RNGGen=2>|{RNG>1}{Weight>2}<SEinteract2><NF><NEBlush><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad><NEMilk1><NEMilk2>Nnnnf~ ♥ P-please be more gentle, Sweetheart... Come, wouldn't you like to use your mouth, instead? Let me pamper you a little, my sweet child... ♥|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Are you interested in my people's ceremonial robes and jewelry, Darling? ...Or is there something else that's on your mind? ♥|
+[Special]<RNGGen=2>|{RNG=1}{Weight>2}<SEinteract2><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Sad><NEMilk1>Ah... Could I ask you for a favor, Darling? My breasts always start to produce so much milk after I digest someone... would you help squeeze it out for me? They're tender, so please be gentle. ♥|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Normal>Ahh~ ♪ Heeheehee... No need to be so shy, Sweetheart... I told you that you could do whatever you wanted with my body, didn't I?|
+
+[Greeting]|{Vore}<SRheavyGrowl><SRemptyGrowl>See? It's much nicer to stay inside and let mommy take care of everything for you... Wouldn't you agree, Dear?|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl>Mmmph... Don't worry, Honey... I'm well used to performing my duties while digesting this many people. What shall we take care of next?|
+[Greeting]|<SEinteract>Ah... there you are, My Love! I was waiting for you.|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl>Mmph... Are you comfy, My Love? Close your eyes and go to sleep... I'll wake you once dinner is ready. ♥|
+[Return]|<SEinteract>Welcome back, My Love! Which would you like first? Dinner? A bath? ....Or perhaps a nap within yours truly? ♥|
+
+[Digest]|{ComGen>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal>Hmm... Mommy's feeling a little bit hungry, so she's going to digest you. You don't mind, do you, Sweetheart?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Ah, don't struggle... You're a good (boy), right? A good (boy) wouldn't let (his) mommy go hungry... (He) would be happy to become a meal for her./<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>Shhhh... My sweet baby (boy)... It's going to feel really good while Mommy absorbs your body. Then you get to become part of her forever! Doesn't that sound nice?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Thaaaat's it... See? Good (boy)...`...Oops! Heeheehee, that's okay... It's normal to have that happen while being digested.../<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Ah... They stopped moving. What a trusting human... so innocent and sincere. Without a doubt, one of my favorites so far. I'm going to savor digesting them...|
+[Digest]|<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal>Hmm... Mommy's feeling a little bit hungry, so she's going to digest you. You don't mind, do you, Sweetheart?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Ah, don't struggle... You're a good (boy), right? A good (boy) wouldn't let (his) mommy go hungry... (He) would be happy to become a meal for her./<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Normal>Shhhh... My sweet baby (boy)... It's going to feel really good while Mommy absorbs your body. Then you get to become part of her forever! Doesn't that sound nice?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Thaaaat's it... See? Good (boy)...`...Oops! Heeheehee, that's okay... Cum as much as you like, Sweetheart. Mommy's belly will absorb it all.../<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Ah... They stopped moving. What a trusting human... so innocent and sincere. Without a doubt, one of my favorites so far. I'm going to savor digesting them...|
+
+[DigestPost]|<SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Normal>Hmmm... What was their name, again? Oh dear, I've already forgotten... I suppose it doesn't matter./<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Shall I go pay that sweet little doctor a visit next, then? I wonder what she'll think when she sees what remains of her vaunted Commander? I can't wait to have her join them...|
+
+[DigestReturn]|Ah, there you are, dear. I tidied up your office for you while you were... Aww, did you have another bad dream last night? Why don't you come here and tell me all about it...|
+
+[Swallow]|Mmph~ ♪ Heeheehee... It kind of feels like I'm your mommy like this, doesn't it? Would you like that, Sweetie? To be my pampered little (boy)?|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Hungry><NEEyes\Wide><NEBrows\Angry>Urrrp! Mmph... M-more! More! Commander, you can't leave it at that! Let me eat all the others, too!/<NF><NEBlush><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad>Urk! I-I mean... Daaarling~ ♥|
+[Feed]|{ToDigest=20}<SRheavyBurp><NF><NEBlush><NEMouth\Hungry><NEEyes\Wide><NEBrows\Angry>Urrrp! Mmph... M-more! More! Commander, you can't leave it at that! Let me eat all the others, too!/<NF><NEBlush><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad>Urk! I-I mean... Daaarling~ ♥|
+[Feed]|{ToDigest>7}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Sad>Mmmph... Heeheehee! S-so many sacrifices at once... I-I can assure you that the gods are most pleased with you right now, Sweetheart. ♥|
+[Feed]|{ToDigest>6}{InStomach=0}<NF><NEBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Sad>Mmmph... Heeheehee! S-so many sacrifices at once... I-I can assure you that the gods are most pleased with you right now, Sweetheart. ♥|
+[Feed]|{InStomach=7}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\ClosedUp><NEBrows\Sad>Mmmph! It's rather t-tight inside me right now... G-give me a moment to digest these girls, then I can eat as many as you want...|
+[Feed]|{InStomach>1}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>...Are you sure it's okay to feed me so many of your servants? I was your enemy up until quite recently... ...It's fine? All this and more? Oh, Darling...|
+[Feed]|{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Oh my, what a sweet girl. She just allowed me to eat her, no questions asked. If only all people were so docile... Hmm? Oh, nothing.|
+[Feed]|{ToDigest>0}<NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Normal>My, that was satisfying... To be able to produce food of this quality on demand, your "technology" surely is incredible!|
+
+[UnitDetailsGreeting]|Hello, Darling. Is there something you needed?|
+[UnitDetails]|<NF><NEMouth\Happy><NEEyes\ClosedUp><NEBrows\Sad>Heeheehee, be careful! I'm quite ticklish, you know...|
+
+[Quirk]|{Quirk=0}Likes to warm up by taking naps out in the open sun.|
+[Quirk]|{Quirk=1}Her favorite spot to be scratched is just behind her right ear. Her face when scratched there makes it feel incredibly wrong.|
+[Quirk]|{Quirk=2}Her dream is to win the Nobel prize someday. Being trapped in another dimension doesn't seem to have affected it.|
+[Quirk]|{Quirk=3}If she wants attention, she'll keep loudly yelling your name until you give it to her.|
+[Quirk]|{Quirk=4}Prefers to play with her food before eating it. The game is chess and she's yet to win a single match.|
+[Quirk]|{Quirk=5}She always acts aloof, but is actually much more affectionate than other Schrodingers.|

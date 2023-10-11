@@ -1,0 +1,151 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}{TargetAlly}{VCount=1}<NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Normal><SRlightBurp>Urrrp~ Mmmph, so full... Digesting all this meat is so much work.../<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up>Oh, I know! I'll just feed myself to (Target) and have her digest them for me! I'm a genius!|
+[BattleStart]|{Attack=-1001}{TargetAlly}<NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Down>Hahaha, (Target) is out like a light... Should I play a little prank on her?|
+[BattleStart]|{Attack=-1001}{VCount=1}<NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Down><SRlightBurp>Urrrp~ I should finish digesting this meal first, but... Ohh, she just looks so hungry.../<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up>Alright, girly, I hope you're ready for a nice, big meal! Open wide, now!|
+[BattleStart]|{Attack=-1001}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>Aww, listen to her stomach growl... You're not bad, you're just hungry, ain'tcha? Don't worry, I'll fill you right up!|
+[BattleStart]|{Attack=1144}{50%}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>It sure is hard carrying around all this weight, I wonder if someone can help? Hey (Target), mind giving me a hand?|
+[BattleStart]|{Attack=1144}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Hey (Target), I've got a special suprise for you~|
+[BattleStart]|{Skill=0}W-whoops! Ah, my boots came unstrapped!|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}Can you hear me, (TargetVored)!? Doooon't woooorry!!/I'm gonna eat (the)(Target)!! Then you can get digested by me instead and Chief won't get mad you fed the enemy!! Heeheehee, aren't I thoughtful?|
+[BattleStart]|{TypeVAttack}{TargetAlly}{VTargetLevel=1}You want me to eat both of them? Gotcha, Chief./<NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Up><NEBlush>...Eh? You ME to eat both of THEM!? W-wow!`Well, you heard him. Orders are orders!|
+[BattleStart]|{TypeVAttack}{TargetAlly}{33%}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Down><NEBlush>*Slurp!* (Target) looks delicious as always~ ...Shall I partake of her body in an immoral feast of the flesh?`N-no, I mustn't, it's forbidden... Ah, but I cannot stop myself!/<NF><NEMouth\Sad><NEEyes\Narrow><NEBrows\Normal>...Get on with it? Yessir. Gonna eat you now, (Target).|
+[BattleStart]|{TypeVAttack}{TargetAlly}Feed myself to (Target)? Got it!/<NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Up><NEBlush>...N-no? Me? Eat her? Are you sure?|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}<NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Up><NEBlush>O-oh wow, you want me to eat all that?`*Gulp* N-no, I got it! Digesting two people at once? Easy!|
+[BattleStart]|{TypeVAttack}{50%}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>*Slurp!* Don't worry, guys, I got this one!`...H-hey, for real, this time!|
+[BattleStart]|{TypeVAttack}Mmmm~ How many chefs get to sample the flavors of alien planets? Not me, that's for sure! But I'll give it a shot anyway!|
+[BattleStart]|{TypeAttack}{50%}Eat this!|
+[BattleStart]|{TypeAttack}{50%}One order of hot lead, coming right up!|
+[BattleStart]|{TypeAttack}Laying down suppressing fire!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}<NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Down><NEBlush>Don't worry, I gotcha...`W-whoops! Ah, my boots came unstrapped!|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEMouth\Sad><NEEyes\Narrow><NEBrows\Normal>Yeah, yeah, I know how this works. If I ever get to see this side of your stomach again, I'll consider it a miracle.|
+[Targeted]|{TypeVAttack}{TargetAlly}{VCount>0}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>Eh...? And here I thought you were feeding me because you liked me, Chief...|
+[Targeted]|{TypeVAttack}{TargetAlly}{25%}<NF><NEMouth\Sad><NEEyes\Narrow><NEBrows\Normal>Uh-huh, I got it. Same ol', same ol'. I know why the Chief brings me along. *Sigh*/<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>...If I don't like it, I don't have to do it? And let her go hungry!? What kind of monster do you take me for!?|
+[Targeted]|{TypeVAttack}{TargetAlly}{50%}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>After you're done, can you let one of me know how I tasted? I'm trying a new seasoning out~|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Attack=4}<SERapidGun>(Self) fires a burst from her SMG at (the)(Target)!|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{TypeVAttack}{Attack=1144}<SESwing2>(Self) approaches (Target), reaching for her lips...|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) tackles (the)(Target) with her entire body...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) swings the butt of her SMG at (the)(Target)!|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{Attack=4}<SEDoubleHit>The bullets pound into (Pro2nd)! (Damage) damage!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit10>Her weapon slams into (the)(Target)! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{TypeVAttack}<SESwing1>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing1>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}Ahh... Well, whatever. I'd probably end up here, anyway.|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SRheavyGrowl><BGGrowl>Phew... I can't believe that worked! I'm a hero!/<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down><NEBlush>Uhh... Nnnf, c-can't move...`W-wait, what do I do now? I didn't think this far ahead!|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{VTargetLevel=1}<SRheavyGrowl><BGGrowl><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Up><NEBlush>Wow~ It feels great being on the other side of this. I guess the Chief must like me or something? Alright, everything's coming up Cornucopia!/<NF><NEMouth\Burp><NEEyes\Narrow><NEBrows\Down><NEBlush><SRheavyBurp><SRheavyGrowl>Urrrrp! W-wait, I can't move... Ohhh, now I remember why I don't eat this much...|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}<SRheavyBurp><SRheavyGrowl><BGGrowl><NF><NEMouth\Burp><NEEyes\Normal><NEBrows\Down><NEBlush>Urrrrp! O-oh no, I lied... I don't got it at all...|
+[AttackHitAttackerS]|{TypeVAttack}{TargetEnemy}{50%}<SRheavyGrowl><BGGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up>Gotcha! Mmmf, that was toooo easy~ ♪`...Huh? Hey, I actually did something! Guys did you see that!? I actually did something!|
+[AttackHitAttackerS]|{TypeVAttack}{TargetEnemy}{50%}<SRheavyGrowl><BGGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up>Eh? W-wow, usually that doesn't work! Am I actually, like... a super-powerful vessel?|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl><NF><NEMouth\Smile><NEEyes\Closed><NEBrows\Down>Mmmph... You taste so good, Sam...|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down><NEBlush><SRheavyGrowl>...Eh? Huh? Th- You... ...Huh? What?/<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up><NEBlush>...What a crazy world.|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}{50%}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up>Hmm... should I not have let her eat me? Well, whatever.|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}W-whoops!`...Aww. I thought I could look cool for a second there.|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up>...Huh? How'd you miss me? I was standing still...|
+
+[Kiss]|<SRheavyGrowl><SRheavyBurp>Urrrp! H-huh? Are you really sure you want ME to eat all this?|
+
+[Betrayed]|<Nf><NeMouth\Sad><NeEyes\Normal><NeBrows\Up>...Meh, I figured something like this would happen. Oh well!|
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Down><NEBlush>Mmmph, this will help me keep 'em down.|
+[Nurse]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Hey, this isn't too bad. Commander, do you think I could use this in a meal later?|
+
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmph.... So tasty....|
+[vTickDown]|{VCount>1}{25%}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMouth\Burp><NEEyes\Normal><NEBrows\Up><NEBlush>Urrrrrp! Wow, that was a big one! Heheh.....`*Sigh* So bored... Mmph... How long does it take people to digest, again?|
+[vTickDown]|{VLevel>1}{25%}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Up><NEBlush>Mmmph... Digesting all this is making me sleepy...`Oh hey, my stomach makes a pretty nice bed like this. Maybe I'll just get some quick shut-eye...|
+[vTickDown]|{VLevel>1}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Down><NEBlush>Mmmph... How do other vessels digest this much?|
+[vTickDown]|{50%}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up><NEBlush>Hmm... Chief probably wants me to feed someone before I digest all this... Eh, whatever. Taking initiative just ain't my style.|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl><SRlightBurp><NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Up><NEBlush>Urrrrp~ Whew! Been so long since I ate someone outside the Brunch Team, I almost forgot what it felt like!|
+[vTickDown]
+
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Closed><NEBrows\Down><NEBlush>Mmmph.... I've only eaten about a hundred people... I can still fit more...|
+[vComplete]{EN<1}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up><NEBlush>Sorry Chief, but I don't have any energy left in me to keep 'em in me. I think I might have to end up digesting them after all...|
+[vComplete]|{OnlyVoredEnemy}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Down><NEBlush>Mmph... It's a lot quieter in there, now... You're really just gonna let yourself get digested by a Cornucopia? How embarassing...|
+[vComplete]|{VLevel>1}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMouth\Burp><NEEyes\Normal><NEBrows\Up><NEBlush>Urrrp! ...Huh? W-wait, I actually did it! I'm finally digesting them!|
+[vComplete]|<SRheavyGrowl><SRheavyBurp><NF><NEMouth\Burp><NEEyes\Normal><NEBrows\Up><NEBlush>Urrrrp! W-wow, I'm actually digesting her myself! Today really is my lucky day!|
+
+[vAftermath]|{HasSkill=99}<NF><NEMouth\Burp2><NEEyes\Narrow><NEBrows\Normal><NEBlush>Urrrrp~ Feel full... Did I eat one of the others while I was sleepwalking, again...?/<NEMouth\Burp2><NEEyes\Normal><NEBrows\Up>W-wait, this isn't the dorms! Shoot, I'm still in the middle of combat!|
+[vAftermath]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Down><NEBlush>Ah~ I actually managed to digest someone myself! Mmm, I'm gonna have to savor this...|
+
+[vLevelUp]|Huh? I got stronger? You really think so? Heheheh~ ♪|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>O-oops...|
+[SkillActivation]|{Skill=104}<SRheavyGrowl><SRemptyGrowl>*Huff* Oof... W-why did I do this to myself...`Mmph... This sucks...|
+[SkillActivation]|{Skill=-501}{VCount>0}Ooof... Urrruuup!`Sorry, (Com), that's all I got... I hope I make a nice meal for someone...|
+[SkillActivation]|{Skill=-501}Sorry, (Com), that's all I got... I hope I make a nice meal for someone...|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+[Hunger]|<SRemptyGrowl>Mmmph~ So hungry.... I wonder if anyone'll let me eat them?|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Up>Ya know, I'm happy I can't digest you. Don't get me wrong, I love eatin' the other girls, but I love spendin' time with you like this, too!|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Normal>Hey, how's it feel being inside me, Chief? I've always wondered what it's like getting eaten by one of us. ...Shouldn't I know? Nah, 'cause I always end up getting digested, you know?|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>How do you taste compared to a vessel? Hmm... Kinda like dirt, sweat, and unseasoned raw meat, I guess. ...Hahaha, don't sulk, Chief! I don't think another human would like you, but to us vessels you're still absolutely delicious!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up>Mmm~ (ListEaten2nd) models are sooooo delicious! Take it from me, it's impossible to describe to just how good we taste to you, Chief.`Hmm... If only humans could eat us, too... I'd let you gobble me up right now, just to show you!|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><SRlightBurp><NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Up>Urrrp~ (ListEaten2nd)'s digestion is proceeding smoothly, Chief! ...Uh, how come you wanted me to eat 'em, anyway? They do something wrong?/<SCClick><SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Down><NEBlush>...No? You just wanted to treat me?`Well... you certainly know how to treat a girl right, Chief~ ♥|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>How come my body can digest other vessels with 100% efficiency, but any human food I eat goes straight to my thighs? It's not fair! I wanna fatten up by eating my friends, too!|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEMouth\Woozy><NEEyes\Normal><NEBrows\Up>How come more vessels don't use guns? Mmm... I guess these things are pretty dangerous for you, but to us it's more like getting shot with a BB gun. I mean, it's better than nothing, but.../<SCClick><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Down>All I'm saying is, how come they gotta make us Cornucopia's so weak in the first place, huh!?|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Up>Doesn't it bother me that all the other vessels treat me like snack food? Nah, not at all! Food is my love language!|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>It's great having another mouth to feed on base.`You and (Doctor) are the only ones I get to cook for, so lemme know if there's anything you want to eat!|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Burp2><NEEyes\Normal><NEBrows\Down><NEBlush>Gyahahah! Quit squirming around in there! You're makin' me ticklish!|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Up>Heeheehee, awww~ I just saw your hands imprint on the surface of my belly. That's so cute! It's like you're my little baby!|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Down><NEBlush>Hmm? Nah, 'course I don't wear anything under my jacket. This thing's hot enough as it is!|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Down><NEBlush>Ah~! ♥ Chief, did you really just...?`...You wanna 'eat me,' too, huh? ♥|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Up>These are special Brunch Squad brand panties! We all wear a pair just like 'em!`...Aren't they a bit too small for me? Commander... you clearly aren't a man of taste!|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Down>Oh, you like this pair, Chief? You can have 'em, if you want. Lemme just slip 'em off real quick...`...Hahaha, did you think I was actually serious? Man, you should see your face! It's beet red!|
+
+[Greeting]|{Vore}<SRemptyGrowl>You comfy in there, Commander? Want any snacks? I can whip you up something special, real quick!|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Woozy><NEEyes\Normal><NEBrows\Up>Whoa, s-slow down, Chief! It's harder than it looks walking around like this!|
+[Greeting]|<SEinteract>Heya, Chief! What are we doing today?|
+
+[Return]|{Vore}<SEeaten_by_monster2><SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Down><NEBlush>*Glllllrrrrp!* Mmmph, Chief... ♥`Shovin' yourself down my throat as soon as you see me... Didja really miss me that much?|
+[Return]|<SEinteract>Nice work out there, Chief. Why don'cha sit down and take a load off for a bit? I'll whip ya up something real quick!|
+
+[Digest]|<NF><NEMouth\Woozy><NEEyes\Normal><NEBrows\Normal>Whew, carrying you around all day is hard work, Chief. I'm just gonna sit down real quick and take a breather./<NF><NEMouth\Woozy><NEEyes\Narrow><NEBrows\Normal>Ahh... That feels better.`So tired... Just gonna... close my eyes for a second.../<NF><NEMouth\Sad><NEEyes\Closed><NEBrows\Up><SRheavyGrowl><SRemptyGrowl>Zzzzzzzz......|
+
+[DigestPost]|<SRemptyGrowl><NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Up>Mmmmmm~ What a nice nap..../<NF><NEMouth\Burp><NEEyes\Normal><NEBrows\Up><SRlightBurp>Mmph... Urrp! I wonder why I feel so full.../<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Oh well! I'm gonna go see what Sam and Patty are up to.|
+
+[DigestReturn]|Yo! Wassup, Chief?`...Oh? You got me a coffee? Hey, thanks!|
+
+[Swallow]|<NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Normal>Mmmph- *Gulp!*`Alright, Cornucopia's taxi service is officially up and running! ...Don't worry, if (Doctor) sees us I'll just pretend you're one of the Brunch Squad.|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down><NEBlush>S-so much food... I'm in bliss...`Are you trying to get me to fall for you, Chief? 'Cause it's working~♥|
+[Feed]|{ToDigest=20}<NF><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down><NEBlush>S-so much food... I'm in bliss...`Are you trying to get me to fall for you, Chief? 'Cause it's working~♥|
+[Feed]|{InStomach=2}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMouth\Burp><NEEyes\Normal><NEBrows\Down><NEBlush>Urrrp! *Huff* P-please, no one else, Chief! I'm at my absolute limit!|
+[Feed]|{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up><NEBlush>Mmph~ You really sure you wanna feed ¡other¿ vessels to ¡me¿? Well, you're an odd one, Chief, but I'm not about to look a gift horse in the mouth!|
+[Feed]|{ToDigest>0}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Down><NEBlush>Mmmm~ All that meat vanished into my guts in just a few seconds... I could get used to this.|
+
+[UnitDetailsGreeting]|Yo, Commander! There you are. What do you think of this week's meal plan? I'm trying to use a lot more of the local fruits and veggies this time!|
+[UnitDetails]|Hmm? Need something?`If you've got any requests, I can whip 'em up for you real quick!|
+
+
+[Quirk]|{Quirk=0}She wants to try being a naked sushi platter at least once in her life.|
+[Quirk]|{Quirk=1}Everything she prepares is just a little bit too spicy.|
+[Quirk]|{Quirk=2}She secretly thinks she's better at cooking than any of the other Cornucopias.|
+[Quirk]|{Quirk=3}She tends to drool a little when around other vessels.|
+[Quirk]|{Quirk=4}She harbors a deep nostalgia for her memories from Earth.|
+[Quirk]|{Quirk=5}Part of a secret Cornucopia-only club that even most Cornucopias don't know about. While she acts secretive and shady about it, it seems like they just watch old reality cooking shows from Earth together.|

@@ -1,0 +1,175 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down>Ah... Would you not rather have me eat her, instead? I could protect her inside me. ...No? *Sigh*|
+[BattleStart]|{Attack=15}Preparing dinner service
+[BattleStart]|{Attack=1144}{IsSafe}<NF><NEBlush><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>How cruel of you Master, to be using these girls you entrusted to me as nothing more than food~|
+[BattleStart]|{Attack=1144}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\UpDown>Are you sure you wanted me to digest the food you gave me, Master?/<NF><NEBlush><NEMouth\Lick><NEEyes\Pervy><NEBrows\Down>...Oh? You just wanted to see me kiss another girl? Don't worry, I'll be sure to please~ ♥|
+[BattleStart]|{Attack=1142}{IsSafe}{VCount>2}<NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>A massage? It's going to be hard to reach her with all this belly fat in the way, but I'll do it for you, Master ♥|
+[BattleStart]|{Attack=1142}{VLevel>4}<NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Ahegao><NEBrows\Down><SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Ahhh M-Master, please give me a moment to gather my thoughts~ ♥|
+[BattleStart]|{Attack=1142}A massage? Certainly, Master.|
+[BattleStart]|{Skill=0}Whoops... W-wait!|
+[BattleStart]|{TypeVAttack}{CriticalHungry}<NF><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down>S... so hungry... I could eat a whole elephant...|
+[BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}<NF><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>Quick, get inside me, (Target). I will protect you!`Do not be shy... I promise I will not digest you.|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}{VLevel>4}Heeheehee, a (TargetVored) sandwich... I can't wait to see how it tastes.|
+[BattleStart]|{TypeVAttack}{TargetAlly}{VLevel>4}Mmmph, heheheh... Another one, Master? Sure, I can always fit more~ ♫|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}Aww, too bad, (TargetVored). You know you would be safe if you had just been inside me. Now I will just have to digest the both of you!|
+[BattleStart]|{TypeVAttack}{TargetAlly}Oh? Are you sure, Master? My tummy's pretty active right now... Heeheehee, bad luck, (Target), seems like you are going to get churned up with all the rest~ ♫|
+[BattleStart]|{TypeVAttack}{VLevel>4}{50%}Mmmm... You look delicious~ ...Wanna have some fun inside me?|
+[BattleStart]|{TypeVAttack}{VLevel>4}Mmmmph~ Bad luck... You're gonna look great on my hips.|
+[BattleStart]|{TypeVAttack}{50%}{SetRoute=1}<NF><NEBlush><NEMouth\Lick><NEEyes\Narrow><NEBrows\Down>MmMmm, you look delicious... Forgive me, Master, there is nothing wrong with a maid engaging in a bit of self-service every now and again, is there?|
+[BattleStart]|{TypeVAttack}{SetRoute=0}Mmmm~ I can digest this one right, Master?|
+[BattleStart]|{TypeAttack}{50%}For Master!|
+[BattleStart]|{TypeAttack}Orraa!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}Oh, coming inside? Ahh....|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Normal>Eh...? Master, are you sure you would not rather have me carry her?|
+[Targeted]|{TypeVAttack}{TargetAlly}{VTargetLevel>0}<NF><NEBlush><NEMouth\Triangle><NEEyes\Narrow><NEBrows\Down>...Huh? Aww, Master... I cannot even digest this girl, first?|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Grin><NEEyes\Closed><NEBrows\Down>Let her eat me? Hmmm...`It is a bit disappointing, but of course I will follow your orders to the letter, Master!|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{Attack=15}<SESwing2>(Self) swings her massive axe down towards (the)(Target) from above!|
+[AttackDesc]|{TypeVAttack}{Attack=1144}<SESwing2>(Self) approaches (Target), reaching for her lips...|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) pulls (the)(Target) in close...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) swings her gigantic axe at (the)(Target)!|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}{Attack=15}<SEHits\hit15>It slams into (Pro2nd), knocking (Pro2nd) down! (Damage) damage!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit15>She chops into (Pro2nd) flesh! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{TypeVAttack}<SESwing8>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing8>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}Mmph.... A-at least it did not happen on the dining floor this time...|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{IsSafe}<NF><NEMouth\Smile2><NEEyes\Closed><NEBrows\Normal>Mmph... Welcome to the Chateau Suite! Master has instructed me to protect you, so no harm shall befall you while you are inside me!|
+[AttackHitAttackerS]|{TypeVAttack}{HasSkill=120}{TargetEnemy}{VCount>1}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down>Oops... I swallowed an enemy with everyone inside me.../<SRheavyGrowl><SRemptyGrowl><BGGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>...Oh well! I had better digest everyone, just to be safe!|
+[AttackHitAttackerS]|{TypeVAttack}{HasSkill=120}{TargetEnemy}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down>Oops... I swallowed an enemy with someone inside me.../<SRheavyGrowl><SRemptyGrowl><BGGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>...Oh well! I had better digest both of them, just to be safe!|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{VLevel>4}{EnemyTargetVoredAlly}<SEse_heavygrowl1><BGGrowl><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Pervy><NEBrows\Normal>Mmmm~ ♥ Master should start packing all my meals like this...|
+[AttackHitAttackerS]|{TypeVAttack}{VLevel>4}{50%}<SRheavyGrowl><BGGrowl><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Pervy><NEBrows\Normal>S-so good... I-I wonder how many more I can fit... ♥|
+[AttackHitAttackerS]|{TypeVAttack}{VLevel>4}{50%}<SRheavyGrowl><BGGrowl><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Pervy><NEBrows\Normal>*Slurp!* H-heheheh... F-feels good having so many girls inside me... ♥|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SEse_heavygrowl1><BGGrowl>Let this be a lesson to you. ...Though I suppose you will not remember it once I am finished digesting you.|
+[AttackHitAttackerS]|{TypeVAttack}{Route=1}<SRheavyGrowl><BGGrowl>Delicious... My apologies, Master, but some treats are too good to pass up. ♥|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>Mmmph, what bad luck for you. ♥ It is not often that I am allowed to digest people in combat!|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>Delicious! ♥ Even the finest pastry cannot compare to this.|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Mmmph.... Another maid...? Yes please.....|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<SRheavyGrowl>I am impressed! It was quite bold of you to enter my stomach like that, knowing you would be digested!|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}<NF><NEMouth\Triangle><NEEyes\Shock><NEBrows\Down>N-no! I cannot let Master down!|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Angry>D-do not move so quickly!|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}Heeheehee, I think you will find I am quite a tough pill to swallow.|
+
+[Kiss]|<SRheavyGrowl><SRheavyBurp>Urrrp! O-oh my, how direct!|
+
+[Betrayed]|<Nf><NeBlush><NeMouth\Triangle><NeEyes\Normal><NeBrows\Down>H-huh? W-wait, stop, you're digesting us!|
+[Massage]|{VLevel>4}<NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Ahegao><NEBrows\Down><SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Ahhh, I can't think straight like this ♥|
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>Ah, do that some more~|
+[Nurse]|{IsSafe}{VCount>2}<NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>Mmm, you sure you don't want me to digest all these girls for you, Master? ♥|
+[Nurse]|{VLevel>4}<NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Ahegao><NEBrows\Down><SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Ahhh, it's too good ♥|
+[Nurse]|<NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>How kind of you Master, to be servicing your maid like this~|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmnmm... Zzzzzzz.....|
+[vTickDown]|{HasSkill=120}{Skill=27}<SRheavyGrowl><SRemptyGrowl><BGGrowl><NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Angry>Hang on in there for just a little bit longer! I will protect you, no matter what the cost is! I... Huh? What's that noise...?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down>O-oh, whoops.../<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Closed><NEBrows\Down>...W-well, better to become food for me than the enemy, right? H-hahaha... H... Hopefully Master doesn't mind...|
+[vTickDown]|{HasSkill=120}{VCount>1}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Normal>Oh? I can digest everyone? You really mean it, Master?/<NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal><SRheavyGrowl><SRemptyGrowl><BGGrowl>Hahaha~ Sorry, everyone! Looks like you took a one-way trip!`Do not worry, I will make sure your bodies go to good use!|
+[vTickDown]|{HasSkill=120}<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Normal>Oh? Was she supposed a snack for me?/<NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal><SRheavyGrowl><SRemptyGrowl><BGGrowl>Wow! I am so lucky to have such a kind Master!`Sorry, looks like you are just going to be pudge soon!|
+[vTickDown]|{VLevel>4}{50%}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Pervy><NEBrows\Down>Urrrrp!! A-ahh... Stop squirming... I-I need a belly rub so badly. Where's the Master when you need (him)? Urrrp!!|
+[vTickDown]|{VLevel>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Mmmph... Heeheehee... S-so much meat inside me...`*Hic!* Y-you girls are gonna look great on me once I digest you.|
+[vTickDown]|{VCount>1}{50%}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Closed><NEBrows\Down>Ahaha, that tickles! You all have so much energy, do you want to be let out that badly? Sorry, once I start digesting someone, there is no turning back!|
+[vTickDown]|{VCount>1}<SRheavyGrowl><SRemptyGrowl>Is everyone comfortable inside me? It may take me a while to digest you, so please let me know if there is anything I can do to help you relax in the meantime!|
+[vTickDown]|{33%}<SRheavyGrowl><SRemptyGrowl>Heeheehee, you are struggling so ferociously inside me... It is no use, a girl like you is light as a feather to me!|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl><SRlightBurp><NF><NEBlush><NEMouth\Normal><NEEyes\Closed><NEBrows\Normal>Urrrrp~ Please do not digest too quickly, I want to savor your taste for a bit longer♪|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mnnmmm... E-even the head maid...`I'm the only one left, now.....|
+[vComplete]|{VLevel>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Pervy><NEBrows\Down>Urrrrp! Mmmph, took you long enough... What were you struggling so hard for? You were just gonna end up as padding on my tits, anyway...|
+[vComplete]|<SRheavyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Grin><NEEyes\Narrow><NEBrows\Down>Urrrrp! Aww, checking out so soon? I wanted to enjoy you for a bit longer...|
+
+[vAftermath]|{HasSkill=99}<NF><NEMouth\Triangle><NEEyes\Narrow><NEBrows\Normal>Mmmmmph... Good morning... How long was I asleep for...?/<NF><NEBlush><NEMouth\Triangle><NEEyes\Shock><NEBrows\Down>W-wait, where'd all this extra weight come from!? I-I didn't actually eat that many people, did I? Ohh, not again!|
+[vAftermath]|{VLevel>4}<NF><NEBlush><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down>Unfff... *Huff* O-oh no, why did I eat so many people again... They were just so delicious, I couldn't stop myself...|
+[vAftermath]|<NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>MmMmm! It was sad that your stay could not be any longer, but be assured that I enjoyed every moment of it.|
+
+[vLevelUp]|I can serve you even better like this, Master!|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>O-oops...|
+[SkillActivation]|{Skill=128}{IsSafe}<SEse_lightgrowl1><SRheavyBurp><NF><NEBlush><NEMouth\Tear><NEEyes\Narrow><NEBrows\Down>Unfff... *Huff*`T-too full... S-someone needs to get out...`*Huff*/<NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><SEse_lightgrowl3>M-master... I-I can't take this much longer...`Can I pleeeaaase digest them all?|
+[SkillActivation]|{Skill=128}<SRheavyGrowl><SRemptyGrowl>Unfff... *Huff*`I-I'm not full yet... J-just a few more...!|
+[SkillActivation]|{Skill=-501}Oof... Urrruuup!`I-I'm sorry... Master...|
+
+[Hunger]|<SRemptyGrowl>So hungry....|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>Master, would you like a blanket and pillow? Perhaps a book to read, or a small television set? Do not worry, I am quite used to swallowing such objects. Once you leave my stomach, I shall simply digest them!|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Down>Mmph~ ♥ Master, why not extend your stay a little? ...Better yet, why not just stay inside me forever?`I promise that I will cater to ¡all¿ of your needs while I have you inside me!|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Normal><NEBrows\Normal>May I say that your taste is quite exquisite, Master. I am sure that the other maids would love it, too!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}{InStomach>4}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Pervy><NEBrows\Down>Mmmph... Hahaha... I-I wonder if I can fit a few more... W... what do you say, Master, w-wanna get eaten too? I'll do my best to digest you~ ♥|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}{InStomach>4}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Tear><NEEyes\Pervy><NEBrows\Down>H-hey, Master, how come everyone's avoiding me?`I... I just wanna s-swallow 'em whole and ch-churn 'em up, w-what's so wrong with that?|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}{InStomach>4}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Burp><NEEyes\Ahegao><NEBrows\Down>Urrrrrrp!! *Hic* Mmmph... Haa...`Urrrrp! Ahh... M-master, start rubbing my belly for me... I-if you don't, I'll gulp you down, too!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Lick><NEEyes\Closed><NEBrows\Down>Mmmph! Heeheehee, what a lovely meal~ ♫`I do not mind protecting these girls from harm, but I must say that digesting them feels so much nicer!|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>At my old workplace, they never allowed us to eat anyone while we were on the job. I like it much better here, Master!|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Closed><NEBrows\Down>Urrrrrrp!! Mmmff... Pffaaa...`M... My apologies, Master... I-it can get quite noisy while I digest a meal... I promise that I will finish soon!|
+[Secretary]<RNGGen=3>|{RNG>2}{Weight>3}<SEinteract><NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Closed><NEBrows\Down>I... I might be a little slow right now, but if there is anything that I can do for you, please let me know!|
+[Secretary]<RNGGen=3>|{RNG=2}{Weight>3}<SEinteract><NF><NEBlush><NELines><NEMouth\Tear><NEEyes\Normal><NEBrows\Down>Isn't my uniform is a bit too tight? P-please don't make fun of me, Master! Even if it's a bit ill-fitting, a maid's uniform is her pride!|
+[Secretary]<RNGGen=3>|{RNG=1}{Weight>3}<SEinteract><NF><NEBlush><NELines><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down><SRemptyGrowl>Ahh... N-no, I'm not still hungry! M-my stomach just gets lonely without anyone inside it, that's all...|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>Master, if there is anything that I can do for you, please let me know! I am at your beck and call.|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\UpDown>Isn't my uniform is a bit too revealing? ...Is it? All of my old masters seemed to love it... Do maids dress differently where you are from?|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEBlush><NELines><NEMouth\Triangle><NEEyes\Normal><NEBrows\Down><SRemptyGrowl>Ahh... P-please ignore that sound, Master! I... I can bear with the hunger, so please do not worry about me. Oh, where is the scullery maid when you need her...|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Narrow><NEBrows\Down>Ahahaha! P-please don't stretch my stomach out like that, Master! Th-that tickles!|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Pervy><NEBrows\UpDown>...Oh? Master, if you are interested in doing 'that,' shall I ask one of the other maids to join you in there? ...My only request is that you leave my stomach before her. ♥|
+[Special]<RNGGen=2>|{RNG>1}{Fed}{InStomach>4}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Ahegao><NEBrows\Down>Mmmph! ♥ Ahhh! ♥ Ahhhann~! ♥`M-maaassteerrrr! *Hic!* I... If you do that, I'm gonna... I-I'm gonna...!|
+[Special]<RNGGen=2>|{RNG=1}{Fed}{InStomach>4}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Tear><NEEyes\Pervy><NEBrows\Down>M-maaasterrr, don't rub those now! Rub my belly, instead! ♥ Th-these girls are all gonna end up there anyway!|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Narrow><NEBrows\Down>M-Master, p-please don't fondle them too much~! ♥`N-not while I'm like this! ♥|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Pervy><NEBrows\UpDown>Eheheh~ ♥ Aren't you being impatient, Master? They're going to feel much muuuch~ nicer soon. ♥|
+[Special]<RNGGen=2>|{RNG>1}{Weight>3}<SEinteract2><NF><NEBlush><NELines><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>Mmmph~ ♥ Heeheehee... Are you sure you want to order from the "special menu" right now, Master? You might get crushed♥|
+[Special]<RNGGen=2>|{RNG=1}{Weight>3}<SEinteract2><NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Pervy><NEBrows\Down>Ahhn~ ♥ M-master, you're being so aggressive... Could it be you actually prefer me like this? ♥|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEBlush><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>Mmmph~ ♥ Heeheehee... Would you like me to bring out the "special menu," Master? Might I suggest the 'Chateau Suite' option? ♥|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NEBlush><NEMouth\Lick><NEEyes\Pervy><NEBrows\Down>Ahhn~ ♥ M-master... If you want to order that kind of service, it will cost you extra, you know~ ♥|
+
+[Greeting]|{Vore}<SEse_lightgrowl1><SRlightGrowl>Where to next, Commyander? I'll take you anywhere you wanna go!|
+[Greeting]|{Fed}{InStomach>4}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down>Mmmph... *Hic* Urrrrrp!!`N... No fair, Master... *Slurp* Wait for me!|
+[Greeting]|{Fed}{InStomach>1}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>What shall we do next, Master? Don't worry, carrying around this many girls is no problem for me!|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>What shall we do next, Master? Don't worry, carrying around a passenger is no problem for me!|
+[Greeting]|{Weight>3}<SEinteract><NF><NEBlush><NELines><NEMouth\Normal><NEEyes\Normal><NEBrows\Down>W-welcome back, Master... I-I've cleaned your office, prepared your schedule, and there's a hot cup of tea sitting on your desk. C... can I do anything else for you?|
+[Greeting]|<SEinteract><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Welcome back, Master! I've cleaned your office, prepared your schedule, and you will find a hot cup of tea sitting on your desk. Is there anything else you would like me to do?|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Pervy><NEBrows\Normal>Ah... You need to collapse into 'bed' straightaway, hmm, Master? Shall I provide you any entertainment while you are in there?|
+[Return]|<SEinteract>Welcome home, Master! I have prepared a bubble bath for you, to ease the stress of your journey. Would you like for me to wash you?|
+
+[Digest]|<NF><NEMouth\Triangle><NEEyes\Normal><NEBrows\Normal>Hmmhmmhmmm~ ♫ ...Ah, is it that time already? Looks like my shifts over for today.../<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Closed><NEBrows\Down>Mmmmph~ ♥ Delicious.../<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Normal><NEBrows\Normal>...Hmm? What am I doing?`I am finished with my maid shift, Master. By hotel rules, I may eat whomever I want now!/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Narrow><NEBrows\Down>Normally, I would simply serve myself some of the guests, but I suppose that you will do today. I am still quite hungry, though, so please expect to have some company soon.../<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Grin><NEEyes\Narrow><NEBrows\Down>Mmph... Urrrrp!`Ah, or perhaps not... Heeheehee, I forgot how quickly humans digest~ ♥|
+
+[DigestPost]|<NF><NEBlush><NELines><NEMouth\Normal><NEEyes\Closed><NEBrows\Down>Ah... S-so delicious...`Don't feel bad, Master, all my masters are bound to end up this way one day or another. Mmph, if only they weren't so fattening...|
+
+[DigestReturn]|Good morning, Master! What would you like first? Breakfast? A bath? Or would you rather ha- ...O-oh, you'll take breakfast first? I see...|
+
+[Swallow]|<NF><NEBlush><NELines><NEMouth\Lick><NEEyes\Closed><NEBrows\Normal>Welcome inside, Master! You will find that I am quite spacious compared to most vessels. Please let me know if there are any amenities that I may send down to you!|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Ahegao><NEBrows\Down>Urrrrp!! *Huff* I... I wasn't prepared for a mess that large... Mmph... All this fat is going to take forever to work off...|
+[Feed]|{ToDigest=20}<SRheavyBurp><NF><NEBlush><NELines><NEMouth\Drool><NEEyes\Ahegao><NEBrows\Down>Urrrrp!! *Huff* I... I wasn't prepared for a mess that large... Mmph... All this fat is going to take forever to work off...|
+[Feed]|{InStomach>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NELines><NEMouth\Normal><NEEyes\Pervy><NEBrows\Down>Urrrp! *Huff* S-so much meat... Heeheehee... M-maybe just one or two more, Master? ♥|
+[Feed]|{InStomach>1}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Narrow><NEBrows\Down>Mmmph... They're wiggling around so much inside me. Any more girls you want me to 'clean up' for you, Master? ♥|
+[Feed]|{InStomach=1}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Lick><NEEyes\Narrow><NEBrows\Down>Mmmph... She's wiggling around so much inside me. Any more girls you want me to 'clean up' for you, Master? ♥|
+[Feed]|{ToDigest>0}<NF><NEBlush><NEMouth\Grin><NEEyes\Pervy><NEBrows\Down>Mmmm~ No matter how many times I eat them, I can't get enough of the way the girls here taste. There's so much more variety than at the castle!|
+
+[UnitDetailsGreeting]|<NF><NEMouth\Lick><NEEyes\Normal><NEBrows\Normal>Welcome, Master! How may I serve you?|
+[UnitDetails]|<NF><NEMouth\Normal><NEEyes\Closed><NEBrows\Normal>Master, if there are any vessels you wish to dispose of, please let me know! I am happy to be of service!|
+
+[Quirk]|{Quirk=0}Considers herself a sweets gourmet. She never seems to put on any weight from eating them, despite her slow metabolism.|
+[Quirk]|{Quirk=1}Extremely dedicated to keeping the base clean.|
+[Quirk]|{Quirk=2}Absolutely terrified of insects. If she sees one, she'll smash it with her axe.|
+[Quirk]|{Quirk=3}Polishes her armor and weapon every single day.|
+[Quirk]|{Quirk=4}She's an avid fan of tabletop RPGs.|
+[Quirk]|{Quirk=5}Struggles to keep her nymphomania in check.|

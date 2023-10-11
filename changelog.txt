@@ -1,0 +1,119 @@
+changelog (v1):
+
+covenant:
+base atk 35 > 45
+base energy 120 > 150
+base vatk 50 > 60
+atk dice range 3-30 > 5-50
+vatk dice range 3-30 > 5-50
+
+respite energy cost 60 > 40
+narrow escape vres buff amount +10 > +20
+sanctuary now grants 10% max energy gain to contained units per turn
+new ability radiance; 50 energy cost, replenishes 50 energy to adjacent friendly units
+holy light now inflicts charred; reduces target's ATK, VATK, SPD, and SKL by 20% for one turn
+
+theano: 
+base max en 100 > 120
+max max en 200 > 250
+
+max en dice range 0-0 > 10-50
+
+neutralize en cost 25 > 15
+dragon kick en cost 50 > 40
+now has carrier abilities, including new dialogue for carrier-related actions (vroom vroom)
+
+
+cornucopia:
+
+max en dice range 0-0 > 10-50
+
+new passive; while digesting a unit, it gives the unit +25 nutritional value, also increases digestion tick rate by 1 but causes cornucopia to lose 20 energy per turn while digesting, also causes instant digestion while hungry, sleeping, or incapacitated
+new vatk, absorb; causes cornucopia to instantly trigger digestion
+can now use kiss normally, use while digesting to feed contained units to the target (can cause overburdening)
+modified some dialogue for the new changes
+
+schrodinger:
+base max energy 70 > 100
+vial toss cost 15 > 10
+
+
+fixed a typo in pounce's description
+fixed a typo in foul-smelling liquid's text
+made vial toss visible on the status screen, edited description to mention how many unique effects are possible
+fixed vial toss's empty vial to properly do nothing instead of inflicting 50 damage
+
+6 new vial toss effects (15 in total):
+nerve gas, inflicts a debuff that reduces stats by 20% and halves movement range for 1 turn
+polyphagia syrup, reduces energy to 0
+lubricant, grants 1000 vres for 1 turn
+liquid nutrients, grants 50 nutritional value
+coffee, grants 50 energy
+liquid melatonin, inflicts sleep if target has contained / eaten a unit
+
+overflowing pockets also has the new effects (except for liquid melatonin)
+
+chateau:
+base max en: 140 > 150
+max max en: 280 > 300
+
+max en dice range: 0-0 > 10-50
+
+order up damage multiplier 1.25x > 1.3x, en cost 25 > 20
+buffed heavyweight to grant 10% max energy gain per weight level
+new vore ability massage, use on a friendly teammate to speed up digestion by 1 turn (can cause digestion to complete)
+can now use kiss normally
+
+
+sampo:
+base health 140 > 150
+
+def dice range 3-30 > 5 - 50
+vres dice range 3-30 > 5-50
+
+pinpoint fire damage multiplier 1.3x > 1.4x
+
+swollen with pride no longer requires an enemy to be eaten for the nutrition effects, +100 nutritional value boost > +200 nutritional value boost, grants a 20% stat boost per unit contained on turn start and end
+can now use kiss normally
+
+lamia:
+base max en 90 > 100
+
+max en dice range 0-0 > 10-50
+
+new ability, beautify; grant a 20% stat boost for 1 turn to an ally, 10 en cost
+endobeautician now triggers upon completing digestion on any unit of any team
+fixed "you go, girl!" passive skill not properly updating stats on turn end and simplified description slightly
+
+wild lamia:
+base max en 45 > 60
+
+max en dice range 0-0 > 10-50
+
+new ability, bite; higher damage than a regular attack but lower accuracy: inflicts injured, reducing target's speed, vres, def, and skl by 20% and halving movement range for 1 turn, 20 en cost
+
+dusk lamia:
+
+max en dice range 0-0 > 10-50
+
+new ability, nurse; use on a friendly unit to feed them milk, setting their energy to max, 40 energy cost (has unique dialogue for every character)
+
+
+
+
+other changes:
+
+fixed theano and lamia-type units not having skill -504 (responsible for most energy loss interactions)
+
+lamia-type units can now be brought to 0-2 and 0-3 as playable units
+
+added proper unique dialogue to lamia, wild lamia, and dusk lamia for getting safe vored by a carrrier and friendly fatal vore
+
+
+currently known bugs:
+pre-placed units in 0-2, 0-3, and sandbox will not have access to most of the new skills and effects (limitation of what I have access to since it's handled by the game in a way that I don't have access to)
+some non-attack abilities (e.g. massage) will force incapacitated units to spit out units, this is a limitation of the current attack system
+
+note:
+most energy changes (i.e. max energy gain / cost reductions) were balanced in mind with the new energy drain system taking an additional 10 energy at the end of your turn
+although I wanted to add it in, lamia-type units do not have dialogue when being digested by chateau's emergency relations due to a bug with the dialogue system being unable to handle lamia-type units in this situation

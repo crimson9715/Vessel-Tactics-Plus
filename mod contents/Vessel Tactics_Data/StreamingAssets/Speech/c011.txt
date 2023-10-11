@@ -1,0 +1,164 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}Nyeh... Are you sure about this, Commyander?|
+[BattleStart]|{Attack=6}Nyahaha, I wonder what will happen?|
+[BattleStart]|{Attack=5}Parameters... calculated! Vectors... obtained!`Nyahaha, the conditions are perfect! I'll swallow you in a single gulp!|
+[BattleStart]|{Skill=0}W-whoa, whoa, whoa! O-oh no!|
+[BattleStart]|{TypeVAttack}{CriticalHungry}N-neh... Can I have a small bite? Just a little piece?`Pretty please?|
+[BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}Quick, get inside me, (Target)! I'll protect you!`Don't be shy... I promise I won't use you for any experiments!|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}Don't worry, (TargetVored)! I'll save you!|
+[BattleStart]|{TypeVAttack}{50%}Once I eat you, what'll happen? Will you manage to survive?	Or will you churn away inside my guts?/Nyahaha, I'm looking forward to finding out!|
+[BattleStart]|{TypeVAttack}{TargetAlly}Sorry, (Target)~ ♫ Commyander says you have to let me eat you!|
+[BattleStart]|{TypeVAttack}Nya~ Are you willing to make a small sacrifice for science?|
+[BattleStart]|{TypeAttack}{50%}Prey- I mean, subject spotted!|
+[BattleStart]|{TypeAttack}Hiyaah!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}*Yaaaaawn* So sleepy...`I wonder if anyone will notice if I take a quick cat nap...|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}Nyeh... Well if the Commyander says so...|
+[Targeted]|{TypeVAttack}{TargetAlly}{VTargetLevel>0}Eh? W-wait! Commyander!? At least let me finish my experimeownt first!|
+[Targeted]|{TypeVAttack}{TargetAlly}{25%}Nya~ Once I get absorbed by (Target)'s body, will I cease to exist? Or will I live on as a part of them?/Commyander! Please record the results of my experimeownt and deliver them back to me!|
+[Targeted]|{TypeVAttack}{TargetAlly}{50%}Oh? Are you running an experimeownt, Commyander?`Interesting!|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{Attack=6}<SESwing2>(Self) lobs a mysterious object at (the)(Target)!|
+[AttackDesc]|{Attack=5}<SESwing2>(Self) leaps high into the air, her lab coat spreading out behind her like wings!|
+[AttackDesc]|{Attack=3}<SESwing2>(Self) butt wiggles as she hones in on (the)(Target), then she pounces with blinding speed!|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) pounces on (the)(Target) with cat-like agility...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) slashes at (the)(Target) with her claws!|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{Attack=5}{Route=1}<SEse_gulp1><SEeaten_by_monster2>...but she misjudges her aim and lands directly in (the)(Target)'s mouth, quickly sliding down her throat headfirst!|
+[AttackHitAttacker]|{Attack=5}{Route=0}<SEse_gulp1><SEeaten_by_monster2>She lands on (the)(Target) mouth first, easily slurping down her prey!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit15>She tears into (Pro2nd) flesh! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{TypeVAttack}<SESwing8>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing8>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}Noooo... Not again....|
+[AttackHitAttackerS]|{Attack=5}{Route=1}<NF><NEPale><NEMouth\Angry><NEEyes\Normal><NEBrows\Down><NEGlasses>N-nyo way! H-how could my calculations be wrong!?|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{IsSafe}<SRlightBurp>Urrp~ Welcome to my laboratory!`...I can digest her later, right, Commyander?|
+[AttackHitAttackerS]|{TypeVAttack}{HasSkill=120}{TargetEnemy}{VCount>1}Oops. I swallowed an enemy with everyone inside me.../<SRheavyGrowl><SRemptyGrowl><BGGrowl>...Oh well! I'd better digest them all, just to be safe!|
+[AttackHitAttackerS]|{TypeVAttack}{HasSkill=120}{TargetEnemy}Oops. I swallowed an enemy with someone inside me.../<SRheavyGrowl><SRemptyGrowl><BGGrowl>...Oh well! I'd better digest them both, just to be safe!|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SEse_heavygrowl1><BGGrowl>Nyahaha~ ♥ Now you both get to be digested by me, instead! Aren't you happy, nya?|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>Nyahaha! Let the experimeownt commence!|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>Ooh~ The test chamber is rumbling already~ Looks like this will be a short experiment!|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Mnnyaaaa.... Another fish...?`You shouldn't have...|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<SRheavyGrowl>E-eh!? H-huh? What just happened? My eyes were closed!|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}N-no, wait! Th-this testing environmeownt is no good!|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}M-my calculations were off!?|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}Nyahaha! You snooze, you lose!|
+
+[Kiss]|<NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><NEGlasses><SRheavyGrowl><SRheavyBurp>Urrrp! Thanks for the meal, nya!|
+
+[Betrayed]|<Nf><NePale><NeMouth\Triangle><NeEyes\Normal><NeBrows\Down>N-nyeh!? W-what are you doing!?|
+[Nurse]|<NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><NEGlasses>Nyaaaaa~ You do know I love milk, right Commyander? ♥|
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><NEGlasses>Nyaaaa, your hands work wonders on me~ ♥|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Sunyaa... Mnnmnnnn...|
+[vTickDown]|{HasSkill=140}{IsVore}Oh? I can digest everyone? You really mean it, Commyander?/<SRheavyGrowl><SRemptyGrowl><GrowlBGS>Nyahaha! Sorry guys! Looks like you took a one-way trip!`Don't worry, I'll make sure your bodies go to good use!|
+[vTickDown]|{HasSkill=140}<SEse_lightgrowl1><SEse_lightgrowl3>Heal up, everyone!|
+[vTickDown]|{HasSkill=120}{VCount>1}Oh? I can digest everyone? You really mean it, Commyander?/<SRheavyGrowl><SRemptyGrowl><GrowlBGS>Nyahaha! Sorry guys! Looks like you took a one-way trip!`Don't worry, I'll make sure your bodies go to good use!|
+[vTickDown]|{HasSkill=120}Oh? Was she supposed a snack for me?/<SRheavyGrowl><SRemptyGrowl><BGGrowl>Wow! I'm so lucky to have such a nice Commyander~`Sorry, looks like you're going to be part of my next experiment!|
+[vTickDown]|{VCount>2}{33%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4><SRheavyBurp>Urrrrp! Mmmph! S-settle down, everyone!`M-my belly is an important research center! `It isn't for playing in! U-urrrp!|
+[vTickDown]|{VLevel>2}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Mmmph... S-so much food...`Urrrp... I hope they digest soon...|
+[vTickDown]|{VCount>1}{33%}<SEse_heavygrowl2><SD20se_heavygrowl1><SD25se_emptygrowl3>Eep! They're really struggling in there.../Come on, guys! I can't do my experiment if you keep wiggling around!|
+[vTickDown]|{VLevel>1}<SRheavyGrowl><SRemptyGrowl>Nyahaha, wriggle around all you want, you won't escape~`An experiment of this scale is nothing to a genius like me!|
+[vTickDown]|{33%}<SRheavyGrowl><SRemptyGrowl>Mmmm~♪ How much longer can you hold on for?`It's only a matter of time, now...|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl><SRlightBurp>Urrrrp~ I wonder what will happen to you♪|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mnnmmm... What a meal...`I can't possibly eat any more...|
+[vComplete]|{VLevel>3}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Urrrrp! F-finally...`You guys stopped struggling so much./<SRheavyGrowl><SRemptyGrowl>Oof... S-so much meat...`How am I even supposed to digest all this?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Angry><NEGlasses>Commyander! Please take more care in how you feed me, or I'll make you participate in my next experiment, okay?|
+[vComplete]|{VCount>1}<SRheavyGrowl><SRemptyGrowl>Oh? Nyahaha, you guys aren't wiggling around as much any`more. Should I have my belly observe your quantum state?|
+[vComplete]|<SRheavyGrowl><SRheavyBurp>Urrrrp! Is it time to collapse the wave function?|
+
+[vDigestion]|{HasSkill=99}<SRheavyGrowl><SRlightBurp>Nyaaaaa....`What a nice nap... I had a wonderful dream... Urrrp~/<SRemptyGrowl>...Eh? W-wait, what?`Why is my belly all full? Did I eat someone while I was asleep!?|
+[vDigestion]|<SRheavyGrowl>Urrrrp~ And the results of the experiment are~?|
+
+[vAftermath]|{HasSkill=99}<NF><NEBlush><NEMouth\Small><NEEyes\Narrow><NEBrows\Up><NEGlasses><SRlightBurp>Nyaaaaa....`What a nice nap... I had a wonderful dream... Urrrp~|
+[vAftermath]|<NF><NEBlush><NEMoreBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Down><NESparkle><NEGlasses>Nyahaha! Not a single survivor!`The scientific community will remember your brave sacrifice!|
+
+[vLevelUp]|Behold, the fruits of my research!|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>O-oops...|
+[SkillActivation]|{Skill=1}H-hahaha.... Hahahaha!|
+[SkillActivation]|{Skill=104}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Mmmph... U-urrrp! Ommff...`T-too full... H-hold up a sec, guys...`*Huff*|
+[SkillActivation]|{Skill=128}{IsSafe}<SEse_lightgrowl1><SRheavyBurp>Mmmph... U-urrrp! Ommff...`T-too full... S-someone needs to get out...`*Huff*/<SEse_lightgrowl3>C-commyander... I-I can't take this much longer...`Can I pleeeaaase digest them all?|
+[SkillActivation]|{Skill=128}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Mmmph... U-urrrp! Ommff...`T-too full... H-hold up a sec, guys...`*Huff*|
+[SkillActivation]|{Skill=-501}Ooohh... Urrruuup!`Th-the experiment... wasn't supposed to... g-go like this...|
+[SkillActivation]|{Skill=-502}<SEse_lightgrowl1><SEse_lightgrowl3>Healing complete!|
+[SkillActivation]|{Attack=5}<SEse_chupa1>A scandalous kiss! (Self)'s eyes go wide as she mistakenly locks lips with (the)(Target)! At the same time, her belly slams into them at high speed, forcing out its contents!|
+
+[OverBurdened]|<SRheavyGrowl><DR10heavyGrowl><DR20heavyGrowl><DR30heavyGrowl>|
+
+[Hunger]|<SRemptyGrowl>So hungry....|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>Haa... Haa... Ptooie! Geez, so dirty...`...Huh? What am I doing? Just cleaning my glasses./<SEse_lightgrowl1><SRlightGrowl><SCClick><NF><NEBlush><NEMouth\Horny><NEEyes\Line><NEBrows\Up><NEGlasses>You wanna see me without 'em?`Nyahaha, too bad! I won't let you out that easily, Commyander~|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Triangle><NEEyes\Narrow><NEBrows\Up><NEGlasses>Commyander, thanks for helping with my experiment! I'm sure you're as intrigued as I am by human-vessel interactions! You're taking notes on your experience, right? ...Nyeh? What's that noise...? Are you playing a game on your phone!?|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Down><NEGlasses>Wow, I guess it's true vessels can't digest humans! I've been trying my hardest, but nothing's happened at all! Such an interesting phenomenon, don't you think Commyander? ...Commyander? Nyahh! D-don't wiggle around like that!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Up><NEGlasses>Who's in my stomach? Don't you remember, (Com)? You fed me (ListEaten) just a little bit ago!|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEPale><NEMouth\Triangle><NEEyes\XD><NEBrows\Down><NEGlasses>Oops! Oh nyo... I knocked over all Commyander's stuff with my stomach... M-maybe I can put it back without him noticing! Mnnn... Mnnnn...!`C-can't... r-reach...!|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><NEGlasses>What's that? You can barely hear yourself think over the sound of my belly rumbling? Don't worry, (Com)! I've got enough brain food here for the both of us!|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEBlush><NEMouth\Small><NEEyes\Narrow><NEBrows\Angry><NEGlasses>Commyaaandeeerrr, I'm bored! Come play with me!`...What's that? A piece of string? Commyander, I'm not a cat, that won't... won't... N-nya! Nyaa!|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NEBlush><NEMouth\Angry><NEEyes\Line><NEBrows\Up><NEGlasses>Oh... Commyander... I'm starving... I don't think I'll make it much longer... ...Stop bugging you? But you haven't fed me anyone yet today!|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal><NEGlasses>Commyander! Commyander! You wanna see the results of my latest experiment? ...Eh? Did I get anyone's permission to do it this time? E-err, yeah!`O-of course! (Doctor) approved it herself!`N-nyahaha....|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}{ComGen>0}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up><NEGlasses>Nyaaa~ ...Hmm? Hey, Commyander, how come you're making those weird noises? Is something wrong?|
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Up><NEGlasses>Nyaaa~ ...Hmm? Hey, something really delicious just came out of you! Do you have any more, Commyander?|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Normal><NEEyes\XD><NEBrows\Down><NEGlasses>Nyahaha, Commyander, that tickles~ How come you're so focused on that area, huh? Massage the rest of my belly, too!|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Small><NEEyes\Narrow><NEBrows\Down><NEGlasses>A shoulder rub? Thanks, Commyander! It's hard on my back carrying this food around all day. ...Nyeh?`C-commyander, those aren't my shoulders...|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up><NEGlasses>Nyeh, are you trying to help with my zipper, Commyander? There's not much point, it never goes up at all when they're like this. ...Eh? N-nyaaa!`S-squeezing them together like that won't help!|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEBlush><NEMouth\Smug><NEEyes\Normal><NEBrows\Normal><NEGlasses>C-commyander...? What are you doing...? ...Running an experiment on how they compare to other vessels'? Interesting! What are your conclusions?|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NEBlush><NEMoreBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up><NEGlasses>Nyaa, that tickles! How come you're so interested in those, Commyander?|
+
+[Greeting]|{Vore}<SRheavyGrowl><SRemptyGrowl>Where to next, Commyander? I'll take you anywhere you wanna go!|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl>Urrrrp~ Commyander, who's the next on the men- Err... I mean, what's next on the docket?|
+[Greeting]|<SEinteract>It's another beautiful day for science, Commyander!|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><NEGlasses>Geez, Commyander~ You're really that eager to be my test subject again? You didn't waste a second stuffing yourself down my throat~ ♪ I guess you finally realized my genius, huh?|
+[Return]|<SEinteract>Welcome back, Commyander! Don't worry, I held down the fort while you were gone!`...How many 'test subjects' did I eat this time? Nyahaha, it's all in my report!|
+
+[Digest]|<SEse_gulp3><NF><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Normal><NEGlasses>*Gulp* *Gulp* *Gulp* Pffaahhhh...`Hmm? What was that liquid I just drank? Nyahaha, Don't worry about it./<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Up><NESparkle><NEGlasses>...Oh? Oh!? It's working! Digestion has started! Nyahaha, aren't you excited, Commyander? You get to be part of the next, great scientific breakthrough!/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Up><NEGlasses>Nyaaa~ If only I could get this back to the vessels on Earth... This could be the discovery of the century! Now we can eat humans, too!/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Normal><NEGlasses>Don't you agree, Commyander? ...Commyander? Nyahaha, the experiment is proceeding smoothly~ I'm going to digest you now, okay?|
+
+[DigestPost]|<SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Line><NEBrows\Down><NEGlasses>Nyaaa, (he) was delicious... I'm sure (Doctor) won't mind me using (him) for an experiment, right?|
+
+[DigestReturn]|*Yawn* So hungry... Oh, hey, Commyander! What're we doin' today? ...Huh? Why're you looking at me like that?|
+
+[Swallow]|<NF><NEBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Down><NESparkle><NEGlasses>Oho, you're volunteering for an experiment, Commyander? I hope you know what you're signing up for~♪|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Small><NEEyes\Narrow><NEBrows\Down><NEGlasses>Urrrp! Mmmph... This is bad, Commyander... If you feed me this much, I really won't be able to stop... I'll keep eating other vessels until there's nyo one left...`Is that what you want?|
+[Feed]|{ToDigest=20}<NF><NEBlush><NEMoreBlush><NEMouth\Small><NEEyes\Narrow><NEBrows\Down><NEGlasses>Urrrp! Mmmph... This is bad, Commyander... If you feed me this much, I really won't be able to stop... I'll keep eating other vessels until there's nyo one left... Is that what you want?|
+[Feed]|{ToDigest>4}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Line><NEBrows\Down><NEGlasses>N-nyaaaa~ Nyo one ever let me eat this much before you came here, Commyander~ I feel like I'm in heaven...|
+[Feed]|{ToDigest>3}{InStomach=0}<NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Line><NEBrows\Down><NEGlasses>N-nyaaaa~ Nyo one ever let me eat this much before you came here, Commyander~ I feel like I'm in heaven...|
+[Feed]|{InStomach=4}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Angry><NEEyes\XD><NEBrows\Down><NEGlasses>Urrrp! *Huff* C-commyander... My body wasn't built to digest this much meat at once... Urrrp! I can barely even move, now.../<NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Normal><NESparkle><NEGlasses>Nyahaha, nyot to worry, though! While I wait for you guys to turn to mush, you make for a perfect work desk! ...Commyander, can you get my test kit for me?|
+[Feed]|{InStomach>1}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMoreBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Down><NEGlasses>Alright, today's experiment is to see who can last the longest before being digested!`Nyahaha, do your best~|
+[Feed]|{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Normal><NEGlasses>A treat for me? How come? Did I do something good?|
+[Feed]|{ToDigest>0}<SRlightBurp><NF><NEBlush><NEMouth\Drool><NEEyes\Narrow><NEBrows\Normal><NEGlasses>Urrrp~ Anyother successful experiment!`...Hmm? What did I learn, this time? That other vessels are delicious!|
+
+[UnitDetailsGreeting]|<NF><NEBlush><NEMouth\Normal><NEEyes\Line><NEBrows\Up><NEGlasses>Commyander, check out this spot I found! The sun's in just the right spot to warm up your belly while you take a nap!|
+[UnitDetails]|<NF><NEBlush><NEMouth\Horny><NEEyes\Line><NEBrows\Down><NEGlasses>Commyander, stroke my hair more~`That feels great!|
+
+[Quirk]|{Quirk=0}Likes to warm up by taking naps out in the open sun.|
+[Quirk]|{Quirk=1}Her favorite spot to be scratched is just behind her right ear. Her face when scratched there makes it feel incredibly wrong.|
+[Quirk]|{Quirk=2}Her dream is to win the Nobel prize someday. Being trapped in another dimension doesn't seem to have affected it.|
+[Quirk]|{Quirk=3}If she wants attention, she'll keep loudly yelling your name until you give it to her.|
+[Quirk]|{Quirk=4}Prefers to play with her food before eating it. The game is chess and she's yet to win a single match.|
+[Quirk]|{Quirk=5}She always acts aloof, but is actually much more affectionate than other Schrodingers.|

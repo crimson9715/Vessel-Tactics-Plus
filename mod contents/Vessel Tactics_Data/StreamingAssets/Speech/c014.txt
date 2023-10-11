@@ -1,0 +1,168 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}Is this... really the best use you have for me, Commander?|
+[BattleStart]|{Attack=12}{25%}<NF><NESerious><NEMouth\Serious><NEEyes\Narrow><NEBrows\Angry>Prepare thyself!|
+[BattleStart]|{Attack=12}<NF><NESerious><NEMouth\Serious><NEEyes\Narrow><NEBrows\Angry>This is the end for you!|
+[BattleStart]|{Attack=11}<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Angry>I'm not finished yet!|
+[BattleStart]|{Attack=10}{VTargetLevel=1}{EnemyTargetVoredAlly}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Angry>You think you can just digest my friends? Not on my watch.|
+[BattleStart]|{Attack=10}<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Angry>I'll finish this in a single move!|
+[BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}{HasSkill=120}<NF><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal>You want me to swallow them Commander? My stomach is getting rather tight, but sure, I'll do it for you.|
+[BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}Hey (Target), Commander says I have to keep you in my stomach for now.|
+[BattleStart]|{TypeVAttack}{TargetAlly}{25%}{SetRoute=1}<NF><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down><SRheavyGrowl><SRemptyGrowl>Dessert, just for me? How kind of you, Commander~ ♥|
+[BattleStart]|{TypeVAttack}{TargetAlly}{SetRoute=0}No hard feelings, (Target), I gotta fuel up and Commander said you're on the menu.|
+[BattleStart]|{TypeVAttack}{50%}I'll dispose of this one quickly. Ahhhhh~|
+[BattleStart]|{TypeVAttack}Let's see how well you fight from inside my stomach!|
+[BattleStart]|{TypeAttack}{TargetAlly}Sorry about this, orders are orders.|
+[BattleStart]|{TypeAttack}{50%}I won't let you hurt anyone!|
+[BattleStart]|{TypeAttack}Take this!|
+
+
+
+
+[BattleStart]|{TypeVAttack}{CriticalHungry}You'll have to do. Sorry, but this is for the Commander's sake.|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}Great job, (TargetVored), pin them down for me!|
+
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}Woah, are you okay? I've got you...|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}Got it, I'll trust you.|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Sad><NEEyes\Mix><NEBrows\Up>W-what? Commander... why?|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Attack=12}<SESwing2>(Self) leaps high into the air and blasts forward, descending towards (the)(Target) in a streak of fire!|
+[AttackDesc]|{Attack=11}<SESwing2>In a smooth motion, (Self) sweeps the teetering (Target)'s legs out from under (Pro2nd) and opens her mouth wide...|
+[AttackDesc]|{Attack=10}<SESwing2>(Self) spins on her heel and unleashes a powerful kick at (the)(Target)'s stomach...|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) steps forward with lightning speed and grabs (the)(Target)...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) delivers a devastating kick towards (the)(Target)!|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{Attack=12}<SEHits\hit01>Her divekick lands square in (Pro2nd) chest, sending sparks flying in all directions! (DamageHalf) damage!/<SEChunky Explosion><TNSpecial>As (Self) slides to a stop, a massive explosion engulfs (the)(Target) behind her! (DamageHalf) damage!|
+[AttackHitAttacker]|{Attack=11}{VTargetLevel=1}{EnemyTargetVoredAlly}<SEse_gulp1><SEeaten_by_monster2><NF><NEMouth\KO><NEEyes\Mix><NEBrows\Down>...swallowing (Pro2nd) and (TargetVored) whole as she loses balance!|
+[AttackHitAttacker]|{Attack=11}<SEse_gulp1><SEeaten_by_monster2>...swallowing (Pro2nd) whole as she loses balance!|
+[AttackHitAttacker]|{Attack=10}<SEHits\hit37>...striking (Pro2nd) full force and sending (Pro2nd) reeling! (Damage) damage!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...swallowing (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit33>Her leg slams into (Pro2nd) with an enormous crack! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+
+[AttackMissAttacker]|{Attack=0}<SESwing8>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing8>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Attack=12}.........|
+[AttackHitAttackerS]|{Attack=11}{VTargetLevel=1}{EnemyTargetVoredAlly}<SRheavyGrowl><BGGrowl>O-oops, I screwed up the timing! Sorry, (TargetVored)! Looks like I couldn't save you after all.../<NF><NEBlush><NEMouth\Open><NEEyes\KO><NEBrows\UpDown><SRheavyBurp><SRheavyGrowl><SRemptyGrowl>Urrrrrp! H-hope you're okay with becoming food for me instead. Hahaha...|
+[AttackHitAttackerS]|{Attack=11}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Angry><SRheavyGrowl><SRlightBurp><BGGrowl>Urrrp~ Another threat neutralized.|
+[AttackHitAttackerS]|{TypeVAttack}{CriticalHungry}Thanks for making this easy. I'll digest you quickly and get back in the fray.|
+[AttackHitAttackerS]|{TypeVAttack}{HasSkill=120}{TargetEnemy}<NF><NEBlush><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal>Whoops, I swallowed someone while I was keeping someone safe.../<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down><SEse_lightgrowl1><SRlightGrowl>Looks like I'll have to digest all of you, just to be safe~|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SEse_heavygrowl1><BGGrowl>Alright, nice teamwork! Sorry I couldn't save you, (TargetVored), but I'll make sure your body doesn't go to waste.|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{IsSafe}{VCount>0}<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down>*Huff* I did it, but I won't be able to swallow any more girls for you, Commander.|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{IsSafe}Don't worry, I'll keep you safe in there.|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{Route=1}<SRheavyGrowl><BGGrowl>Delicious~ ♥|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}<SRheavyGrowl><BGGrowl>Don't worry, (Target), I'll make sure your sacrifice won't go to waste~|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>Heh, comfy? Struggle all you want, you're not escaping from there.|
+[AttackHitAttackerS]|{TypeVAttack}<SRheavyGrowl><BGGrowl>Digesting a small fry like you is nothing. You should have thought twice before you attacked us.|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Mmmph...... Don't worry, Commander.... I'll take care of this enemy.....|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<SRheavyGrowl>Oops! I didn't mean to...`S-sorry, I was just trying to catch you! L... looks like I'm gonna digest you, instead, hahaha.|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}I won't let it end like this...|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}You dodged that!?|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}Heh, too slow!|
+
+[Kiss]|{TargetVored}<NF><NEBlush><NEMouth\Open><NEEyes\Normal><NEBrows\Down><SRheavyGrowl><SRheavyBurp>Urrrp! (Target), I appreciate the meal, but you didn't need to feed yourself to me, too...|
+[Kiss]|<NF><NEBlush><NEMouth\Open><NEEyes\Normal><NEBrows\Down><SRheavyGrowl><SRheavyBurp>Urrrp! Th... thanks? Are you sure it's okay for me to digest all these people?|
+
+[Betrayed]|<Nf><NeSerious><NeMouth\Serious><NeEyes\Narrow><NeBrows\Angry>H-hey, why did your digestion start!? I trusted you!|
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up><NEBlush>Thanks for the help~|
+[Nurse]|<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down>I suppose that's one way to milk a snake~|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmnnnmmph... Don't worry, Commander.....`I'll eat every last one of them.....|
+[vTickDown]|{HasSkill=120}{IsVore}{EN<1}Sorry Commander, but I'm currently feeling a bit peckish at the moment.../<SRheavyGrowl><SRemptyGrowl><GrowlBGS><SRheavyBurp><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown><SEinteract2>Surely, it wouldn't hurt your feelings if I were to fuel back up? ♥|
+[vTickDown]|{HasSkill=120}{IsVore}<NF><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal>Oh, I can digest them, Commander?/<SRheavyGrowl><SRemptyGrowl><GrowlBGS><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown>Don't worry, I won't pass up a good meal~ ♥|
+[vTickDown]|{VCount>2}{50%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4><SRheavyBurp><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown>Urrrrp! Mmmph! H-hey, stop squirming around so much in there! U-urrrp! Just give up already and let me digest you!|
+[vTickDown]|{VLevel>2}<SRheavyGrowl><SRemptyGrowl>Nnnnf... Come on, digest faster....`I'm out of commission until I get rid of you.|
+[vTickDown]|{VCount>1}{OnlyVoredEnemy}{50%}<SRheavyGrowl><SRemptyGrowl>You really thought you stood a chance against me, didn't you? You'll be nothing but protein, soon.|
+[vTickDown]|{VLevel>1}{OnlyVoredEnemy}{50%}<SRheavyGrowl><SRemptyGrowl>Regretting your decision to challenge me, now? It's a bit late for that. ♪|
+[vTickDown]|{VCount>1}{OnlyVoredAlly}{50%}<SRheavyGrowl><SRemptyGrowl>Mmph, so full... I'll have to repay another (Vored) for this later.|
+[vTickDown]|{VCount>1}{OnlyVoredEnemy}{50%}<SRheavyGrowl><SRemptyGrowl>Too weak~ You'll have to struggle a lot harder than that to get away from me.|
+[vTickDown]|{VCount>1}<SRheavyGrowl><SRemptyGrowl><SRlightBurp>Urrrp~ Not much longer, now~ ♪|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmnnmnnn.... So full...|
+[vComplete]|{VLevel>2}<SRheavyGrowl><SRemptyGrowl>Urrrrp! *Huff* Digesting so many people at once is still tough for me... I'll need more practice if I want to protect the Commander.|
+[vComplete]|{VCount>1}{OnlyVoredEnemy}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Urrrrp! Heh, giving up already? You know after I digest you, I'm gonna eat all of your friends too, right?|
+[vComplete]|{OnlyVoredAlly}<SRheavyGrowl><SRemptyGrowl>Finally... I can keep fighting, thanks to you.|
+[vComplete]|<SRheavyGrowl><SRheavyBurp>Urrrrp! This is the end of the line for you.|
+
+[vAftermath]|{HasSkill=99}<NF><NEMouth\Serious><NEEyes\Narrow><NEBrows\Up>Mmmmph....`...Huh? Where am I? Mnnfff, I feel like I just ate someone..../<NF><NEBlush><NEMouth\Sad><NEEyes\Mix><NEBrows\Up>W-wait, I'm still in combat! Did I get knocked out?`W-who did I just digest?|
+[vAftermath]|{OnlyVoredEnemy}Target eliminated. Anyone who threatens the Commander must be exterminated with extreme prejudice.|
+[vAftermath]|Alright, I'm back at full strength. Now I can really let loose.|
+
+[vLevelUp]|Onwards and upwards.|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=104}{IsSafe}<SEse_lightgrowl1><SRheavyBurp><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown>Unfff... S-Sorry Commander, but I can't move until either someone leaves, or I digest them myself...|
+[SkillActivation]|{Skill=104}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Mmmph... U-urrrp!`N-not good, I can't fight like this...`Urrrrp! I need to digest them, quickly...|
+[SkillActivation]|{Skill=-501}Urrruuup! N-no....`Sorry, everyone... I failed......|
+
+[OverBurdened]|<SRheavyGrowl><DR10heavyGrowl><DR20heavyGrowl><DR30heavyGrowl>|
+
+[Hunger]|<SRemptyGrowl>I can't fight like this.... I need to eat someone.|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up><SEse_lightgrowl1><SRlightGrowl>Getting comfy? You can take a nap in there, if you want. I've heard it's very calming for humans to be inside a vessel's stomach.|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Normal><SEse_lightgrowl1><SRlightGrowl>I seem a lot more at ease like this? Can you blame me? Even a weak monster could eat someone like you in an instant. Honestly, it'd be for your own good if I just kept you in there forever.|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<NF><NEMouth\Normal><NEEyes\Mix><NEBrows\UpDown><SEse_lightgrowl1><SRlightGrowl>...You think an enemy might just eat us both like this? Come on, give me more credit than that. Want me to get you some company in there? I can always go swallow another Theano, if you think that'll help.|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Normal><SRheavyGrowl><SRemptyGrowl>Is it really okay depleting our reserves just to feed me? These poor girls are all giving their lives for nothing. ...What's most important is seeing me happy? What'd make me happiest is you being safe, Commander, this isn't gonna help with that. ...Still, I appreciate it♪|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Down><SRheavyGrowl><SRemptyGrowl>Mmm, this is good practice. Maybe if I keep eating other vessels, I can stretch out my stomach a bit and get room for another enemy inside. What do you think, Commander, should I work that into my training regimen?|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<NF><NEMouth\Open><NEEyes\Narrow><NEBrows\Up><SRheavyGrowl><SRemptyGrowl>It looks tough to fight like this? That's right, humans can barely even carry around a single person, huh? Well, it's a bit of a handicap, but nothing I can't handle. Eating the loser is central to vessel martial arts, after all.|
+[Secretary]<RNGGen=3>|{RNG>2}<NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Normal><SEinteract>My legs? They're specially reinforced to support extra weight in case I need to swallow my charge and flee. Your life is more important than anything, so if things get hairy I'll come and eat you as fast as I can, got it?|
+[Secretary]<RNGGen=3>|{RNG=2}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up><SEinteract>Commander, you know I'll put everything I have into protecting you, but it'd really make my job easier if you learned how to defend yourself from getting eaten. Do you have a sec to practice right now? I can do a practical demonstration of some techniques for you, if you like.|
+[Secretary]<RNGGen=3>|{RNG=1}<NF><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal><SEinteract>Hmm...? What am I doing? Securing an escape route and marking any potential threats. This whole world is enemy territory, you know. Can't be too careful.|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down><SEse_lightgrowl1><SRlightGrowl>W-woah! Commander, don't wiggle around so much! We're pretty sensitive inside, you know?|
+[Special]<RNGGen=2>|{RNG=1}{Vore}{ComGen>0}<NF><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Down><SEse_lightgrowl1><SRlightGrowl>Oh...? Commander, are you really...?`...You're really enjoying yourself in there, huh?|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<NF><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Down><SEse_lightgrowl1><SRlightGrowl>Oh...? Commander, did you just...?`Well... that's fine. If it's an accident, it can't be helped, right?|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<NF><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down><SRheavyGrowl><SRemptyGrowl>Ahh~! ♥ Commander, if you do that right now, I'll...`Mmph... ♥ ...I won't be able to hold back any more...|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\UpDown><SRheavyGrowl><SRemptyGrowl>Th-they've grown a lot? Right, well all that excess body fat has to go somewhere, doesn't it? ...Commander, is that what you've been staring at?|
+[Special]<RNGGen=2>|{RNG>1}<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down><SEinteract2>H-hey, stop that! Commander, that's... not part of my job description, you know?|
+[Special]<RNGGen=2>|{RNG=1}<NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown><SEinteract2>Comm- you... Heh, you sure you want to do that?`Don't do something you can't take back, now.|
+
+[Greeting]|{Vore}<SRheavyGrowl><SRemptyGrowl>Alright, where do you want to go next, Commander? Consider me your personal chauffeur for the day.|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl>Hey, Commander. Don't worry about my stomach. Digesting this food won't get in the way of my duties.|
+[Greeting]|<SEinteract>Hey, Commander. You can take a load off, I'll watch your back today.|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down>Hey, w- ...Commander, we're back on base, now. There's no point getting inside me, now.`Well... If you want to stay in there, I guess I'm fine with it.|
+[Return]|<SEinteract>Good work out there, Commander. Take it easy, you're safe now.|
+
+[Digest]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Alright, Commander, we're gonna do some struggle drills today, you ready? Try to escape from my stomach before I digest you, okay?/<NF><NEMouth\Normal><NEEyes\Mix><NEBrows\UpDown><SRheavyGrowl><SRemptyGrowl>Hahaha, you call that struggling? I can barely even feel anything. Do you even know which way is out? An enemy would have digested you by now, you know./<NF><NEMouth\Open><NEEyes\Narrow><NEBrows\Down><SRheavyGrowl><SRemptyGrowl>Come on, Commander, you can do better than that. Fight, Commander, fight! Don't you feel my digestive acids flowing in?/<NF><NEMouth\Normal><NEEyes\Mix><NEBrows\Up><SRheavyGrowl><SRemptyGrowl>Hang in there, Commander, you... Whoops, too late. Man, what a weak performance. Even I was surprised by that. Well, whatever, guess I may as well just digest (him), now.|
+
+[DigestPost]|<NF><NEMouth\Normal><NEEyes\Mix><NEBrows\Up><SRemptyGrowl><SRlightBurp>Urrrp~ At least (his) body didn't go to waste. Looks like I won't have to run that security detail on (him) anymore, though. I should go see (Doctor) for another assignment.|
+
+[DigestReturn]|<NF><NEMouth\Open><NEEyes\Mix><NEBrows\Up>Oh, Commander, there you are. Do you have time to go over... Huh? Commander, is that sweat? Have you actually been working out?|
+
+[Swallow]|<NF><NEMouth\Smile><NEEyes\Narrow><NEBrows\Up>There~ Don't you agree this would be a better way to conduct operations from now on? I guarantee, there's no safer place for you than inside me, Commander.|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Down><SRheavyBurp>Urrrp! H-hahaha... Th-that was an entire platoon... What a seriously insane waste of good vessels... Urrrrp! Mmph... Was this really the best use you had for them, Commander?|
+[Feed]|{ToDigest=20}<NF><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Down><SRheavyBurp>Urrrp! H-hahaha... Th-that was an entire platoon... What a seriously insane waste of good vessels... Urrrrp! Mmph... Was this really the best use you had for them, Commander?|
+[Feed]|{ToDigest>3}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down>Mmph... That was crazy... They all vanished inside me in just a few seconds. You could almost get addicted to this...|
+[Feed]|{ToDigest>2}{InStomach=0}<NF><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down>Mmph... That was crazy... They all vanished inside me in just a few seconds. You could almost get addicted to this...|
+[Feed]|{InStomach=3}<NF><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Down><SRheavyBurp><SRheavyGrowl><SRemptyGrowl>Urrrrp! Commander, s-stop... No more...`I can't protect you if you keep feeding me like this. You'd better stick close until I finish digesting all this, okay?|
+[Feed]|{InStomach>1}<NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown><SRheavyGrowl><SRemptyGrowl>Mmph... C-commander, you can't just keep stuffing girls down my throat. What're we gonna do if I need to eat an enemy, now?|
+[Feed]|{InStomach>0}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal><SRheavyGrowl><SRemptyGrowl>A snack for me? Thanks, Commander, but you don't need to worry about me.`...Hmm? Sure, of course I still ate her. What kind of vessel would turn down free food?|
+[Feed]|{ToDigest>0}<NF><NEMouth\Open><NEEyes\Mix><NEBrows\Up><SRlightBurp>Urrrp~ Mmph, I guess I was hungrier than I thought. Thanks for getting me lunch, Commander.|
+
+[UnitDetailsGreeting]|Commander. Need to go over something with me?|
+[UnitDetails]|<NF><NEMouth\Normal><NEEyes\Narrow><NEBrows\UpDown>My tail? Sure, you can touch it. It's nice and smooth, isn't it?|
+
+[Quirk]|{Quirk=0}She involuntarily wags her tail every time she sees you.|
+[Quirk]|{Quirk=1}She's an almost undefeatable fighting game whiz. You haven't managed to beat her a single time.|
+[Quirk]|{Quirk=2}She tries to keep it a secret, but she's a big fan of old tokusatsu shows from earth. Sometimes you catch her doing the poses when she thinks no one is looking.|
+[Quirk]|{Quirk=3}Likes to take a load off by drinking, even though normal alcohol has no effect on vessels. You wonder if her habit comes from some old memories from Earth.|
+[Quirk]|{Quirk=4}She voluntarily patrols the base's perimeter every single day, keeping a watchful eye out for enemies.|
+[Quirk]|{Quirk=5}Is always working out and training, though it barely seems to affect her physique.|

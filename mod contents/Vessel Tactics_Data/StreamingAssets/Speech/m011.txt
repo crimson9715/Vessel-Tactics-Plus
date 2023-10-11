@@ -1,0 +1,140 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Skill=0}N-n-no, wait!!!|
+[BattleStart]|{Attack=1143}Don't think you're getting away from me!|
+[BattleStart]|{TypeVAttack}{CriticalHungry}<SRemptyGrowl>Urgh, I'm starving... Hey, you! Let me eat you!|
+[BattleStart]|{TypeVAttack}{TargetAlly}{50%}*Slurp!* You're real tasty looking.... Let me eat you!|
+[BattleStart]|{TypeVAttack}{TargetAlly}Hey, wimp! Stop being useless and get into my stomach!|
+[BattleStart]|{TypeVAttack}{50%}Geheheheh, time to melt inside my guts, weakling!|
+[BattleStart]|{TypeVAttack}*Slurp!* You lose, idiot! Now become my prey!|
+[BattleStart]|{TypeAttack}{50%}You're dead meat!|
+[BattleStart]|{TypeAttack}Grrraaah!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}Oh? You're coming at me? Bring it on, I'll swallow you whole! Ahhhhh....|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}Hey, I didn't agree to any of this! I'd rather stay here on the battlefield!/<NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>O-Oh? You're doing this because you're worried about me? I suppose it's f-fine then...|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>H-huh? What are you doing!?|
+
+
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NELaugh><NEMouth\Teeth><NEEyes\Narrow><NEBrows\Sad>Heh, I ought to turn you into my own personal belly-rubbing slave!/<NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>...W-What do you mean by that you're "into that kind of play"?!|
+[Nurse]|<NF><NELaugh><NEMouth\Teeth><NEEyes\Narrow><NEBrows\Sad>That's right, you're giving it to someone who deserves it!/<NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Up>H-huh? What do you mean that you want to "cuddle" with me?|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) leaps towards (the)(Target) arms outstretched...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) leaps at (Target) to deliver a powerful chomp with her serrated teeth!|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) slashes at (the)(Target) with her razor-sharp nails!|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{TypeVAttack}{cCap>0}{hCap<4}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole! Her new meal pushes (theVored)(Vored) deeper inside as it slides into her stomach!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit15>She tears into (Pro2nd) flesh! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{TypeVAttack}<SESwing8>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing8>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}Th... That wasn't fair! Spit me out, and lets have a real fight!|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>Gahahaha, you're just meat, now~ ♫|
+[AttackHitAttackerS]|{TypeVAttack}<SRheavyGrowl><BGGrowl>Gahaha, that's right! Squirm, weakling! I love it when you wimps wriggle around inside my guts!|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Mmmph... That's right, plebs...... Pay tribute to your ruler.....|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<SRheavyGrowl>H-huh? Sh-she leapt right into my mouth... Why would she.../<NF><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad><SRheavyGrowl>D... Don't think you can get on my good side just by feeding yourself to me, idiot! I'm still going to digest you!|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}Grrrrrr! Th... This isn't over yet! I'll making you regret eating me!|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeAttack}{Attack=1143}H-hey! You weren't supposed to move!|
+[AttackMissAttackerS]|{TypeVAttack}{50%}H-hey! Don't dodge, idiot!|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}<NF><NELaugh><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Gahahaha! Weak! You're too weak!|
+
+[Kiss]|<NF><NEBlush><NEMouth\Shy><NEEyes\Shy><NEBrows\Sad>Nnnnff~ W-w-what's the big idea!? Y-you can't just do something like that out of nowhere, idiot!|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmmph...... Delicious......|
+[vTickDown]|{VLevel>4}{50%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4><SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Narrow><NEBrows\Down>Urrrrp! D-do you worst, idiots, I-I- Urrrrrp! I can take it! I- Urrrrp! I-I'm gonna turn you all into mulch!|
+[vTickDown]|{VLevel>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Narrow><NEBrows\Down>Urrrrrp! D-digesting this much food is nothing for me! I-I digest this many people for breakfast, every day! Urrrrrp!|
+[vTickDown]|{hCap>0}{50%}<SEse_heavygrowl2><SD20se_heavygrowl1><SD25se_emptygrowl3>Now that you're in my tail I can ¡crush¡ you like this! Ora! Take that! Gahaha, struggle as much as you want, it's no use!|
+[vTickDown]|{hCap>0}<SRheavyGrowl><SRemptyGrowl>Geheheh, I love the feeling of fresh prey squirming around in my tail~! ♥|
+[vTickDown]|{50%}<SRheavyGrowl><SRemptyGrowl>*Slurp!* Not much longer now, weakling! You should be happy, your worthless body is gonna become food for a great and mighty predator!|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl>Gahahaha! Struggle while you can, fool! You'll be nothin' but belly fat, soon!|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmnnn.... I must have eaten the entire tribe........|
+[vComplete]|{VLevel>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Wink><NEBrows\Sad>Urrrrp! F-finally, that was close.../<SRheavyGrowl><SRemptyGrowl><SRheavyBurp>W-wait, I misspoke! I-I wasn't struggling to digest you or anything! Urrrrrrp! H-hey, you hear me!? I-it wasn't what it sounded like!|
+[vComplete]|{VCount>1}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Urrrrrrp! Gahahaha, useless! Useless! You guys are totally useless! How'd you even survive this long, huh!? You should be honored I'm even deigning to digest you!|
+[vComplete]|<SRheavyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Urrrrp! Gahaha, what a wimp! Is that seriously the best you could do? At least try to make some nice padding for my tits, trash~! ♫|
+
+[vAftermath]|{HasSkill=99}<NF><NEMouth\Shy><NEEyes\Narrow><NEBrows\Up>Mmmmph... Morning already...? And I was having such a nice dream, too.../<NF><NEBlush><NEMouth\Sad><NEEyes\Normal><NEBrows\Sad>H-huh!? Th-that's right, I'm in the middle of a battle! W-wait, how many people did I just digest!?|
+[vAftermath]|<NF><NEBlush><NELaugh><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>*Slurp!* Mmnnnff, I feel great! They may have been worthless, but they sure tasted good~ ♥|
+
+[vLevelUp]|Gahaha, I'm the strongest ever! Everyone, line up and wait your turn, you're all just meat for me to feast on!|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>A-ah, m-my tail's cramping...!|
+[SkillActivation]|{Skill=128}<SRheavyGrowl><SRemptyGrowl>Uurrrgh.... S-stop tugging my tail all over the place! I-I can't move if you do that!|
+[SkillActivation]|{Skill=-501}Aaggh... Urrruuup!`N-no way... I... lost...?|
+
+[Hunger]|<SRemptyGrowl>Urgh, I'm hungry enough to eat a giant... Aren't there any snacks around here...?|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NELaugh><NEMouth\Teeth><NEEyes\Narrow><NEBrows\Sad>You're getting too comfy in there, Meat! Take this! Crushing press! I'll keep tightening my abs until I squeeze the life out of you!|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>You better be honored, Meat! This is a special service reserved only for my most loyal servants! You get a preview of your future resting place, up close and personal! Gahahaha!|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Up>How many girls have I digested before? Lots and lots! One... two... three... at least ten! ...Eh!? What do you mean numbers go higher than that!? That's all the fingers I have!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELaugh><NEMouth\Teeth><NEEyes\Normal><NEBrows\Normal>Take this, Meat! Belly strike! I'll pin you down with your own vessel! ...Gahaha, what's the matter, can't move? You're so pathetic! Lifting all this meat is nothing for me! Ora! Ora! Feel my wrath!|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NELaugh><NEMouth\Normal><NEEyes\Narrow><NEBrows\Sad>Geheheh, just listen to your precious vessels gurgle away inside me! Even your mightiest warrior is no match for me!|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>These girls are all too small and weak! They can't match the thrill of slurping down a rival lamia and having her wriggle around in your guts, desperately trying to get free before she becomes your next meal!|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEMouth\Teeth><NEEyes\Normal><NEBrows\Up>In my tribe, everyone has to do whatever the strongest one says! If you don't, she'll gobble you up! One day, I'm gonna swallow her whole, and then I'll get to make the rules! Help me train to beat her, Meat!|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NELaugh><NEMouth\Teeth><NEEyes\Narrow><NEBrows\Sad>Grawrr! Gahaha, you flinched! What a wimp! A weak little peon like you would be dead in two seconds where I come from. Don't worry, though, I'd protect you! I never share my food with anyone, after all!|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Be honored that I, in my infinite mercy, have decided not to eat you yet, Meat! I've heard that humans are high in protein, so I'm going to keep you around as emergency rations, instead! Gahahaha!|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}{ComGen>0}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Orra! Take that! And that! How do you like being shaken around, Meat? You feeling dizzy, ye- Eh? Why moaning like that? Y-you aren't doing anything weird in there, are you!?|
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Orra! Take that! And that! How do you like being shaken around, Meat? You feeling dizzy, ye- Eh? Salty...? W-why did something weird just come out of you!?|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NELaugh><NEMouth\Normal><NEEyes\Narrow><NEBrows\Sad>Squirm around as much as you want, you're not leaving my stomach until I say so! ...And how I say so, too, geheheheh!|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Shy><NEBrows\Sad>S-stop! Th... those are off-limits right now! If you want to rub something th... then rub my belly, instead!|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Normal>Digesting lots of rivals makes your boobs get bigger, so the strongest lamia is the one with the biggest boobs! It's perfect logic! ...But my boobs are tiny?`H-hey! They're just hiding their true potential, okay!?|
+[Special]<RNGGen=2>|{RNG=1}{Weight>2}<SEinteract2><NF><NELaugh><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Gahaha, impressed, Meat? Big boobs are a warrior's pride! I had to churn up lots and lots of your little vessels to get these... maybe I'll add you to them, next!/<NF><NEBlush><NEMouth\Angry><NEEyes\Wink><NEBrows\Sad>Gahaha- Eh? Nnnnf! ♥ W-wait, stop! ♥ D-don't tease them like that!!! ♥|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEBlush><NEMouth\Shy><NEEyes\Shy><NEBrows\Sad>⦅(He)'s just a weak little human, so why... W-why does a little wimp like Meat touching me make my heart beat so fast? Th... This is worse than any fight!!!⦆|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad>Mmnnn... ♥ Hey! D-d-don't do that, you weirdo! It... It feels weird when you touch me like that...|
+
+[Greeting]|{Vore}<SRheavyGrowl><SRemptyGrowl>Gahaha, everyone has been staring at me while I slither around, today! They must be admiring how strong I am!|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl>Who should I eat next, Meat? Just point them out and I'll swallow them whole!|
+[Greeting]|<SEinteract>There you are, Meat! How dare you make me wait for you!|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl>Glllllrrrrp! Gahaha, welcome back to your rightful place inside my guts, Meat! You were gone too long this time, so I think I'm gonna punish you a little! Say bye bye!/<SEse_lightgrowl1><SRlightGrowl><NF><NELaugh><NEMouth\Teeth><NEEyes\Narrow><NEBrows\Sad>...Just kidding, iiiidiot! Be glad I just ate, 'cause otherwise your fate would totally be sealed right now!|
+[Return]|<SEinteract>There you are, Meat! How dare you go off and leave me here by myself, you- Eh? You were just subjugating more territory for me? Gahaha, good, good! You've delayed your final rest by one more day!|
+
+[Digest]|<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>*Slurp!* I'm feeling hungry, so it's time to do your duty as my most trusted servant and feed me, Meat!/<SRheavyGrowl><SRemptyGrowl><NF><NELaugh><NEMouth\Teeth><NEEyes\Narrow><NEBrows\Normal>Geheheh! Why are you struggling? Becoming food for a great warrior like me is the greatest honor a little weakling like you could ask for!/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Down>You should be happy I'm even bothering to digest you! If anything, eating a wimp like you is only going to make me wea... Huh? W-what are you doing!?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Shy><NEBrows\Sad>W-why are you suddenly doing weird stuff!? Hey! W-why does it sound like you're feeling so good!? I-I'm digesting you right now, stop that!|
+
+[DigestPost]|<SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Narrow><NEBrows\Sad>*Huff* *Huff* Urrrrrp! I-idiot! Weirdo! Normal people don't react to getting digested like that! Why'd you have to go and make it weird!? I... I was too distracted to even enjoy digesting you!|
+
+[DigestReturn]|<NF><NEBlush><NEMouth\Angry><NEEyes\Wink><NEBrows\Normal>Oh, you're finally up, Meat! You sleep too long! I've already been up for... H-hey! Don't pat my head! You're messing up my hair!|
+
+[Swallow]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Gahahaha, you fool! What kind of idiot just asks to get eaten? There's nothing stopping me from digesting you, now!/<NF><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>D-do it, then...? Dumbass! I can digest you whenever I want! I'm not even hungry right now! You're just food, so shut up!|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Burp><NEEyes\Narrow><NEBrows\Sad>Urrrp! Mmmph... Th-that was barely enough to pique my appetite! I- Urrrp! I've got room for plenty more!|
+[Feed]|{ToDigest=20}<SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Narrow><NEBrows\Sad>Urrrp! Mmmph... Th-that was barely enough to pique my appetite! I- Urrrp! I've got room for plenty more!|
+[Feed]|{ToDigest>4}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NELaugh><NEMouth\Teeth><NEEyes\Normal><NEBrows\Normal>Geheheh, you call this a meal? Back at my old tribe, I ate this many girls before breakfast every morning! This isn't nearly enough to fill me up!|
+[Feed]|{ToDigest>3}{InStomach=0}<NF><NEBlush><NELaugh><NEMouth\Teeth><NEEyes\Normal><NEBrows\Normal>Geheheh, you call that a meal? Back at my old tribe, I ate that many girls before breakfast every morning! That isn't nearly enough to fill me up!|
+[Feed]|{InStomach=6}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Burp><NEEyes\Wink><NEBrows\Sad>Urrrp! I-I... Urrrrrp! I-I'm not done yet! I- Urrrrrp! I-I can eat twice this many people, no problem!|
+[Feed]|{InStomach>1}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Bring them all on! I'll devour as many as you can throw at me, Meat!|
+[Feed]|{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NELaugh><NEMouth\Teeth><NEEyes\Normal><NEBrows\Normal>Gahaha, finally a fool who knows her place on the food chain! Everyone should be honored to become my food!|
+[Feed]|{ToDigest>1}<SRlightBurp><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Urrrp~ All those girls gave their lives to become my food so easily... Finally, I'm getting the respect I deserve! Everyone should just bow down and let me eat them!|
+[Feed]|{ToDigest=1}<SRlightBurp><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Sad>Urrrp~ That girl gave her life to become my food so easily... Finally, I'm getting the respect I deserve! Everyone should just bow down and let me eat them!|
+
+[UnitDetailsGreeting]|There you are, Meat! Perfect timing! I was just starting to feel hungry!|
+[UnitDetails]|<NF><NEMouth\Teeth><NEEyes\Normal><NEBrows\Up>Admiring my finely toned body, Meat? Look all you want!|
+
+[Quirk]|{Quirk=0}Likes to warm up by taking naps out in the open sun.|
+[Quirk]|{Quirk=1}Her favorite spot to be scratched is just behind her right ear. Her face when scratched there makes it feel incredibly wrong.|
+[Quirk]|{Quirk=2}Her dream is to win the Nobel prize someday. Being trapped in another dimension doesn't seem to have affected it.|
+[Quirk]|{Quirk=3}If she wants attention, she'll keep loudly yelling your name until you give it to her.|
+[Quirk]|{Quirk=4}Prefers to play with her food before eating it. The game is chess and she's yet to win a single match.|
+[Quirk]|{Quirk=5}She always acts aloof, but is actually much more affectionate than other Schrodingers.|

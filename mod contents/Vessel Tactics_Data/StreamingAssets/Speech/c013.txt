@@ -1,0 +1,149 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}{TargetAlly}{VCount=1}<NF><NEBlush><NEMouth\Normal><NEEyes\Shock><NEBrows\Sad>N-no...! Commander, did you just feed me so you could...? I-idiot!|
+[BattleStart]|{Attack=-1001}{TargetAlly}Grrrr.... Yeah, yeah, I get it! Don't worry, Commander, I'm Brunch Squad, I used to it. I just though you might be better than the others...|
+[BattleStart]|{Attack=-1001}<NF><NEBlush><NEMouth\Talk><NEEyes\Shock><NEBrows\Sad>Huh!? Commander, why!? Sh-she's an enemy!|
+[BattleStart]|{Attack=1144}{50%}<NF><NEMoreBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>What, I can't digest (Vored)? I'll remember this later, Commander!|
+[BattleStart]|{Attack=1144}<NF><NEMoreBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Y-You want me to kiss her, Commander?! I'll do it, but know that I'm not enjoying this!|
+[BattleStart]|{Skill=0}Oops... O-oh no!|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}Don't worry, (TargetVored), I'll avenge you! I'll make your predator my lunch!|
+[BattleStart]|{TypeVAttack}{TargetAlly}{VTargetLevel=1}<NF><NEBlush><NEMouth\Hungry><NEEyes\Normal><NEBrows\Sad>...Eh? C-commander, I can really eat both of them? *Slurp!* N-no strings attached?|
+[BattleStart]|{TypeVAttack}{TargetAlly}<NF><NEBlush><NEMouth\Cocky><NEEyes\Normal><NEBrows\Happy>Hmm? You're actually going to let me eat (Target)? Did you finally recognize my greatness, Commander?|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}<NF><NEBlush><NEMouth\Normal><NEEyes\Wink><NEBrows\Normal>Commander, the enemy is vulnerable! Let me finish her off for you!|
+[BattleStart]|{TypeVAttack}{50%}Hmph! I... I'll prove to you all how strong of a predator I am!|
+[BattleStart]|{TypeVAttack}Watch me, Commander! I'll gulp her down in a single shot!|
+[BattleStart]|{TypeAttack}{50%}Take this!|
+[BattleStart]|{TypeAttack}{50%}Give up!|
+[BattleStart]|{TypeAttack}Concussing the enemy!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}<NF><NEBlush><NEMouth\Cocky><NEEyes\Normal><NEBrows\Sad>Hmm? Oh- Don't worry, I've got you~♫|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>This... isn't a trap, is it? I-I hear any stomach rumbling, and I'm coming right back out!|
+[Targeted]|{TypeVAttack}{TargetAlly}{VCount>0}<NF><NEBlush><NEMouth\Normal><NEEyes\Shock><NEBrows\Sad>...Eh? C-commander!? Didn't I prove how good of a predator I am? What do you mean, let her eat you!? I... I can't believe you! Idiot!|
+[Targeted]|{TypeVAttack}{TargetAlly}{50%}<NF><NEBlush><NEMouth\Talk><NEEyes\Narrow><NEBrows\Normal>C-commander, you stupid little... Ugh, fine, just get it over with.|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Attack=8}<SERapidGun>(Self) fires point-blank at (the)(Target)!|
+[AttackDesc]|{Attack=7}<SERapidGun>(Self) fires several shots from her pistol at (the)(Target)!|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{TypeVAttack}{Attack=1144}<SESwing2>(Self) approaches (Target), reaching for her lips...|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) grapples (the)(Target) and opens her mouth wide...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) swings the butt of her pistol at (the)(Target)!|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{Attack=8}<SEDoubleHit>The bullets pound into (Pro2nd)! (Damage) damage!|
+[AttackHitAttacker]|{Attack=7}<SEDoubleHit>The bullets pound into (Pro2nd)! (Damage) damage!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit10>Her weapon slams into (the)(Target)! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{TypeVAttack}<SESwing1>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing1>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}<NF><NEBlush><NEMouth\Angry><NEEyes\Shock><NEBrows\Sad>Wh... Huh!? N-no way! Th-that was just an accident! This can't be how it ends!|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SRheavyBurp><SRheavyGrowl><BGGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>I- Urrrrp! I-I did it! ...Err- Whoops, I-I guess I'm going to digest you now, too, (TargetVored). A-at least you've got a nice resting place inside my guts, now!|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{VTargetLevel=1}<SRheavyGrowl><BGGrowl><NF><NEMoreBlush><NEMouth\Cocky><NEEyes\ClosedUp><NEBrows\Sad>Ahahaha, the way both of you are squirming around in there feels so good! Sorry, I guess the commander just likes me more than you!|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}<SRheavyBurp><SRheavyGrowl><BGGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>I... Urrrrrp! I-I've secured the enemy! Please... Urrrrp! P-please cover me while I digest them! Ah, th-this is bad...|
+[AttackHitAttackerS]|{TypeVAttack}{TargetEnemy}{50%}<SRheavyGrowl><BGGrowl><NF><NEMoreBlush><NEMouth\Happy><NEEyes\Wink><NEBrows\Happy>Mmm... Th-that was tooo easy. Y-you're just meat now, so- Mmmph! -s-stop struggling and let me digest you.|
+[AttackHitAttackerS]|{TypeVAttack}{TargetEnemy}{50%}<SRheavyGrowl><BGGrowl><NF><NEMoreBlush><NEMouth\Cocky><NEEyes\Narrow><NEBrows\Sad>Mmmph! Hahahaha, did you see that!? I- Mmph... I-I ate her like it was nothing! Aren't you impressed?|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl><NF><NEMouth\Talk><NEEyes\Closed><NEBrows\Sad>Corn, no... N-no more cake, please... That's too much...|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<NF><NEMoreBlush><NEMouth\Cocky><NEEyes\Narrow><NEBrows\Sad><SRheavyGrowl>Whooops~! Looks like I accidentally swallowed you, instead. Hmm, I guess I have no choice but to digest you now. Hahaha~|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}{50%}<NF><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>D-damnit! I survived pretty long this time, too...|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>H-hey, don't dodge!|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}<NF><NEMouth\Cocky><NEEyes\Normal><NEBrows\Sad>Heh. What were you even aiming at?|
+
+[Kiss]|<SRheavyGrowl><SRheavyBurp>Th-that was...! I-It's not like I did that on purpose or anything, idiot! O-our lips just happened to meet! Th... Thanks for the food...|
+
+[Betrayed]|{VTargetLevel>1}<Nf><NeBlush><NeMouth\Talk><NeEyes\Shock><NeBrows\Sad>W-wait, you idiot! You're digesting us! Let us out!|
+[Betrayed]|<Nf><NeBlush><NeMouth\Talk><NeEyes\Shock><NeBrows\Sad>W-wait, you idiot! You're digesting me! Let me out!|
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Happy><NEBlush>Heh, Commander must like me after all.../<NF><NEMoreBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>...You weren't listening, right Commander?|
+[Nurse]|<NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Happy>Maybe this milk will help me grow big and strong, just like the others.../<NF><NEMoreBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>Y-you heard nothing, right Commander?|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>T... Too much... I-I'm gonna burst...|
+[vTickDown]|{VLevel>2}{50%}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Sad>Urrrp! Ah... I-I can't give up now... J-just a little bit longer, and I can start digesting them... Urrrrp!|
+[vTickDown]|{VLevel>1}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Urrrrp! Mmph... Ah! Urrrrp! S... Stop it! I-I need to digest you so I can prove myself to the Commander!|
+[vTickDown]|{50%}<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Normal>Grrr... G-give up already! Y-you're just food now!|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Happy><NEEyes\Wink><NEBrows\Sad>H-hah! S-struggle all you want, I'm not letting you out of there!|
+[vTickDown]
+
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Closed><NEBrows\Sad>Corn... I can't believe you really.... Fed yourself to me, too.....|
+[vComplete]|{VLevel>1}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Urrrp! Ahh, I think it's finally starting to calm down in there... G-god, there's so much meat inide me... H-how am I supposed to digest all this?|
+[vComplete]|<SRheavyGrowl><SRheavyBurp><NF><NEMoreBlush><NEMouth\Angry><NEEyes\Wink><NEBrows\Normal>Mmph, she stopped moving... F-finally! Now to put her body to good use...|
+
+[vAftermath]|{HasSkill=99}<NF><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Happy>Mmmph, that stupid brat... I can't believe she fed herself to me while I was asleep again.../<NF><NEMoreBlush><NEMouth\Talk><NEEyes\Shock><NEBrows\Sad>...Eh!? Wait, where am I!? W-who did I just digest!?|
+[vAftermath]|<NF><NEMoreBlush><NEMouth\Cocky><NEEyes\Narrow><NEBrows\Sad>H-hahaha, I did it! I-I mean, no wait, of course I did! Pretty good, huh, Commander?|
+
+[vLevelUp]|Hahaha, it's only natural! This is just a step on my journey to the top of the food chain! ♪|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>O-oops...|
+[SkillActivation]|{Skill=104}<SRheavyGrowl><SRemptyGrowl>*Huff* Mmmph... N-not fair... How can the other vessels carry around this much so easily...|
+[SkillActivation]|{Skill=-501}{VCount>0}No... Urrruuup!`Th-that's it for me, Commander... Please tell Corn that I... Mmph...|
+[SkillActivation]|{Skill=-501}Th-that's it for me, Commander... Please tell Corn that I... Mmph...|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+[Hunger]|<SRemptyGrowl>I-I'm starving.... Isn't there anyone I can eat nearby?|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Happy>Well? Are you enjoying yourself in there? I bet it's pretty nice inside me, right, Commander?|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Happy><NEEyes\Narrow><NEBrows\Sad>Mmmph... Heeheehee... So cute... (He)'s resting so peacefully inside me, just like a little baby.../<SCClick><SEse_lightgrowl1><SRlightGrowl><NF><NEMoreBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Huh? Why are you laughing? H-hey, you didn't hear any of that, did you!? I-I wasn't talking about you, you know! Idiot!|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Sad>It feels weird having a human inside me... My stomach wants to digest you so badly, but it can't... Err- N-not that I would if I could or anything!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Closed><NEBrows\Normal>Don't bother me right now, Commander, I'm trying to concentrate! Mrgrgr... Q-quiet down in there and let me digest you already...|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Cocky><NEEyes\Wink><NEBrows\Sad>Mmph... H-hey, after I get finished with all this, you'll feed me some more girls, right, Commander? Pleeaaase~ I already feel like I'm getting stronger!|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRlightBurp><SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Urrrrp~ *Slurp* S-sorry Commander, I- Urrrrp~ I-I'm just having a little bit of trouble digesting all this meat... Er- I-It's not like this is too much for me or anything, though! I can eat way more than this!|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEBlush><NEMouth\Cocky><NEEyes\Normal><NEBrows\Happy>Oh, you like my outfit? You have a good eye, it's my own custom design! I based it on military fashion and made sure it would let me eat and digest people without any discomfort. Pretty clever, huh?|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Happy>The others? Ah- Patti is so strong and smart! She's exactly what you'd want in a leader!/<SCClick><NF><NEBlush><NEMouth\Talk><NEEyes\Wink><NEBrows\Sad>On the other hand, Corn is... *Sigh* I think you could triple our squad's survival rate if you took her out of it. Seriously, I wish she would take better care of...`Uh- N-nevermind!|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Don't underestimate me just because I'm part of the Brunch Squad, Commander. I... I might not be as strong as other vessels, but that's just because I haven't reached my full potential yet!|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMoreBlush><NEMouth\Shy><NEEyes\Wink><NEBrows\Sad>Ah- Commander, p-please don't wiggle around so much! It's not as easy as it looks carrying a full-grown person inside you.|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMoreBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>C-commander, did you really just...? Ugh, I can't believe you! D-die, pervert! I'd digest you right now if I could!|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Shy><NEEyes\Shock><NEBrows\Sad>Mnnnnn~ ♥ Ah- P-pervert! Y-you didn't hear anything just now! S-surprise attacks like that are cheating!|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Talk><NEEyes\Narrow><NEBrows\Normal>You wanna take a look at how my clothes work?`Sure you- ...Wait. Y-you aren't thinking of doing something l-lewd again, are you?|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEMoreBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Normal>Commander... Don't forget that this is a real gun. It might not do much to us, but it'll be plent-y effective against you.|
+[Special]<RNGGen=2>|{RNG=1}{Weight>3}<SEinteract2><NF><NEMoreBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>They've grown a lot...? Ah- Hey, stop ogling them, pervert! I-it's not like I can help it if they get this big! ...Huh? W-wait, is THIS why you've been feeding me people? C-creep!|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NEMoreBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>H-h-hey! W-what do you think you're doing!? C-creep! Pervert!|
+
+[Greeting]|{Vore}<SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Normal>H-hey, how much longer are you gonna stay in there? I'm not your personal taxi service, you know! It's exhausting carrying you around!|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Angry><NEEyes\Wink><NEBrows\Sad>Nnnnf... D-don't wiggle around so much in there! Geez... Commander, wait for me!|
+[Greeting]|<SEinteract>There you are, Commander! I've been looking all over the place for you! You've been slacking off again, haven't you?|
+
+[Return]|{Vore}<SEeaten_by_monster2><SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>*Glllllrrrrp!* Mmmph... ♥ A-at least warn me before you leap down my throat like that, stupid! Geez... I-I'm happy to see you too...|
+[Return]|<SEinteract><NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Happy>Welcome back, Commander. I'm glad you're sa... I-I mean, I'm glad the mission went well!|
+
+[Digest]|<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Mmmph... Urrrrp! O-oh no, I'm going... Urrrrp! I-I'm going to digest (him)! I-I have to get (him) out, quick!/<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Sad>Hufff...! Unnffff....! I-it's no good! I-I can't spit (him) back out! Mrrrmmff... Ah- I-I can feel the fluid rising inside my stomach!/<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Angry><NEEyes\Normal><NEBrows\Sad>O-oh no, I-I'd better get some help... Oh, the Doctor! She'll know what to do! H-hang in there just a little bit longer, Commander, I'll save you! I-|
+
+[DigestPost]|<SRheavyBurp><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Urrrrrp! O-oops! Ah, no...`I guess humans don't last that long inside a vessel's stomach.../<NF><NEMoreBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad>Geez... Th-this is your fault, Commander! I told you something like this was gonna happen... Mmph...`H-how am I gonna explain this to the others...?|
+
+[DigestReturn]|Commander! Commaaandeerrr! ...Sheesh, finally awake, huh? You know how late it is?/<NF><NEMoreBlush><NEMouth\Shy><NEEyes\Normal><NEBrows\Sad>Huh? ...I'm a good girl? W-what was that for? All I did was wake you up...|
+
+[Swallow]|<NF><NEBlush><NEMouth\Shy><NEEyes\Wink><NEBrows\Sad>Y-you idiot, I can't believe you actually asked me to do this... W-what if my stomach messes up somehow and starts digesting you, huh!? Are you gonna take responsibility for that?|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Happy>Ahh... Urrrrrp! S-so much meat... I think I must have died and gone to heaven... ♥|
+[Feed]|{ToDigest=20}<SRheavyBurp><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\ClosedUp><NEBrows\Happy>Ahh... Urrrrrp! S-so much meat... I think I must have died and gone to heaven... ♥|
+[Feed]|{InStomach=2}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Urrrp! Ah- Whoops! S-s-stop moving so much in there! Y-you're throwing me off-balance!|
+[Feed]|{InStomach>0}{FoodClass=10}<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Angry><NEEyes\Wink><NEBrows\Sad>Aww, I thought you were gonna feed me someone special. It's just Corn again? I get to eat her all the time...|
+[Feed]|{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEMoreBlush><NEMouth\Cocky><NEEyes\Wink><NEBrows\Happy>Heeheehee~ It's nice to be on ¡this¿ side of the stomach, for once.|
+[Feed]|{ToDigest>0}<SRlightBurp><NF><NEMoreBlush><NEMouth\Hungry><NEEyes\Narrow><NEBrows\Sad>Urrrrp~ I... I'm ready for more, Commander! W-who do you want me to eat next?|
+
+[UnitDetailsGreeting]|Ah- C-commander, don't just barge in without knocking! What do you want?|
+[UnitDetails]|<NF><NEBlush><NEMouth\Happy><NEEyes\Normal><NEBrows\Happy>While you're here, do you have time to go over some reports from the last battle? I think I've come up with a new strategy!|
+
+
+[Quirk]|{Quirk=0}She's recently gotten addicted to a new shoujo manga.|
+[Quirk]|{Quirk=1}Dreams of the day her own prince charming will take her away.|
+[Quirk]|{Quirk=2}Secretly interested in finding out what it feels like to be digested.|
+[Quirk]|{Quirk=3}Gets unusually flustered whenever Cornucopia is around.|
+[Quirk]|{Quirk=4}A bit of a gun nut. She won't admit it, but she's happy she was born in the Frontier.|
+[Quirk]|{Quirk=5}Is proud of her appearance, despite looking identical to all other Sampos.|

@@ -1,0 +1,161 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}Commander.... Is this really necessary?|
+[BattleStart]|{Attack=21}{25%}{SetRoute=1}<NF><NEBlush><NEMouth\Horny><NEEyes\Open><NEBrows\Up>Y-you really mean it, Commander!? I get to just digest them, no strings attached!? Ah, you know how to make a girl happy~ ♥/<NF><NEBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Up>Y'hear that, (Target)? *Slurp!* No struggling, now~ ♥ It's very important for the Commander's strategy that I digest you, ya know! ♥|
+[BattleStart]|{Attack=21}{SetRoute=0}<NF><NESmallBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Normal>Forgive me, (Target), for in order to continue to execute the Lord's will, I require sustenance, and the Commander has judged you the most fitting sacrifice.|
+[BattleStart]|{Attack=20}Take heart, O' valiant warrior... with the Lord's blessing, your weary body shall be granted vigor anew. Do not fear, come closer and allow me to consume you.|
+[BattleStart]|{Attack=141}Lord, restore the vigor of these valiant warriors.|
+[BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}Have no fear, (Target), for my holy sanctuary will provide you with safe asylum; a place to recover from you trials and tribulations.|
+[BattleStart]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<NF><NEBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Happy>Heeheehee, I get to eat (the)(Target) and (TargetVored) at the same time? Lucky!/<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Up>*Cough* I-I mean, unhand her you... sinner!|
+[BattleStart]|{TypeVAttack}{TargetAlly}<NF><NEBlush><NEMouth\Horny><NEEyes\Normal><NEBrows\Sad>Don't be afraid, (Target), I won't digest you~ ♫ It's safe inside me, I promise!|
+[BattleStart]|{TypeVAttack}{50%}Repent ye sinner for judgement is upon thee. Let thine sins be washed away by mine stomach's baptismal waters; let thine mortal flesh become one with mine.|
+[BattleStart]|{TypeVAttack}Thine life was forfeit as soon as thee chose the path of sin. Fear not, for I will carry thine... er, carry thee to the afterlife within my belly.|
+[BattleStart]|{TypeAttack}{50%}Lord, strike down this foe.|
+[BattleStart]|{TypeAttack}Your vile existence must end here.|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{Skill=0}W-woah, this is my chance!|
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEMouth\Serious><NEEyes\Normal><NEBrows\Sad>O-of course I trust you... I-it'd be hypocritical of me not to...|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Serious><NEEyes\Normal><NEBrows\Sad>Commander... did I not serve you well? Mmnnn, if only our roles were reversed...|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|v
+[AttackDesc]|{Attack=22}<SESwing2>(Self) sweeps her arms out wide, emitting an intense beam a light from her body towards (the)(Target)...|
+[AttackDesc]|{Attack=21}<SESwing2>(Self) sweeps (the)(Target) up into in her arms...|
+[AttackDesc]|{Attack=20}<SESwing2>(Self) wraps (the)(Target) in her arms, pulling her head in close to her bosom...|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) opens her arms wide, as if to give (the)(Target) a warm embrace...|
+[AttackDesc]|{TypeAttack}<SESwing2i>(Self) emits a blast of light from her palms towards (the)(Target)...|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{Attack=22}<SEHit>The beams burn (Pro2nd) flesh! (Damage) damage!|
+[AttackHitAttacker]|{Attack=21}<SEse_gulp1><SEeaten_by_monster2>...and gobbles her up in an instant!|
+[AttackHitAttacker]|{Attack=20}<SEse_gulp1><SEeaten_by_monster2>...and in the next moment, opens her mouth wide and swallows her whole!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...then wraps them around (Pro2nd) and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHit>The beams burn (Pro2nd) flesh! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat as (Target) greedily gulps her down!|
+
+[AttackMissAttacker]|{Attack=0}<SESwing1>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing1>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Attack=21}
+[AttackHitAttackerS]|{Attack=20}Lord, please grant me your favor. Let my belly fill with your holy water and the body of the one within be mended.|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}{IsSafe}Now close your eyes and rest, knowing no harm will befall you while you are inside me. When you reawaken, you will have been restored in both mind and body.|
+[AttackHitAttackerS]|{TypeVAttack}{HasSkill=140}{TargetEnemy}<NF><NEBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Low>Oh no~ My inner sanctum has been breached by a heretic~ ♥`Whatever shall I do~?/<NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Sad><SRheavyGrowl><SRemptyGrowl><SRheavyBurp><BGGrowl>Urrrrp! Looks like I'll just have to digest everyone inside, just to be safe! Geheheheh~ ♥|
+[AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SEse_heavygrowl1><BGGrowl><NF><NESmallBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Low>Geheheh~ *Slurp!* Mmmm, too bad, (TargetVored)~ I tried to get them to let you go, but it was no use! Now I'm gonna have to digest you both!|
+[AttackHitAttackerS]|{TypeVAttack}{TargetAlly}<NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Low><SRheavyBurp>Urrrrp! Whoops~ Looks like I'm gonna digest you, after all. And after I promised you'd be safe, too... Geheheheh~ ♥|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl><NF><NESmallBlush><NEMouth\Drool><NEEyes\Up><NEBrows\Angry>Alas, evildoer, for thy punishment is at hand. For thy crimes, thou art sentenced to dwell within me for the rest of eternity!|
+[AttackHitAttackerS]|{TypeVAttack}<SRheavyGrowl><BGGrowl><NF><NESmallBlush><NEMouth\Drool><NEEyes\Up><NEBrows\Angry>The groans of my stomach shall be the last sound you hear as y- thee descends to thine eternal rest.|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Zzzzzzzzzz.... I can  really eat the entire congregation...? Geheheheh......|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Sad><SRheavyGrowl><SRemptyGrowl><SRheavyBurp><BGGrowl>Urrrrp! Geheheh, are you an idiot? What an easy meal~ ♥/<TNClick><NF><NESmallBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Angry><SRheavyGrowl><SRemptyGrowl>...I-I mean, rest now, weary traveler, for thou hast found sanctuary here and will most certainly not be digested very shortly!|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}W-wait! I'm a sister of the church, you know! D-doesn't that mean anything to you!?|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}N-no! Did the Lord err in His judgement?|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}Thy efforts are null and void before the Lord.|
+
+[Kiss]|Mmmph... O-oh my... Y-you would share all this food with me?|
+
+[Betrayed]|<Nf><NeMouth\Open><NeEyes\Shocked><NeBrows\Up>S-stop! Y-you're going to digest me! S-so this is how it feels...|
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Smile><NEEyes\Up><NEBrows\Sad>S-such assistance will not go unrewarded...|
+[Nurse]|<NF><NEBlush><NEMouth\Horny><NEEyes\Open><NEBrows\Sad>Ah, this truly is ambrosia~|
+[Radiance]|<NF><NESmallBlush><NEMouth\Smile><NEEyes\Up><NEBrows\Up>A blessing! A blessing from the lord!|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Zzzzzzzz....|
+[vTickDown]|{HasSkill=140}{IsVore}{EN<1}<SRheavyGrowl><SRemptyGrowl><GrowlBGS><SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Normal><NEBrows\Sad>I have no choice~ ♥ I have to digest you all~ ♥ Urrrrrp!|
+[vTickDown]|{HasSkill=140}{IsVore}.....Huh?/<SRheavyGrowl><SRemptyGrowl><GrowlBGS><NF><NEBlush><NEMouth\Horny><NEEyes\Normal><NEBrows\Up>Wait, I can digest them? Why didn't you say so sooner, Commander!? Hahahaha, looks like you took a one-way trip, everyone! ♥|
+[vTickDown]|{HasSkill=140}{VCount>3}<SEse_lightgrowl1><SEse_lightgrowl3>Mmmph... W-wait, there's too many of you! Heeheehee, stop wiggling around inside me!|
+[vTickDown]|{HasSkill=140}<SEse_lightgrowl1><SEse_lightgrowl3>Bathe in the healing liquids within me and find comfort therein.|
+[vTickDown]|{VCount>2}{33%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4>Geheheheh, there's no escape for you~`Oh... If only the commander would let me, I would eat every last person on this battlefield~ ♥|
+[vTickDown]|{VLevel>2}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Normal><NEBrows\Low>Urrrrrp! Oh, Lord forgive your sinful servant for her gluttony... Would that I could eat even more~ ♥|
+[vTickDown]|{VCount>1}{33%}<SEse_heavygrowl2><SD20se_heavygrowl1><SD25se_emptygrowl3><SRheavyBurp><NF><NEBlush><NEMouth\Burp><NEEyes\Normal><NEBrows\Low>Urrrrrp! Geheheheh, not long left, now!|
+[vTickDown]|{VLevel>1}<SRheavyGrowl><SRemptyGrowl>Thine efforts to escape amount to naught, each struggle only brings thee closer to thine fated rest within my guts. ♥|
+[vTickDown]|{33%}<SRheavyGrowl><SRemptyGrowl>Oh lord, thy will be done. Your faithful servant shall digest this sinner, all in service of you~ ♥|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl>Give up and repent, sinner...`Thy sins shall be vanished alongside you within my belly.|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Zzzz.... Close the doors, and..... digest all the people.....|
+[vComplete]|{CurrentAttack=21}{Route=1}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Up><SRheavyBurp>Urrrrrp! Ah~ ♥ I can't wait~ ♥ I can't wait~ ♥`Just melt away already!|
+[vComplete]|{CurrentAttack=21}<SRheavyGrowl><SRemptyGrowl><NF><NESmallBlush><NEMouth\Drool><NEEyes\Normal><NEBrows\Sad>Mmmm~ what a delectable meal... Rest now, and bathe in my inner radiance. In the blink of an eye, we shall become one.|
+[vComplete]|{VLevel>2}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Sad><SRheavyBurp>Urrrrp! S-such an ungodly, sinful amount of meat... and it's all for me! The Lord surely rewards those who serve Him greatly~! ♥|
+[vComplete]|{VCount>1}<SRheavyGrowl><SRemptyGrowl>Mmph, finally~ ♥ Lord, these souls gave their lives to feed your humble servant, reward them well in your kingdom above.|
+[vComplete]|<SRheavyGrowl>Oh? Thine struggles have ceased. Have you accepted your fate?|
+
+[vAftermath]|{HasSkill=99}Mmmph... I have arisen once again...`Was I brought back by the Lord's will? Mmm~ He even saw fit to give me a hearty meal!|
+[vAftermath]|{CurrentAttack=21}{Route=1}<NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Up><SRheavyBurp>Urrrrrp! S-so good... *Pant* *Pant*`M-my knees are weak~ ♥/Ah~ ♥ Aha! ♥ Hahaha! Heh..../<NF><NESmallBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Normal>........... *Ahem!*`...Commander, please forget what you just saw.|
+[vAftermath]|{CurrentAttack=21}<NF><NEBlush><NEMouth\Burp><NEEyes\Normal><NEBrows\Normal><SRheavyBurp>Urrrrrp! Mmmmnnnn, so good~! ♥`...I-I mean, O' noble warrior, thy sacrifice shall not be in vain. So nourished, I will be able to save countless of our fellows.|
+[vAftermath]|<NF><NESmallBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Sad><SRheavyBurp>Urrrrp! Ahhh, another unfortunate soul saved~ ♥|
+
+[vLevelUp]|The Lord sees fit to reward those who serve Him.|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=104}{IsSafe}{EN>0}<SEse_lightgrowl1>Mmmph... T-too much meat... C-cant move...`Ommff... W-wait for me...`*Huff*/<SEse_lightgrowl3><NF><NEBlush><NEMouth\Open><NEEyes\Normal><NEBrows\Sad>Ohhh, I can't take this any more... How can I just let all this delicious meat walk free... I want, no, I-I need to digest them!|
+[SkillActivation]|{Skill=104}<SRheavyGrowl><SRemptyGrowl>Mmmph... T-too much meat... C-cant move...`Ommff... W-wait for me...`*Huff*|
+[SkillActivation]|{Skill=-501}N-noooo... Urrruuup!`Lord, why would you... test me so....?|
+[SkillActivation]|{Skill=-502}{CurrentAttack=20}<SEse_lightgrowl1><SEse_lightgrowl3>'Tis done, pity I could not keep you longer. Return to battle now, O' warrior, and exterminate all those who follow the path of evil.|
+[SkillActivation]|{Skill=-502}<SEse_lightgrowl1><SEse_lightgrowl3>Alas, it is time. Thine sojourn within me complete, return and serve the Lord as servant of all that is good and holy.|
+
+[OverBurdened]|<SRheavyGrowl><DR10heavyGrowl><DR20heavyGrowl><DR30heavyGrowl>|
+
+[Hunger]|<SRemptyGrowl><NF><NESmallBlush><NEMouth\Smile><NEEyes\Normal><NEBrows\Sad>Oh Lord, why test me so? I am ever thine humble servants, yet these hunger pangs wrack my body more harshly than the cruelest whips.../<NF><NEBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Sad>...Under such horrible circumstances, surely I cannot be blamed for disobeying orders and partaking a little, right? Heheheh...|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<NF><NESmallBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal><SEse_lightgrowl1><SRlightGrowl>Can you feel my heartbeat, Commander? Let it be a soothing lullaby that carries you away to the land of slumber. Do not worry, you have worked hard, and there is not one here that deserves to rest more than you.|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<NF><NEBlush><NEMouth\Horny><NEEyes\Open><NEBrows\Sad><SEse_lightgrowl1><SRlightGrowl>*Slurp!* ⦅I can't believe the Commander just let me eat (him) willingly! I want to keep (him) in there forever~~~!⦆|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<NF><NESmallBlush><NEMouth\Smile><NEEyes\Normal><NEBrows\Up><SEse_lightgrowl1><SRlightGrowl>Commander, carrying you in this way, I truly feel as if I have become closer to the Divine Mother.`After all, a (man) with your karma may one day be the savior of mankind./<SCClick><NF><NEBlush><NEMouth\Open><NEEyes\Normal><NEBrows\Sad><SEse_lightgrowl1><SRlightGrowl>E-eh? S-sacrilege? Was it? N-no, I mean, I-I was just speaking rhetorically, of course!|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<NF><NEBlush><NEMouth\Smile><NEEyes\Up><NEBrows\Up><SRheavyGrowl><SRemptyGrowl>C-commander? If you wish, would you like to rub my stomach? I... I have heard such a thing greatly aids with digestion!|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<NF><NESmallBlush><NEMouth\Normal><NEEyes\Up><NEBrows\Happy><SRheavyGrowl><SRemptyGrowl>I must thank you again, Commander. Most do not see my value beyond my restorative abilities, I shall not forget your generosity in feeding me so well.|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<NF><NESmallBlush><NEMouth\Normal><NEEyes\Normal><NEBrows\Happy><SRheavyGrowl><SRemptyGrowl>It's noisy? Commander, please consider my stomach as you would a chapel choir, its groans a hymn in praise of our lord.|
+[Secretary]<RNGGen=3>|{RNG>2}<NF><NEBlush><NEMouth\Smile><NEEyes\Up><NEBrows\Sad><SEinteract><SRemptyGrowl>E-eh? What was that noise? W-what noise are you talking about, Commander? I didn't hear anything... ⦅That was so embarassing! I need to find a way to sneak off and eat someone without (him) noticing...⦆|
+[Secretary]<RNGGen=3>|{RNG=2}<NF><NEMouth\Smile><NEEyes\Normal><NEBrows\Sad><SEinteract>Commander? Oh my... Do you think I did not catch the way you were staring at me? To stare at my bare skin with such intensity, yes, it's very clear to me what your intentions are.../<SCClick><NF><NESmallBlush><NEMouth\Smile><NEEyes\Up><NEBrows\Up>Heeheehee, you wish to enter the sacred temple inside me and seek repose within, of course! You must know, I am ever happy to let you inside, you need merely ask!|
+[Secretary]<RNGGen=3>|{RNG=1}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Happy><SEinteract>Have you been well, Commander? Should you ever have need of them, my services as a nun are open to you.|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Up><SEse_lightgrowl1><SRlightGrowl>C-commander...? Is everything all right in there? Your breathing suddenly became very harsh...|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<NF><NEBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Angry><SEse_lightgrowl1><SRlightGrowl>Eek! Please do not squirm around so much inside me, Commander!|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<NF><NEBlush><NEMouth\Serious><NEEyes\Up><NEBrows\Sad><SRheavyGrowl><SRemptyGrowl>Isn't it tight? E-err, yes... To be quite honest, I consider it a miracle it has not snapped off, yet...|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Low><SRheavyGrowl><SRemptyGrowl>C-commander, I appreciate you rubbing my stomach, but do you not think your hands may be reaching too high?|
+[Special]<RNGGen=2>|{RNG>1}<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Sad><SEinteract2>Eek! Commander, please do not toy with me so! My body is as unto a holy chapel, it must not become the site of such l-lewd acts...|
+[Special]<RNGGen=2>|{RNG=1}<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Low><SEinteract2>C-commander, we mustn't! I... I have already sworn myself towards serving another!|
+
+[Greeting]|{Vore}<SRheavyGrowl><SRemptyGrowl>Please leave any clerical duties up to me, Commander. I shall ensure all your work for today is completed in your stead.|
+[Greeting]|{Fed}<NF><NEBlush><NEMouth\Burp><NEEyes\Normal><NEBrows\Up><SRheavyGrowl><SRemptyGrowl><SRheavyBurp>Urrrrrrp! Heheheh, they're digesting nicely~ ♫`I hope no one heard that. ....Eh!? C-commander!?|
+[Greeting]|<SEinteract>Greetings, Commander. How may I be of service to you, today?|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEBlush><NEMouth\Horny><NEEyes\Open><NEBrows\Sad>Mmmph~~~ ♥ Commander, the confines of my sacred temple felt so empty without you within! *Huff*`P-promise me you'll never leave again! *Huff*|
+[Return]|<SEinteract>Welcome back, Commander. I am elated to see you return safely. Are there any vessels in need of healing?/<SCClick><NF><NEBlush><NEMouth\Serious><NEEyes\Up><NEBrows\Angry>N-no, of course I won't digest them this time! Th-that was an honest mistake!|
+
+[Digest]|<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Low><SRemptyGrowl>⦅Oh... I'm so hungry, but the Commander has been hogging my stomach all day! I-I can't take this anymore... I need to eat someone, already...⦆/<NF><NESmallBlush><NEMouth\Smile><NEEyes\Normal><NEBrows\Low><SRemptyGrowl>C... Commander? Are you awake? May we take a brief sojourn from our activities together? I have a small matter I must attend to, but I will return post-haste!/<NF><NEBlush><NEMouth\Open><NEEyes\Up><NEBrows\Angry><SRemptyGrowl>⦅I-it's no good! (He)'s fast asleep!⦆/<NF><NEBlush><NEMouth\Serious><NEEyes\Normal><NEBrows\Sad><SRheavyGrowl><SRemptyGrowl>⦅Oh... I can't bring myself to wake (him) up, but I'm so hungry... Maybe I can just digest (him), instead? I hope no one will mind...⦆|
+
+[DigestPost]|<NF><NEBlush><NEMouth\Horny><NEEyes\Normal><NEBrows\Up><SRemptyGrowl>⦅Ahh... What an amazing flavor! I wish I had digested (him) sooner~!⦆|
+
+[DigestReturn]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Up>Good day, Commander, have you come for my services once again? ...Oh? What's that you have with you. An alarm clock? My, whatever could that be for?|
+
+[Swallow]|Please, close your eyes and rest, Commander. While bathed with the warm liquids of my stomach, all your pains shall be soothed and your worries dissolved away. Have no fear, for I shall not allow any harm to come to you as long as you dwell within me.|
+
+[Feed]|{ToDigest=20}{InStomach>0}<NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Sad><SRheavyBurp><SRheavyGrowl><SRemptyGrowl>Urrrp! *Pant* *Pant* Oh Lord, forgive me for my gluttony... Urrrp! Commander... Please do not stop... I wish to devour more... More!|
+[Feed]|{ToDigest=20}<NF><NEBlush><NEMouth\Burp><NEEyes\Up><NEBrows\Sad><SRheavyBurp>Urrrp! *Pant* *Pant* Oh Lord, forgive me for my gluttony... Urrrp! Commander... Please do not stop... I wish to devour more... More!|
+[Feed]|{ToDigest>4}{InStomach>0}<NF><NEBlush><NEMouth\Drool><NEEyes\Up><NEBrows\Happy><SRheavyGrowl><SRemptyGrowl>*Slurp!* Mmph... H-hahaha! Forgive me, Commander, I appear to be in quite a jovial mood, right now! Perhaps I have become intoxicated after consuming so much meat?|
+[Feed]|{ToDigest>3}{InStomach=0}<NF><NEBlush><NEMouth\Drool><NEEyes\Up><NEBrows\Happy><SRheavyGrowl><SRemptyGrowl>*Slurp!* Mmph... H-hahaha! Forgive me, Commander, I appear to be in quite a jovial mood, right now! Perhaps I have become intoxicated after consuming so much meat?|
+[Feed]|{InStomach=4}<NF><NEBlush><NEMouth\Horny><NEEyes\Up><NEBrows\Up><SRheavyGrowl><SRemptyGrowl>Eheheh~ *Slurp!* This is a meal fit for a king, Commander! I promise you, your donations to the church shall not go unrewarded~ ♥|
+[Feed]|{InStomach>1}<NF><NEBlush><NEMouth\Smile><NEEyes\Normal><NEBrows\Sad><SRheavyGrowl><SRemptyGrowl>More to heal? N-no? To digest? Commander... Am I really deserving of such favor?|
+[Feed]|{InStomach>0}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal><SRheavyGrowl><SRemptyGrowl>Please rest assured, my child, your sacrifice shall not be in vain... Through this tithe, the sacred chapel within me may grow even greater in its splendor.|
+[Feed]|{ToDigest>0}<NF><NEBlush><NEMouth\Burp><NEEyes\Normal><NEBrows\Up><SRlightBurp>Urrrp~ M-my, excuse me, Commander! It seems my body was briefly overtaken by the holy spirit!|
+
+[UnitDetailsGreeting]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>Good day. Is there anything I may help you with, Commander?|
+[UnitDetails]|<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>A closer inspection? Please, inspect my body as much as you like.|
+
+[Quirk]|{Quirk=0}Has been getting really into anime, recently. She thinks the nuns she sees in there are accurate portrayals, and has been acting very strangely as a result.|
+[Quirk]|{Quirk=1}She's been getting self-conscious of her weight and can often be seen in gym wear trying to sweat it off.|
+[Quirk]|{Quirk=2}Inspired by history, she's been trying to start a brewery with a few other Covenants. Their experiments with the local plant life have all been disastrous so far.|
+[Quirk]|{Quirk=3}She's been trying to help in the kitchens as a way of managing her hunger pangs. She's obtained a new appreciation for human food as a result, but has also started quickly gaining weight.|
+[Quirk]|{Quirk=4}She's become very self-conscious around you recently after being made aware of just how lewd her outfit is by another vessel.|
+[Quirk]|{Quirk=5}Secretly loves to get belly rubs, but she is far too shy to ask for them.|

@@ -1,0 +1,142 @@
+﻿[BattleStart]|{HasSkill=99}
+[BattleStart]|{Attack=-1001}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Sad>E-eh? You... Y-you want me to feed myself to her? If you're sure...|
+[BattleStart]|{Attack=1146}<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Normal>You look rough, girl! Let me come over and help you with that...|
+[BattleStart]|{Skill=0}W-whoops! W-wait, no!|
+[BattleStart]|{TypeVAttack}{CriticalHungry}Ohh, I'm so hungry... H-hey, you don't mind helping a girl out, do you?|
+[BattleStart]|{TypeVAttack}{TargetAlly}{50%}Hey there! I'm feeling kinda hungry... mind if I have you as a snack real quick? ♥|
+[BattleStart]|{TypeVAttack}{TargetAlly}Ahh, you look so pretty! I'm sorry, I just gotta gobble you up right away, I can't help myself! ♥|
+[BattleStart]|{TypeVAttack}{50%}Wow, I've never seen anyone that looks like you before... I just gotta have a taste!|
+[BattleStart]|{TypeVAttack}Come on, I just wanna eat a few of you! Maybe only, like, five or six?|
+[BattleStart]|{TypeAttack}{50%}Hey, back off!|
+[BattleStart]|{TypeAttack}Haah!|
+
+[Targeted]|{HasSkill=99}
+[Targeted]|{TypeVAttack}{TargetAlly}{IsSafeOther}<NF><NEStar><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>I always wondered what it felt like on the other side~|
+[Targeted]|{TypeVAttack}{TargetAlly}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Sad>I'd prefer for it to go the other way around, but at least she's pretty...|
+[Targeted]|{Skill=0}Oh? What a weird dance! Are you playing some kind of game?|
+
+[AttackDesc]|{Attack=-1001}(Self) approaches (the)(Target)'s open mouth...|
+[AttackDesc]|{Skill=0}<SEse_buchu3>(Self) slips and falls right into (the)(Target)'s open mouth!|
+[AttackDesc]|{TypeVAttack}<SESwing2>(Self) looms above (the)(Target) with her enormous body...|
+[AttackDesc]|{TypeAttack}<SESwing2>(Self) swings her serpentine tail at (the)(Target)!|
+
+[Massage]|<SRheavyGrowl><SRemptyGrowl><NEBlush><NF><NEStar><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>You got some skills girl, think you could help me with work later? ♥|
+[Nurse]|<NF><NEHeart><NETail><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Sad>Sooooo goooood girl, who have you been eating lately? ♥|
+
+[AttackHitAttacker]|{Attack=-1001}
+[AttackHitAttacker]|{Skill=0}
+[AttackHitAttacker]|{TypeVAttack}{cCap>0}{hCap<4}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole! Her new meal pushes (theVored)(Vored) deeper inside as it slides into her stomach!|
+[AttackHitAttacker]|{TypeVAttack}<SEse_gulp1><SEeaten_by_monster2>...and swallows (Pro2nd) whole!|
+[AttackHitAttacker]|{TypeAttack}<SEHits\hit15>Her tail slams into them! (Damage) damage!|
+
+[AttackHitTarget]|{Attack=-1001}<SEse_gulp1><SEeaten_by_monster2>...forcing (Pro2nd) way down her throat and into her stomach!|
+[AttackHitTarget]|{Skill=0}<SEse_gulp1><SEeaten_by_monster2>...sliding straight down (Pro2nd) throat!|
+
+[AttackMissAttacker]|{TypeVAttack}<SESwing8>...but is unable to swallow (Pro2nd)!|
+[AttackMissAttacker]|<SESwing8>...but completely misses!|
+
+[AttackHitAttackerS]|{HasSkill=99}
+[AttackHitAttackerS]|{Skill=0}W-what...? H-hey, this is not cool!|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>MmMmMmmm, so good! I cannot ¡wait¡ to digest you, cutie~ ♥|
+[AttackHitAttackerS]|{TypeVAttack}{50%}<SRheavyGrowl><BGGrowl>Oh my god, girl! You. Taste. Unbelievable. How has no one eaten you, yet?|
+
+[AttackHitTargetS]|{Attack=-1001}<SRheavyGrowl>Mnnmmnnn.... This pâtisserie is so trendy..... Even the diners taste good....|
+[AttackHitTargetS]|{HasSkill=99}
+[AttackHitTargetS]|{Skill=0}<SEse_gulp5>*Gllrrrrrp!*/<SRheavyGrowl><SRheavyBurp><NF><NETail><NEStar><NEMouth\Normal><NEEyes\Wink><NEBrows\Normal>Mmmph... Urrrrp! Hey, did I win? I was supposed to swallow you, right?|
+[AttackHitTargetS]|{TypeVAttack}{TargetAlly}
+[AttackHitTargetS]|{TypeVAttack}W-wait, what? Th-this isn't how it's supposed to go!|
+
+[AttackMissAttackerS]|{HasSkill=99}
+[AttackMissAttackerS]|{TypeVAttack}{50%}Aww, don't be shy~ ♥|
+
+[AttackMissTargetS]|{HasSkill=99}
+[AttackMissTargetS]|{TypeVAttack}{50%}...Eh? Were you trying to eat me? Like, no duh it didn't work, I'm twice your size!|
+
+[Kiss]|{TargetVored}<NF><NETail><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Ahhh... Th-that was amazing, I've never had anyone make out with me like that before... I almost regret that I'm about to digest you~ ♥|
+[Kiss]|<NF><NETail><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Ahhh... H-hey, why did you stop? That was amazing... Come on, let's go for another round! ♥|
+
+[vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mnnmnnnn... Zzzzz....|
+[vTickDown]|{VLevel>4}{50%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4><SRheavyBurp><NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Urrrrp! O-oh my god, keep squirming like that! Having all of you stretch out my insides feels incredible~ ♥|
+[vTickDown]|{VLevel>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Urrrrrp! N-no way, I'm seriously overdoing it... Urrrrrp! But I can't stop! They just taste sooooo good!|
+[vTickDown]|{hCap>0}{50%}<SEse_heavygrowl2><SD20se_heavygrowl1><SD25se_emptygrowl3>Ahh... I love the way it feels when girls squirm inside my tail like that~~~ ♥|
+[vTickDown]|{hCap>0}<SRheavyGrowl><SRemptyGrowl>Mmph... You cuties taste way too darn good... G-god, I can't wait much longer, hurry up and digest already!|
+[vTickDown]|{50%}<SRheavyGrowl><SRemptyGrowl>Heeheehee, the way you're kicking around in there feels so good~ ♥|
+[vTickDown]|<SRheavyGrowl><SRemptyGrowl><NF><NEHeart><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>Not too much longer, now! Mmm, it's gonna feel so good to churn you up~ ♥|
+[vTickDown]
+
+[vComplete]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mnnmmm... Time to make room.... for more desserts.....|
+[vComplete]|{VLevel>4}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NETail><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>O-oh my god, this was such a bad decision... I-I can't believe I actually ate all those people... Nnnnf, it's too late to turn back, now... I'll just have to diet twice as hard, later!|
+[vComplete]|{VCount>1}<SRheavyGrowl><SRemptyGrowl><NF><NETail><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Flat>Are you all ready to get digested? Mmph... Heeheehee, this is my favorite part... You guys are gonna look soooo good on me~ ♥|
+[vComplete]|<SRheavyGrowl><SRheavyBurp>Ooh, I think it's finally time! See you later, cutie~ ♥|
+
+[vAftermath]|{HasSkill=99}<NF><NEBlush><NEMouth\Sad><NEEyes\Narrow><NEBrows\Normal>Mmmph.... Did I fall asleep?`Geez, I feel so bloated... I must have eaten a bunch of people in my sleep again...|
+[vAftermath]|<NF><NETail><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Flat>Oh my god! ♥ That was like, seriously gourmet. You can't even blame me for eating you, you tasted WAY too good to pass up! It was just a matter of time until some girl gobbled you up~ ♥|
+
+[vLevelUp]|My skin feels so smooth!|
+
+[SkillActivation]|{HasSkill=99}
+[SkillActivation]|{Skill=0}<SEHit3>O-oops...|
+[SkillActivation]|{Skill=-501}Nooo... Urrruuup!`Th-those are my prey...|
+
+[Hunger]|<SRemptyGrowl>I'm starving... Isn't there anyone to eat around here?|
+
+[PreBattle]|She tumbles in the direction of (the)(Target)!|
+
+
+[Secretary]<RNGGen=3>|{RNG>2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\Closed><NEBrows\Sad>Apparently, our stomach fluids contain a super powerful aphrodisiac for humans. I guess so you don't fight back? I even know some girls that make money on the side by letting you guys have sex inside them. Crazy, right?/<SCClick><SEse_lightgrowl1><SRlightGrowl><NF><NETail><NEHeart><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Normal>...I've also heard, there's nothing that feels better for one of you than getting digested by us.`What do you say, Human? Wanna give it a try? ♥|
+[Secretary]<RNGGen=3>|{RNG=2}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEStar><NEMouth\Normal><NEEyes\Wink><NEBrows\Normal>How come I'm okay with not digesting you? Well duh, it's 'cause we're friends, stupid! Besides, I've heard human meat is super fattening. A girl's gotta watch her figure!|
+[Secretary]<RNGGen=3>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NEMouth\Normal><NEEyes\Narrow><NEBrows\Sad>You want to try going into my tail? Mmm, I could push you further down, but... once you go in there, there's no coming out, y'know. You sure you want to do that?|
+[Secretary]<RNGGen=3>|{RNG>2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Normal><NEEyes\ClosedUp><NEBrows\Normal>Hahaha! No way, really? The human really did that? That's hilarious! Oh my god, you've gotta tell me more!/<SCClick><SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Open><NEEyes\Narrow><NEBrows\Normal>Pfffft... Hey! No listening in by putting your head on my stomach! We're having a private conversation, you mind?|
+[Secretary]<RNGGen=3>|{RNG=2}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Open><NEEyes\Normal><NEBrows\Normal>I heard they got a new dessert in the cafeteria, wanna go check it out with me? ...Aren't I full already?`No way! I got a whole 'nother stomach for dessert!|
+[Secretary]<RNGGen=3>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NETail><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Urrrrrrp! Oh god, how do they make these girls taste so good!? I don't know how she does it, but that doctor of yours is a genius!|
+[Secretary]<RNGGen=3>|{RNG>2}<SEinteract><NF><NEMouth\Open><NEEyes\Normal><NEBrows\Normal>How come you're wearing so many clothes, Human? It's nice and warm today! You should soak up the heat while you can! ...Eh? Cold-blooded? Warm-blooded? Sounds to me like you're just making excuses. Come on and strip!|
+[Secretary]<RNGGen=3>|{RNG=2}<SEinteract><NF><NEStar><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>Hey, Human, check out this thing (Doctor) gave me! It can make paintings of whatever it looks at and send them to other things like it instantly! Pretty neat, huh? I think she said it's called a smartphone...?|
+[Secretary]<RNGGen=3>|{RNG=1}<SEinteract><NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>This place like, totally rocks! Crazy technology, an all-you-can-eat buffet of girls, and the cutest little human you could ever ask for... is there anything it doesn't have!?|
+
+[Special]<RNGGen=2>|{RNG>1}{Vore}{ComGen>0}<SEse_lightgrowl1><SRlightGrowl><NF><NETail><NEBlush><NEMouth\Sad><NEEyes\ClosedUp><NEBrows\Sad>Mnnnn... ♥ Y-you're making this real hard on me, Human... When there's a cute girl doin' that kinda stuff inside me, all my instincts are telling me I gotta digest her! Just gotta!|
+[Special]<RNGGen=2>|{RNG>1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NETail><NEBlush><NEMouth\Sad><NEEyes\Narrow><NEBrows\Normal>Geez, it feels like you're trying to breed with my stomach wall... ♥ Why don't you come out of there and do it with the real thing, instead?|
+[Special]<RNGGen=2>|{RNG=1}{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NETail><NEBlush><NEMouth\Angry><NEEyes\Wink><NEBrows\Sad>Mmph~ ♥ T-try not to squirm around too much... It's hard enough to not digest you, if you keep moving like that my body might just react on its own...|
+[Special]<RNGGen=2>|{RNG>1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Closed><NEBrows\Sad>M-mmm... ♥ Ahh~! ♥ Heheheh... ♥`Ahhhhhhhhhhhhhh~~~/<SCSpecial><SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Open><NEEyes\Normal><NEBrows\Sad>Sh-shoot, that was close! I almost ate you on instinct! M-my bad!|
+[Special]<RNGGen=2>|{RNG=1}{Fed}<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad>Ahh! ♥ Nnnnnf... ♥ I-if you do that right now, I...`I'm gonna... O-oh god, don't stop! ♥♥♥|
+[Special]<RNGGen=2>|{RNG>1}{Weight>2}{ComGen>0}<SEinteract2><NF><NETail><NEBlush><NEMouth\Horny><NEEyes\Narrow><NEBrows\Flat>Ahh~ ♥ I know they're big, but you're completely obsessed... ...Maybe I should just add you to them next? What do you say, Human, would you like that?|
+[Special]<RNGGen=2>|{RNG>1}{Weight>2}<SEinteract2><NF><NETail><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Normal>Paizuri? Is that some kind of human food?`...Oh? Hey, that sounds like fun! Let's try it out! ♥|
+[Special]<RNGGen=2>|{RNG=1}{Weight>2}<SEinteract2><NF><NETail><NEBlush><NEMouth\Open><NEEyes\Normal><NEBrows\Sad>Mmph... ♥ E-even if you suck on them like that, it's not like anything's gonna come out!|
+[Special]<RNGGen=2>|{RNG>1}{ComGen>0}<SEinteract2><NF><NEHeart><NETail><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Sad>You wanna do it again, Human? Heeheehee, how many times is that today, already? Nnnnf, you're getting harder to resist eating by the second~ ♥|
+[Special]<RNGGen=2>|{RNG>1}<SEinteract2><NF><NEHeart><NETail><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Sad>You wanna do it again, Human? Heeheehee, how many times is that today, already? Most guys woulda been squeezed dry by now~ ♥|
+[Special]<RNGGen=2>|{RNG=1}<SEinteract2><NF><NETail><NEBlush><NEMouth\Open><NEEyes\Wink><NEBrows\Normal>Geez~ ♥ You've become totally addicted to my body, haven't you? That's what I love about humans, you're all so affectionate!|
+
+[Greeting]|{Vore}<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Sad><NEEyes\Narrow><NEBrows\Angry>Geez, those girls of yours were giving me some crazy death glares... I mean, come on, it's not like I'm gonna digest you!|
+[Greeting]|{Fed}<SRheavyGrowl><SRemptyGrowl>Hey, Human! I picked up a few extras on the way. You don't mind, right?|
+[Greeting]|<SEinteract>Yo! Got any plans today, Human? Let's hang out!|
+
+[Return]|{Vore}<SEse_lightgrowl1><SRlightGrowl><NF><NETail><NEBlush><NEHeart><NEMouth\Open><NEEyes\Narrow><NEBrows\Normal>Heeheehee... Right back in your favorite spot, huh, Human? Don't worry, I had plenty to eat while you were gone, so my belly won't try and digest you any time soon... probably.|
+[Return]|<SEinteract>Yo! Welcome back, Human! Didja capture any snacks for me while you were out there?|
+
+[Digest]|{ComGen>0}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Closed><NEBrows\Sad>Urrrrp! Mmph.../<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Angry><NEEyes\Normal><NEBrows\Normal>Oh- Whoops! Looks like you hit your time limit... Sheesh, I did warn you this'd happen if I swallowed you. You happy now?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Normal><NEEyes\Narrow><NEBrows\Normal>...Oh well! No turning back now, so I guess we might as well enjoy ourselves~ ♥ I've never gotten to digest a human before!/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Open><NEEyes\Narrow><NEBrows\Normal>Oops, you... Heeheehee, that's right, you must be feeling pretty good right now, huh? God, I can tell you're masturbating, even while you melt away... I can't even imagine how good that must feel~ ♥|
+[Digest]|<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Closed><NEBrows\Sad>Urrrrp! Mmph.../<SRheavyGrowl><SRemptyGrowl><NF><NEMouth\Angry><NEEyes\Normal><NEBrows\Normal>Oh- Whoops! Looks like you hit your time limit... Sheesh, I did warn you this'd happen if I swallowed you. You happy now?/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Normal><NEEyes\Narrow><NEBrows\Normal>...Oh well! No turning back now, so I guess we might as well enjoy ourselves~ ♥ I've never gotten to digest a human before!/<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NETail><NEMouth\Open><NEEyes\Narrow><NEBrows\Normal>Oops, you... Heeheehee, that's right, you must be feeling pretty good right now, huh? God, your dick is just spewing out cum nonstop... Sorry, little guy, I'm gonna digest all that, too. You shoulda knocked me up when you had the chance~ ♥|
+
+[DigestPost]|<SRheavyBurp><NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Urrrrp! Nnnnnf... (He) absolutely destroyed my figure, but GOD was it worth it. I had no idea humans tasted that good... I gotta start eating them more often! ♥|
+
+[DigestReturn]|{0%}<NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Narrow><NEBrows\Sad>Mmmph... *Schlrp!* *Suck!* Nnnnff... *Slrrrp!* *Schhhlk!*/<NF><NEBlush><NETail><NEMouth\Horny><NEEyes\Closed><NEBrows\Sad>Ah! ♥ Nnnnff....`*Gulp!* *Gulp!* *Gulp!*/<NF><NEBlush><NETail><NEMouth\Normal><NEEyes\Normal><NEBrows\Normal>...Oh, you're finally awake! You were at full-mast when I came in, so I thought I'd help myself. ♥|
+[DigestReturn]|<NF><NEBlush><NETail><NEMouth\Open><NEEyes\Normal><NEBrows\Flat>Wake up, human, you- *Sniff* *Sniff*`...W-wow, you must have had one hell of a wet dream last night. What were you dreaming about?|
+
+[Swallow]|<NF><NETail><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Normal>Hahaha, what a weird human! Most people'd do anything they can to avoid getting eaten by a lamia, y'know... Oh well, I'll do my best not to digest you, but no hard feelings if I mess up, alright?|
+
+[Feed]|{ToDigest=20}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><SRheavyBurp><NF><NETail><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad>Urrrp! O-oh god! They taste so good, I can't stop eating them! S-screw the diet, this is a cheat day! I'm gonna eat everyone!|
+[Feed]|{ToDigest=20}<SRheavyBurp><NF><NETail><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad>Urrrp! O-oh god! They taste so good, I can't stop eating them! S-screw the diet, this is a cheat day! I'm gonna eat everyone!|
+[Feed]|{ToDigest>6}{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NETail><NEBlush><NEMouth\Sad><NEEyes\Narrow><NEBrows\Sad>Mmmph... Th-that was seriously WAY too much food. Be real with me, Human, am I getting fat? ...No, who cares about those! I'm talking about my tail!|
+[Feed]|{ToDigest>5}{InStomach=0}<NF><NETail><NEBlush><NEMouth\Sad><NEEyes\Narrow><NEBrows\Sad>Mmmph... Th-that was seriously WAY too much food. Be real with me, Human, am I getting fat? ...No, who cares about those! I'm talking about my tail!|
+[Feed]|{InStomach=6}<SRheavyBurp><SRheavyGrowl><SRemptyGrowl><NF><NETail><NEBlush><NEMouth\Angry><NEEyes\Narrow><NEBrows\Sad>Urrrp! N-no more, I'm stuffed! Mmph, I-I can't believe I let myself pig out like that, this is gonna absolutely destroy my diet...|
+[Feed]|{InStomach>1}<SRheavyGrowl><SRemptyGrowl><NF><NETail><NEMouth\Open><NEEyes\ClosedUp><NEBrows\Normal>Ahh~ God, I love the way they squirm when they slide into my tail!|
+[Feed]|{InStomach>0}<SRheavyGrowl><SRemptyGrowl><NF><NEHeart><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>Aww, come on, Human. Just one serving? You know a girl like me eats more than that!|
+[Feed]|{ToDigest>0}<NF><NETail><NEBlush><NEMouth\Open><NEEyes\Narrow><NEBrows\Normal>Eheheh~ ♥ This is seriously the best! There's no better beauty treatment than snacking on some cute girls.|
+
+[UnitDetailsGreeting]|Yo! Welcome to my salon, Human! Need some beauty tips? Maybe a quick makeover?|
+[UnitDetails]|<NF><NEHeart><NEMouth\Kiss><NEEyes\Wink><NEBrows\Normal>Hey, Human, say cheese! *Snap!*`To... everyone. On a date... with the human.`Aaaand send!/<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Normal>...What am I doing? Ordering lunch, duh!|
+
+[Quirk]|{Quirk=0}Likes to warm up by taking naps out in the open sun.|
+[Quirk]|{Quirk=1}Her favorite spot to be scratched is just behind her right ear. Her face when scratched there makes it feel incredibly wrong.|
+[Quirk]|{Quirk=2}Her dream is to win the Nobel prize someday. Being trapped in another dimension doesn't seem to have affected it.|
+[Quirk]|{Quirk=3}If she wants attention, she'll keep loudly yelling your name until you give it to her.|
+[Quirk]|{Quirk=4}Prefers to play with her food before eating it. The game is chess and she's yet to win a single match.|
+[Quirk]|{Quirk=5}She always acts aloof, but is actually much more affectionate than other Schrodingers.|
