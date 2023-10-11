@@ -5,6 +5,7 @@
 [BattleStart]|{Attack=11}<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Angry>I'm not finished yet!|
 [BattleStart]|{Attack=10}{VTargetLevel=1}{EnemyTargetVoredAlly}<NF><NEMouth\Sad><NEEyes\Normal><NEBrows\Angry>You think you can just digest my friends? Not on my watch.|
 [BattleStart]|{Attack=10}<NF><NEMouth\Open><NEEyes\Normal><NEBrows\Angry>I'll finish this in a single move!|
+[BattleStart]|{TypeVAttack}{TargetAlly}{CriticalHungry}Mmmph, I'm so hungry... Hey (Target), could you come over and help me out?|
 [BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}{HasSkill=120}<NF><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal>You want me to swallow them Commander? My stomach is getting rather tight, but sure, I'll do it for you.|
 [BattleStart]|{TypeVAttack}{TargetAlly}{IsSafe}Hey (Target), Commander says I have to keep you in my stomach for now.|
 [BattleStart]|{TypeVAttack}{TargetAlly}{25%}{SetRoute=1}<NF><NEBlush><NEMouth\Normal><NEEyes\Narrow><NEBrows\Down><SRheavyGrowl><SRemptyGrowl>Dessert, just for me? How kind of you, Commander~ ♥|
@@ -52,6 +53,7 @@
 [AttackHitAttackerS]|{Attack=12}.........|
 [AttackHitAttackerS]|{Attack=11}{VTargetLevel=1}{EnemyTargetVoredAlly}<SRheavyGrowl><BGGrowl>O-oops, I screwed up the timing! Sorry, (TargetVored)! Looks like I couldn't save you after all.../<NF><NEBlush><NEMouth\Open><NEEyes\KO><NEBrows\UpDown><SRheavyBurp><SRheavyGrowl><SRemptyGrowl>Urrrrrp! H-hope you're okay with becoming food for me instead. Hahaha...|
 [AttackHitAttackerS]|{Attack=11}<NF><NEMouth\Normal><NEEyes\Normal><NEBrows\Angry><SRheavyGrowl><SRlightBurp><BGGrowl>Urrrp~ Another threat neutralized.|
+[AttackHitAttackerS]|{TypeVAttack}{CriticalHungry}{TargetAlly}<SRheavyGrowl><SRheavyBurp>Urrrp! Sorry about that, (Target), but it had to be done. No hard feelings, okay?|
 [AttackHitAttackerS]|{TypeVAttack}{CriticalHungry}Thanks for making this easy. I'll digest you quickly and get back in the fray.|
 [AttackHitAttackerS]|{TypeVAttack}{HasSkill=120}{TargetEnemy}<NF><NEBlush><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal>Whoops, I swallowed someone while I was keeping someone safe.../<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down><SEse_lightgrowl1><SRlightGrowl>Looks like I'll have to digest all of you, just to be safe~|
 [AttackHitAttackerS]|{TypeVAttack}{VTargetLevel=1}{EnemyTargetVoredAlly}<SEse_heavygrowl1><BGGrowl>Alright, nice teamwork! Sorry I couldn't save you, (TargetVored), but I'll make sure your body doesn't go to waste.|
@@ -82,7 +84,7 @@
 [Nurse]|<NF><NEBlush><NEMouth\Normal><NEEyes\Mix><NEBrows\Down>I suppose that's one way to milk a snake~|
 
 [vTickDown]|{HasSkill=99}<SRheavyGrowl><SRemptyGrowl>Mmmnnnmmph... Don't worry, Commander.....`I'll eat every last one of them.....|
-[vTickDown]|{HasSkill=120}{EN<1}Sorry Commander, but I'm currently feeling a bit peckish at the moment.../<SRheavyGrowl><SRemptyGrowl><GrowlBGS><SRheavyBurp><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown><SEinteract2>Surely, it wouldn't hurt your feelings if I were to fuel back up? ♥|
+[vTickDown]|{HasSkill=120}{EN<1}Sorry Commander, but I'm currently feeling a bit peckish at the moment.../<SRheavyGrowl><SRemptyGrowl><GrowlBGS><SRheavyBurp><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown>Surely, it wouldn't hurt your feelings if I were to fuel back up? ♥|
 [vTickDown]|{HasSkill=120}<NF><NEMouth\Serious><NEEyes\Narrow><NEBrows\Normal>Oh, I can digest them, Commander?/<SRheavyGrowl><SRemptyGrowl><GrowlBGS><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown>Don't worry, I won't pass up a good meal~ ♥|
 [vTickDown]|{VCount>2}{50%}<SEse_heavygrowl1><SEse_lightgrowl1><SD05se_heavygrowl5><SD15se_heavygrowl4><SRheavyBurp><NF><NEBlush><NEMouth\Open><NEEyes\Mix><NEBrows\UpDown>Urrrrp! Mmmph! H-hey, stop squirming around so much in there! U-urrrp! Just give up already and let me digest you!|
 [vTickDown]|{VLevel>2}<SRheavyGrowl><SRemptyGrowl>Nnnnf... Come on, digest faster....`I'm out of commission until I get rid of you.|

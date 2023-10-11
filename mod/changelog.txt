@@ -1,3 +1,8 @@
+1.6 changelog:
+fixed theano's hungry digest dialogue having an unnecessary sound
+added dialogue to theano for swallowing a friendly unit while hungry
+
+
 1.5 changelog:
 sampo base hp 150 > 160
 chateau base vatk 40 > 45

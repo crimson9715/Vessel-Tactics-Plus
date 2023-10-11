@@ -1,0 +1,25 @@
+each vessel has 6 stats:
+
+hp is how much damage the vessel can take before being reduced to 0 and being incapacitated
+
+atk is how much damage the vessel deals whenever it attacks, amount depends on the target's def stat
+
+skl affects the hit chances for attacks and v-atks compared against the target's spd stat (if v-atks, it also factors in vres)
+
+vatk affects the chances that swallowing a unit will be successful with your vatk, spd, and skl stats against the target's vres and spd stat; note that vatk effectiveness scales on how high of a number the target's hp is, along with the difference between their max hp and their current hp, though if a unit has a high enough stats compared to a target, they might be able to ignore the hp penalty outright
+
+en represents how much energy the unit has; moving or waiting does not reduce it, but taking any action such as attacking will reduce it by 10 (on top of any additional amount from using an ability); if it reaches 0, the unit becomes hungry and may disobey you and try to forcibly swallow another unit to regain energy if close to one; note that while digesting, units do not take 10 energy upon doing an action, and will restore all of their energy upon completing digestion; units also gain a flat 10 energy if they don't move and wait during their turn (does not apply while digesting or transporting / healing units)
+
+def is the amount of damage a unit receives whenever it's attacked compared to the attacker's atk stat; swallowing a unit will temporarily boost your def depending on how many units you have swallowed; note that attacks will always deal a minimum of 1 damage if successful
+
+vres affects the chances of being swallowed by an enemy unit, also factors in your spd against the target's skl, spd, and vatk stats
+
+spd affects your dodge chance whenever hit by atks and v-atks, along with your own hit chances; it also effects turn order depending on how high it is; note that swallowing a unit will temporarily lower your spd stat depending on how close you are to maxmimum capacity; if full you will get 0 spd, and if overburdened or incapacitated you get -9999 speed
+
+mov affects how many tiles the unit can move during its turn; most units have it at 4 but some units such as the lamia units and chateau only have 3; if a unit is full, it loses half of its mov (units with 3 mov only get reduced to 2 due to rounding)
+
+capacity represents how many units something can swallow before it reaches maximum capacity; it depends on the unit as to how much capacity they have; a unit can only swallow units if the target only has 0 or 1 units currently swallowed; size 2 units take up 2 capacity when swallowed; a unit can go over the limit by 1 at the cost of being overburdened until completing digestion
+
+nutrition represents how much xp the unit gives when digested; the first number represents the unit's base value, the 2nd number represents how much xp it has from digesting other units; upon reaching a multiple of 100 xp from digesting units, it levels up and makes an rng call to choose how much the unit gets from its own dice range; note that digesting a unit will add half of its current nutrition (from the 1st and 2nd number) to the 2nd number of the current unit so that other units can use some of it
+
+dice range is a hidden stat different for each individual unit that controls the likelihood of stat increases whenever it levels up, consisting of two numbers, with the first acting as how many times to roll the dice, and the second represents its success chance; for example, sampo has a vres dice range of 3-30, so it rolls the dice 3 times with a 30% chance of success when determining to raise her stats when leveling up; effectively this means that the 1st number will be the base number that the stat increases by, and the 2nd number will control the randomness of how much the base number's value is or decreased by (which can lower it down to 0 potentially); if the 2nd number is 100%, then there will always be no decrease in the base value

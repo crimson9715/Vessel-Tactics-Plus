@@ -27,11 +27,17 @@ a: only use "mod contents", the rest are either supplements or cool extra stuff
 q: help I can't install the mod!!!
 a: you can manually go through the files and replace them yourself, though it shouldn't be very hard to do (mainly depends on how well you know how to use file explorer itself)
 
-q: can you release a version of the game yourself that has the mod pre-installed?
+q: is this malware???
+a: this isn't malware, you're probably getting a false positive due to Assembly-CSharp.dll being present (which is where the game's main code is stored)
+
+q: can you release a version of the game that has the mod pre-installed?
 a: personally I'd prefer not to, considering that at most it takes a few minutes to install the mod
 
 q: how do access debug menu in sandbox mode?
 a: during a controllable unit's turn, right-click to hide the ui then press "p"; from here, you can manually spawn units and adjust their stats (note that this is a thing you can do in vanilla)
+
+q: what do stats / dice ranges do?
+a: you can read "stat_info.txt" since it would take a lot more to explain here (this also explains some of the thinking behind my changes)
 
 q: why don't the pre-placed units in mission mode / sandbox have any of the additions / stat changes?
 a: afaik there's no current way to edit missions yourself, which unfortunately means I cannot fix the units to include them
@@ -59,13 +65,13 @@ q: hello I want to use something that's in this mod may I use it?
 a: sure, give me credit though (and tell me about it if it's cool!!!)
 
 q: hello I want to give you a suggestion / bug report / feedback / modding questions / talk to you about something else, where can I contact you?
-a: you can contact me on discord (tag is "crimson9715.")
+a: you can contact me on discord (tag is "crimson9715."), or do it here: https://github.com/crimson9715/Vessel-Tactics-Plus
 
 q: can I get you do to a vt modding thing for me / implement my suggestion for this mod?
 a: depends on if I'm ok with it and I think it's cool
 
 q: is cyrk (the creator of vessel tactics) aware of this mod / cool with it?
-a: yeah they're aware of it and think it's cool that something like this exists, though I believe that they're likely going to keep anything mod-related unofficial (aside from adding in features that make it easier for modders)
+a: yeah they're aware of it and think it's cool that something like this exists, though I believe that they're likely going to keep anything mod-related unofficial (aside from adding in features that make it easier for modders, along with giving basic help for how some of the game works!!!)
 
 q: is there an official vessel tactics discord somewhere?
 a: yes, but afaik it only seems to be for patrons of the vessel tactics patreon: https://www.patreon.com/MeshiSoftworks/ 
