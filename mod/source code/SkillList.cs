@@ -827,10 +827,10 @@ public static class SkillList
 			}
 			current.Pause(x: false);
 		}));
-		skills.Add(new Skill(1005, "Jealous Predator", "JealousPredator", "When eaten, will struggle with all her might until digested, reducing her predator's defense by half. Will refuse to feed herself to other units.", "Trait", Skill.Type.ContainedBuff, Skill.Visibility.Visible, delegate
+		skills.Add(new Skill(1005, "Jealous Predator", "JealousPredator", "When eaten by a target, will struggle with all her might until digested, reducing her predator's defense by half. Does not apply when eaten by a friendly unit that is currently safe until they start digesting. Will refuse to feed herself to other units.", "Trait", Skill.Type.ContainedBuff, Skill.Visibility.Visible, delegate
 		{
 			UnitInfo topPred = current.GetTopPred();
-			if (topPred != null)
+			if (topPred != null && !topPred.isSafeContainer() )
 			{
 				topPred.dDef -= topPred.def / 2f;
 			}

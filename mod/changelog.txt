@@ -1,8 +1,14 @@
+changelog (v1.3):
+order up can now be used while the user is digesting units to feed them to currently contained units (using order up on a teammate while digesting will stop digestion to still allow friendly units to be able to utilize order up's benefits, you'll just have to restart digestion manually whenver you do this)
+wild lamia's jealous predator skill will no longer reduce the defense of safe units (i.e transporting / healing) until they start digesting
+
 changelog (v1.2):
 fixed chateau's order up dialogue
 fixed massage being able to be used on a covenant that is currently healing
 added another check to kiss to make sure that the user's containment period does not go into the negatives
 reduced the amount of turns that kiss reduces the user's containment period (from 2 to 1)
+
+added a separate folder for if you want lamias to be used in squad mode in the vanilla game
 
 
 changelog (v1.1):

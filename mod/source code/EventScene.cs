@@ -930,7 +930,7 @@ public class EventScene : MonoBehaviour
 		case 15:
 			StartCoroutine(GenericBattle(() => StaticRef.CalcHit(), delegate
 			{
-				if (target.hp <= 0f && current.TotalStomach() + target.TotalSize() <= current.clas.mCap + 1 && current.GetPredState() == UnitInfo.PredState.S_Container && target.isVorable())
+				if (target.hp <= 0f && current.TotalStomach() + target.TotalSize() <= current.clas.mCap + 1 && target.isVorable())
 				{
 					List<UnitInfo> list6 = current.CombinedStomach();
 					Rndm.Shuffle(list6);
@@ -969,6 +969,10 @@ public class EventScene : MonoBehaviour
 								u6.ProcessVContainment(target);
 								current.ProcessUncarry(u6);
 								current.ProcessCarry(u6);
+								if (target.team != current.team && u6.team == target.team)
+							{
+								current.EndSafeDigestion();
+							}
 								wait = false;
 							});
 							eventQ.Enqueue(delegate
@@ -988,6 +992,7 @@ public class EventScene : MonoBehaviour
 							{
 								tw.LoadSpeech("<SRheavyGrowl><SRemptyGrowl><NF><NEBlush><NEMouth\\Grin><NEEyes\\Closed><NEBrows\\Normal>Heeheehee, those are the sounds of a happy customer~`Please, relax and enjoy your stay!", current);
 							});
+
 							eventQ.Enqueue(delegate
 							{
 								StandardBattleEnding();
