@@ -819,9 +819,9 @@ public static class SkillList
 			}
 			current.Pause(x: false);
 		}));
-		skills.Add(new Skill(1001, "Sleeping Beauty", "SleepingBeauty", "Digest period decreases by one additional turn each round while asleep. Uses Hibernate instead of Digest when Overburdened.", "Trait", Skill.Type.TurnEnd, Skill.Visibility.Visible, delegate
+		skills.Add(new Skill(1001, "Sleeping Beauty", "SleepingBeauty", "Digest period decreases by one additional turn each round while sleeping or incapacitated. Uses Hibernate instead of Digest when Overburdened.", "Trait", Skill.Type.TurnEnd, Skill.Visibility.Visible, delegate
 		{
-			if (current.skills.Contains(200) && current.containPeriod > 1f)
+			if (current.skills.Contains(99) && current.containPeriod > 1f)
 			{
 				current.containPeriod -= 1f;
 			}

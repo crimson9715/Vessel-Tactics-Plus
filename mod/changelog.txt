@@ -1,3 +1,9 @@
+1.4 changelog:
+fixed a base game bug with theano's neutralize not giving the target the incapacitated skill upon inflicting lethal damage
+
+changed dusk lamia's sleeping beauty to instead apply when incapacitated or sleeping (mainly to "fix" it not applying in mission mode)
+
+
 changelog (v1.3):
 order up can now be used while the user is digesting units to feed them to currently contained units (using order up on a teammate while digesting will stop digestion to still allow friendly units to be able to utilize order up's benefits, you'll just have to restart digestion manually whenver you do this)
 wild lamia's jealous predator skill will no longer reduce the defense of safe units (i.e transporting / healing) until they start digesting

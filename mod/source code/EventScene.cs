@@ -882,6 +882,7 @@ public class EventScene : MonoBehaviour
 						KillSprite(target, enemyMask);
 						current.ProcessVContainment(target);
 						MonoBehaviour.print(current.GetPredState().ToString() + " Pred State");
+						target.skills.Add(99);
 						wait = false;
 					});
 					ProcessText("AttackHitAttacker", current);
@@ -904,6 +905,7 @@ public class EventScene : MonoBehaviour
 						{
 							if (y.hp <= 0f)
 							{
+								y.skills.Add(99);
 								Setup(x2, y, AttackList.GetByID(11));
 								StaticRef.turnController.ProcessAttack(inBattle: true);
 								RunAttack(11);
