@@ -30,8 +30,8 @@ a: you can manually go through the files and replace them yourself, though it sh
 q: is this malware???
 a: this isn't malware, you're probably getting a false positive due to Assembly-CSharp.dll being present (which is where the game's main code is stored)
 
-q: can you release a version of the game that has the mod pre-installed?
-a: personally I'd prefer not to, considering that at most it takes a few minutes to install the mod
+q: when did devlopment start
+a: development began on august 16th, 2023 as a proof-of-concept mod as to what a covenant buff would look like, though I decided I wanted to learn more about the game via modding (since pretty much nobody else had done it at that point) so I decided to edit all units and trying out new things with the changes; first release came on august 28th, 2023 and has been supplemented with small patches and changes since (mainly because the game is still wip and I don't want to do too much with it and risk not being able to port stuff easily)
 
 q: how do access debug menu in sandbox mode?
 a: during a controllable unit's turn, right-click to hide the ui then press "p"; from here, you can manually spawn units and adjust their stats (note that this is a thing you can do in vanilla)
@@ -69,6 +69,9 @@ a: you can contact me on discord (tag is "crimson9715."), or do it here: https:/
 
 q: can I get you do to a vt modding thing for me / implement my suggestion for this mod?
 a: depends on if I'm ok with it and I think it's cool
+
+q: are you part of the vt dev team?
+a: no, I'm just a fan that enjoys the game and wanted to learn more about the game via modding
 
 q: is cyrk (the creator of vessel tactics) aware of this mod / cool with it?
 a: yeah they're aware of it and think it's cool that something like this exists, though I believe that they're likely going to keep anything mod-related unofficial (aside from adding in features that make it easier for modders, along with giving basic help for how some of the game works!!!)
