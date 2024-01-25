@@ -11,7 +11,7 @@ https://github.com/dnSpy/dnSpy
 
 
 assuming you aren't using the pre-packaged version I included in the releases, first install vessel tactics here (assuming that 0.03a is public, or wherever else you got it from): https://meshisoftworks.itch.io/vessel-tactics
-then put the contents of the folder named "mod contents" into the top layer of your installation of 0.03a (the .exe file should be on top), make sure that the changed files are properly replaced
+put the contents of the folder named "mod contents" (located in the folder called "extras") into the top layer of your installation of 0.03a (the .exe file should be on top), make sure that the changed files are properly replaced
 there's also an optional folder called "thought edits" if you wish to experience 0-2 and 0-3 with the units that normally stand still to instead chase after you for an extra challenge (along with lamia in sandbox mode being able to chase after units that are out of her range)
 easiest way to check if the mod is installed is to go to vessel details and checking a unit like covenant to see if she has any new attacks
 
@@ -26,7 +26,7 @@ faq:
 q: what do I need to use to use the mod?
 a: assuming you aren't trying to build it yourself and you installed the pre-packaged version of the mod, you shouldn't need to do anything since the extras folder is supplementary for cool extra stuff
 
-q: I don't want to use the pre-packaged version of the mod!!!
+q: I don't want to use the pre-packaged version of the mod, how do I compile it myself!!!
 a: you can manually go through the files and replace them yourself, you only technically need the file here to use the mod: https://github.com/crimson9715/Vessel-Tactics-Plus/blob/main/mod/mod%20contents/Vessel%20Tactics_Data/Managed/Assembly-CSharp.dll
 I also suggest installing the speech files here to make custom speech show up https://github.com/crimson9715/Vessel-Tactics-Plus/tree/main/mod/mod%20contents/Vessel%20Tactics_Data/StreamingAssets/Speech
 
