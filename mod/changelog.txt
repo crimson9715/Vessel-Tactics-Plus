@@ -1,9 +1,14 @@
-1.6 changelog:
+changelog (v1.6.1)
+updated read_me.txt to be less outdated
+added an optional pre-packaged version of the game to include just the lamia squad editor fixes on the releases (under "vanilla lamia fix") https://github.com/crimson9715/Vessel-Tactics-Plus/releases/tag/main
+fixed changelog.txt to use the same formatting as the older versions (probably not the best idea to rush changes)
+
+changelog (v1.6):
 fixed theano's hungry digest dialogue having an unnecessary sound
 added dialogue to theano for swallowing a friendly unit while hungry
 
 
-1.5 changelog:
+changelog (v1.5):
 sampo base hp 150 > 160
 chateau base vatk 40 > 45
 chateau base vres 30 > 40
@@ -13,7 +18,7 @@ theano vatk dice range 5-30 > 5-50
 covenant base attack 45 > 55, holy light damage multiplier 1.3x > 1.1x (mainly to make regular attacks deal roughly the same damage as holy light, though it's not always going to be the same due to rng / stat calculations)
 fixed theano's vtick dialogue not showing up (leftover code from testing in earlier versions, whoops!!!)
 
-1.4 changelog:
+changelog (v1.4):
 fixed a base game bug with theano's neutralize not giving the target the incapacitated skill upon inflicting lethal damage
 changed dusk lamia's sleeping beauty to instead apply when incapacitated or sleeping (mainly to "fix" it not applying in mission mode)
 
