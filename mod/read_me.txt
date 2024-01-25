@@ -1,5 +1,5 @@
 hello this is crimson9715, creator of this mod for vessel tactics 0.03a called "vessel tactics+" (very creative name!!!)
-this was mainly created for fun to see how units would perform if they had a few small tweaks to make them perform better overall (but also for myself to learn the current systems of the game)
+this was mainly created for fun to see how units would perform if they had a few small tweaks to make them perform better to my liking (but also to learn the current systems of the game)
 you can see what changes I made in "changelog.txt" (make sure you read this so you know what to expect!!!)
 (note that this is not an official product so it may cause bugs / issues with the game, but it should be stable overall)
 you can find official releases here (assuming you didn't come from the github already) https://github.com/crimson9715/Vessel-Tactics-Plus
@@ -23,11 +23,15 @@ mainly looking for feedback, bug reports, or suggestions on what to change for t
 
 faq:
 
-q: what folders do I need to use to use the mod?
-a: only use "mod contents", the rest are either supplements or cool extra stuff
+q: what do I need to use to use the mod?
+a: assuming you aren't trying to build it yourself and you installed the pre-packaged version of the mod, you shouldn't need to do anything since the extras folder is supplementary for cool extra stuff
 
-q: help I can't install the mod!!!
-a: you can manually go through the files and replace them yourself, though it shouldn't be very hard to do (mainly depends on how well you know how to use file explorer itself)
+q: I don't want to use the pre-packaged version of the mod!!!
+a: you can manually go through the files and replace them yourself, you only technically need the file here to use the mod: https://github.com/crimson9715/Vessel-Tactics-Plus/blob/main/mod/mod%20contents/Vessel%20Tactics_Data/Managed/Assembly-CSharp.dll
+I also suggest installing the speech files here to make custom speech show up https://github.com/crimson9715/Vessel-Tactics-Plus/tree/main/mod/mod%20contents/Vessel%20Tactics_Data/StreamingAssets/Speech
+
+q: can I use this with other mods?
+a: on its own it wouldn't work since you'd need to manually edit the game's code to include all of the changes a mod makes to have both versions be compatible with each other
 
 q: is this malware???
 a: this isn't malware, you're probably getting a false positive due to Assembly-CSharp.dll being present (which is where the game's main code is stored)
